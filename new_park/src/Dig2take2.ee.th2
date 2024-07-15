@@ -1,0 +1,69 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -2362.20 3858.27 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Dig2take2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap dig2take2-ee -projection extended
+
+point 760.5624 -590.9578 station -name 9
+
+point 1695.5494 -1020.17413 station -name 17
+
+point 0.0 0.0 station -name 1
+
+point 1896.1218 -1146.5891 station -name 18
+
+point 369.2677 -225.4939 station -name 6
+
+point 2321.0872 -1168.0115 station -name 23
+
+point 269.83685 -202.77847 station -name 4
+
+point 1600.1727 -839.0228 station -name 27
+
+point 2191.4385 -1234.2522 station -name 21
+
+point 1940.0709 -1136.7391 station -name 24
+
+point 2283.2275 -1269.2325 station -name 26
+
+point 2066.4468 -1206.2386 station -name 25
+
+point 1666.8718 -753.44055 station -name 28
+
+point 1453.3506 -909.725 station -name 15
+
+point 937.3462 -686.53125 station -name 11
+
+point 1009.7687 -693.4888 station -name 12
+
+point 1363.5919 -830.1982 station -name 14
+
+point 1539.4005 -908.2312 station -name 16
+
+point 1179.563 -772.8556 station -name 13
+
+point 2257.2087 -1190.2473 station -name 22
+
+point 333.3825 -224.28572 station -name 5
+
+point 633.3345 -449.4205 station -name 8
+
+point 832.6609 -661.83453 station -name 10
+
+point 1752.8904 -775.46173 station -name 29
+
+point 193.97604 -170.50401 station -name 3
+
+point 539.1649 -357.5291 station -name 7
+
+point 102.64711 -142.81833 station -name 2
+
+point 1966.1544 -1151.1925 station -name 19
+
+point 2154.4531 -1206.6635 station -name 20
+
+point 2077.8154 -1408.1251 label -text " standing in rift " -scale xs
+
+endscrap

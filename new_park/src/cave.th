@@ -1,0 +1,74 @@
+# Created with SexyTopo 1.8.2 on 2024-07-09
+
+encoding utf-8
+# created with SexyTopo 1.8.2
+
+survey cave -title "Ogof New Park" -entrance 0@entrance
+
+	input "entrance.th"
+	input "homm.th"
+	equate 9@entrance 9@homm
+
+	input attic.th
+	equate 1@attic 12@homm
+
+	input top.th
+	equate 2@attic 2@top
+
+	input rift.th
+	equate 14@rift 14@homm
+
+	input flake.th
+	equate 18@rift 18@flake
+
+	input birthday.th 
+	equate 14@rift 14@birthday
+
+	input ramp.th
+	equate 22@rift 22@ramp
+
+	input pit.th
+	equate 1@pit 12@homm	
+
+endsurvey
+
+map wip-map -title "Work in Progress"
+	plan@pit.cave
+	break
+	spider-dig@pit.cave
+endmap
+
+map entrance-map
+	plan@entrance.cave
+endmap 
+
+map pit-map 
+	plan@pit.cave
+	break
+	spider-dig@pit.cave
+endmap
+
+map other-scraps
+	plan@attic.cave
+	break
+	under-the-attic@attic.cave
+	plan@top.cave
+	break
+	plan@homm.cave
+	break
+	plan@rift.cave
+	break
+	far-end@rift.cave
+	#break 
+	#plan@birthday.cave
+	#break
+	#plan@flake.cave
+	#break 
+	#plan@ramp.cave
+endmap
+
+map dig-map -title "Ogof New Park (2024-07-14)"
+	#entrance-map #[-5 0 m] above
+	other-scraps
+	#pit-map
+endmap 

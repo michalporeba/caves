@@ -1,0 +1,24 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1574.80 -866.14 9370.08 1653.54
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Surface2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+
+scrap surface2-ee -projection extended
+
+point 0.0 0.0 station -name 1
+point 1463.6627 213.92078 station -name 12
+point 462.59418 238.6974 station -name 3
+point 817.3899 253.19423 station -name 9
+point 1095.2301 134.71487 station -name 10
+point 1220.2603 126.879 station -name 11
+point 924.1837 218.13637 station -name 5
+point 1681.8862 137.37276 station -name 13
+point 2425.5393 152.67242 station -name 15
+point 2564.8303 219.38931 station -name 16
+point 1611.964 98.82491 station -name 7
+point 270.15717 306.7654 station -name 2
+point 2260.9888 240.36047 station -name 14
+point 1460.8188 142.47821 station -name 6
+
+endscrap

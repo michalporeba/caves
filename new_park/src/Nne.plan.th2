@@ -1,0 +1,33 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -472.44 -944.88 472.44 1574.80
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Nne.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap nne--plan -projection plan
+
+point 148.11737 85.73536 station -name 6
+
+point -88.2531 276.9425 station -name 8
+
+point -157.83057 538.52704 station -name 11
+
+point 11.770214 206.12767 station -name 3
+
+point -75.592735 121.68638 station -name 2
+
+point 0.0 0.0 station -name 1
+
+point 154.1944 55.525288 station -name 7
+
+point 64.57735 94.25496 station -name 5
+
+point -151.08636 406.97778 station -name 10
+
+point -140.79344 614.24835 station -name 12
+
+point -132.19548 290.26093 station -name 9
+
+point -4.4715075 175.29672 station -name 4
+
+endscrap

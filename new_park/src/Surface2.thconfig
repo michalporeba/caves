@@ -1,0 +1,18 @@
+encoding  utf-8
+select Surface2
+# Created with SexyTopo 1.8.2 on 2024-07-09
+
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "Surface2.th"
+
+export model -fmt survex -o "Surface2-th.3d"
+
+export map -proj plan -layout local -o "Surface2-plan.pdf"
+
+export map -proj extended -layout local -o "Surface2-ee.pdf"

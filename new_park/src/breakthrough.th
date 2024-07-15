@@ -1,0 +1,20 @@
+# Created with SexyTopo 1.8.2 on 2024-07-12
+
+encoding utf-8
+# created with SexyTopo 1.8.2
+
+survey breakthrough
+	
+	centreline
+	
+		data normal from to length compass clino
+		
+		
+	
+		extend start 1
+	
+	
+	endcentreline
+
+
+endsurvey

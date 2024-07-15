@@ -1,0 +1,15 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -393.70 -472.44 314.96 314.96
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Breakthrough .plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap breakthrough--plan -projection plan
+
+point 0.0 0.0 station -name 1
+
+point -9.515444 -12.7459545 station -name 3
+
+point -26.903265 -16.130537 station -name 2
+
+endscrap

@@ -1,0 +1,79 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1811.02 -1023.62 1259.84 2362.20
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Dig2take2.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap dig2take2-plan -projection plan
+
+point 222.39316 476.04425 station -name 9
+
+point -130.75195 1088.3807 station -name 17
+
+point 0.0 0.0 station -name 1
+
+point -255.11755 1245.7417 station -name 18
+
+point 161.24716 272.64078 station -name 6
+
+point -512.1046 1215.8894 station -name 23
+
+point 128.79034 224.29741 station -name 4
+
+point 29.450533 690.2937 station -name 27
+
+point -420.61194 1288.9381 station -name 21
+
+point -214.9857 1227.8265 station -name 24
+
+point -264.5109 1314.9412 station -name 26
+
+point -101.70656 1171.8025 station -name 25
+
+point -13.935585 639.63385 station -name 28
+
+point 6.825605 889.05 station -name 15
+
+point 218.02882 633.4334 station -name 11
+
+point 253.11292 696.7905 station -name 12
+
+point 91.59188 918.56757 station -name 14
+
+point 24.714476 973.22 station -name 16
+
+point 87.57783 734.58234 station -name 13
+
+point -449.8047 1230.0016 station -name 22
+
+point 128.7412 287.84305 station -name 5
+
+point 106.23015 527.9395 station -name 8
+
+point 181.40987 535.3617 station -name 10
+
+point -82.479 587.6627 station -name 29
+
+point 65.406166 182.61635 station -name 3
+
+point 107.39432 433.7772 station -name 7
+
+point 34.58283 96.64604 station -name 2
+
+point -302.55722 1194.2244 station -name 19
+
+point -450.61667 1310.5631 station -name 20
+
+point -139.26068 1303.7681 label -text " preties  " -scale xs
+
+point -404.4687 1290.5286 label -text " undercut " -scale xs
+
+point -453.9418 1421.9152 label -text " hole " -scale xs
+
+point -675.4225 818.6321 label -text " straw columns  " -scale xs
+
+point -740.6293 1036.7306 label -text " wet? " -scale m
+
+point -44.0669 1113.4026 label -text " top " -scale xs
+
+endscrap

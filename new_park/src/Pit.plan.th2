@@ -1,0 +1,31 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1496.06 -1732.28 1259.84 1023.62
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Pit.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap pit-plan -projection plan
+
+point 0.0 0.0 station -name 1
+
+point 156.66693 -329.60413 station -name 6
+
+point -80.28313 -87.05737 station -name 3
+
+point 229.35101 -451.5717 station -name 8
+
+point -63.14281 0.16894184 station -name 2
+
+point 252.0927 -473.80432 station -name 9
+
+point -36.37802 -179.13336 station -name 10
+
+point -87.87895 -199.81407 station -name 11
+
+point 92.68525 -190.4293 station -name 4
+
+point 41.520008 -213.08719 station -name 5
+
+point 197.946 -457.91232 station -name 7
+
+endscrap

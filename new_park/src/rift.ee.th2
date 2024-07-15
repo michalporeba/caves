@@ -1,0 +1,42 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -787.40 -2362.20 3858.27 866.14
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {760.56 1 1.0} {-590.9599999999998 9} Dig2take2.ee.xvi 0 {}
+
+
+
+scrap rift-ee -projection extended -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
+
+line wall
+endline
+
+line wall
+  1307.75 -897.5
+  1308.0 -898.5 1343.0 -917.75 1349.75 -919.0
+  1356.5 -920.25 1428.25 -938.5 1429.0 -939.25
+  1429.75 -940.0 1463.75 -980.25 1463.5 -981.25
+  1463.25 -982.25 1460.75 -1009.5 1460.75 -1015.25
+  1460.75 -1021.0 1454.75 -1113.25 1455.0 -1115.0
+  1455.25 -1116.75 1640.0 -1224.75 1658.25 -1231.5
+  1676.5 -1238.25 1950.0 -1281.25 1960.25 -1283.0
+endline
+
+point 1695.5494 -1020.17413 station -name 17
+
+point 1896.1218 -1146.5891 station -name 18
+
+point 1453.3506 -909.725 station -name 15
+
+point 1363.5919 -830.1982 station -name 14
+
+point 1539.4005 -908.2312 station -name 16
+
+point 1966.1544 -1151.1925 station -name 19
+
+point 2154.4531 -1206.6635 station -name 20
+
+point 2077.8154 -1408.1251 label -text " standing in rift " -scale xs
+
+endscrap
+
+

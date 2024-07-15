@@ -1,0 +1,19 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -314.96 1653.54 393.70
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Nne.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+
+scrap top-ee -projection extended
+
+
+point 490.045 130.79637 station -name 6
+point 264.75595 43.924458 station -name 3
+point 143.25444 20.013287 station -name 2
+point 520.8603 141.66919 station -name 7
+point 406.07172 156.95291 station -name 5
+point 299.60333 78.711266 station -name 4
+
+point 409.53165 125.65511 label -text " top? " -scale xs
+
+endscrap
