@@ -1,0 +1,25 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -1653.54 1181.10 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Birthday.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap birthday-plan -projection plan
+
+point -109.61606 -348.6752 station -name 3
+
+point -73.6485 -240.44176 station -name 2
+
+point -361.74484 -303.02533 station -name 6
+
+point -427.94135 -290.3762 station -name 7
+
+point -359.37213 -284.21735 station -name 5
+
+point 0.0 0.0 station -name 1
+
+point -179.22343 -326.28076 station -name 4
+
+point -81.51634 -376.53543 station -name 8
+
+endscrap

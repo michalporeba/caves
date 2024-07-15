@@ -1,0 +1,27 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -944.88 -708.66 1889.76 157.48
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Pit2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+
+scrap ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 217.05595 -76.29136 station -name 5
+
+point 5.9752526 39.790066 station -name 7
+
+point 143.05846 -37.11761 station -name 2
+
+point 412.62308 -164.5662 station -name 6
+
+point 271.94943 -69.56879 station -name 4
+
+point 70.62551 131.59375 station -name 8
+
+point 532.2459 29.234844 station -name 3
+
+point 526.83154 7.329926 station -name 9
+
+endscrap

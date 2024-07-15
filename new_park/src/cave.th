@@ -30,6 +30,10 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input pit.th
 	equate 1@pit 12@homm	
 
+	input pit2.th
+	equate 2@pit 1@pit2
+	equate 4@pit 3@pit2
+	equate 9@pit2 14@rift
 endsurvey
 
 map wip-map -title "Work in Progress"
@@ -43,7 +47,9 @@ map entrance-map
 endmap 
 
 map pit-map 
+	plan@rift.cave
 	plan@pit.cave
+	plan@pit2.cave
 	break
 	spider-dig@pit.cave
 endmap
