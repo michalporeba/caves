@@ -1,0 +1,14 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -2362.20 3858.27 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Dig2take2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+
+scrap ee -projection extended
+
+point 1600.1727 -839.0228 station -name 27
+point 1666.8718 -753.44055 station -name 28
+point 1363.5919 -830.1982 station -name 14
+point 1752.8904 -775.46173 station -name 29
+
+endscrap

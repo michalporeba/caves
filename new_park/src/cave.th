@@ -17,12 +17,14 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 
 	input rift.th
 	equate 14@rift 14@homm
+	join plan@homm plan@rift
 
 	input flake.th
 	equate 18@rift 18@flake
 
 	input birthday.th 
-	equate 14@rift 14@birthday
+	equate 14@rift 1@birthday
+	join plan@homm plan@birthday -count 3
 
 	input ramp.th
 	equate 22@rift 22@ramp
@@ -34,12 +36,23 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 2@pit 1@pit2
 	equate 4@pit 3@pit2
 	equate 9@pit2 14@rift
+
+	join plan@pit plan@pit2
+	join plan@pit2 plan@rift
+
+
 endsurvey
 
 map wip-map -title "Work in Progress"
-	plan@pit.cave
+	plan@homm.cave
 	break
-	spider-dig@pit.cave
+	plan@rift.cave
+	break
+	#far-end@rift.cave
+	break 
+	#plan@birthday.cave
+	break 
+	plan@pit2.cave
 endmap
 
 map entrance-map
@@ -50,6 +63,7 @@ map pit-map
 	plan@rift.cave
 	plan@pit.cave
 	plan@pit2.cave
+	
 	break
 	spider-dig@pit.cave
 endmap
@@ -65,16 +79,16 @@ map other-scraps
 	plan@rift.cave
 	break
 	far-end@rift.cave
-	#break 
-	#plan@birthday.cave
-	#break
-	#plan@flake.cave
-	#break 
-	#plan@ramp.cave
+	break 
+	plan@birthday.cave
+	break
+	plan@flake.cave
+	break 
+	plan@ramp.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
-	#entrance-map #[-5 0 m] above
+	entrance-map #[-5 0 m] above
 	other-scraps
-	#pit-map
+	pit-map
 endmap 

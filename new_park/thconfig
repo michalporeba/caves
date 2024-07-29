@@ -13,7 +13,7 @@ layout local
     doc-author "Michal Poreba"
     color map-bg [90 90 90]
     #color map-fg altitude
-    color map-fg scrap
+    #color map-fg scrap
     #grid-coords border
     symbol-hide group centreline
     symbol-show group all
@@ -51,7 +51,7 @@ lookup scrap
 endlookup
 
 #select wip-map 
-select pit-map 
+#select pit-map 
 
 export model -fmt survex -o cave.3d
 export map -fmt xvi -layout xvi_export -o out/plan.xvi

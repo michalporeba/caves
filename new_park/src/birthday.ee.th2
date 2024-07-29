@@ -1,14 +1,25 @@
 encoding utf-8
 
-##XTHERION## xth_me_area_adjust -787.40 -2362.20 3858.27 866.14
-##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Dig2take2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_adjust -1102.36 -314.96 1968.50 393.70
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "birthday.ee.xvi" 0 {}
 ##XTHERION## xth_me_area_zoom_to 400
 
-scrap ee -projection extended
+scrap birthday-ee -projection extended
 
-point 1600.1727 -839.0228 station -name 27
-point 1666.8718 -753.44055 station -name 28
-point 1363.5919 -830.1982 station -name 14
-point 1752.8904 -775.46173 station -name 29
+point 365.5216 93.34436 station -name 3
+
+point 251.46837 0.84087944 station -name 2
+
+point 642.5941 50.784794 station -name 6
+
+point 709.9883 63.915337 station -name 7
+
+point 623.637 67.6214 station -name 5
+
+point 0.0 0.0 station -name 1
+
+point 438.64273 53.427357 station -name 4
+
+point 405.0916 88.69251 station -name 8
 
 endscrap
