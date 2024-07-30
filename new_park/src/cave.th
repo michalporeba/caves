@@ -18,7 +18,7 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input rift.th
 	equate 14@rift 14@homm
 	join plan@homm plan@rift
-	#join plan@rift mini@rift
+	join plan@rift mini@rift
 
 	input flake.th
 	equate 18@rift 18@flake
@@ -28,12 +28,10 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 14@rift 1@birthday
 	join plan@homm plan@birthday -count 3
 
-	input ramp.th
-	equate 22@rift 22@ramp
-
 	input end2.th
 	equate 24@rift 1@end2
 	equate 20@rift 3@end2
+	join plan@end2 mini@rift
 
 	input pit.th
 	equate 1@pit 12@homm	
@@ -92,7 +90,6 @@ map other-scraps
 	break
 	plan@flake.cave
 	break 
-	plan@ramp.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
