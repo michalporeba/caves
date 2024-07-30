@@ -99,7 +99,7 @@ processing references ... done
 selecting export objects ... done
 writing cave.3d ... done
 processing projection plan ... done
-average distortion: 1.13%
+average distortion: 1.15%
 writing out/plan.xvi ... done
 processing projection extended ... done
 average distortion: 9.36%
@@ -130,7 +130,7 @@ S     4.17 plan@entrance.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/standard_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:43
+This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:56
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -163,7 +163,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,7 +184,7 @@ Here is how much of TeX's memory you used:
  9i,5n,6p,229b,58s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 132974 bytes).
+Output written on data.pdf (1 page, 133122 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
@@ -220,7 +220,7 @@ S     4.17 plan@entrance.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:43
+This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:56
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -253,7 +253,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,7 +274,7 @@ Here is how much of TeX's memory you used:
  6i,5n,6p,229b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 
-Output written on data.pdf (1 page, 144975 bytes).
+Output written on data.pdf (1 page, 145146 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
@@ -310,7 +310,7 @@ S     4.17 plan@entrance.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/altitude_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:43
+This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:56
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -344,7 +344,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,7 +371,7 @@ Here is how much of TeX's memory you used:
  10i,6n,6p,388b,58s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 154002 bytes).
+Output written on data.pdf (1 page, 154167 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
@@ -397,7 +397,7 @@ S     0.00 dig2take2-ee@entrance.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/elevation.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:43
+This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:56
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -422,7 +422,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,7 +479,7 @@ S     4.17 plan@entrance.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/tmp.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:43
+This is MetaPost, version 2.02 (TeX Live 2023/Debian) (kpathsea version 6.3.5)  30 JUL 2024 21:56
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -512,7 +512,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdftex 2024.6.5)  30 JUL 2024 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,7 +533,7 @@ Here is how much of TeX's memory you used:
  6i,5n,6p,229b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 
-Output written on data.pdf (1 page, 144975 bytes).
+Output written on data.pdf (1 page, 145146 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
@@ -543,7 +543,7 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 2 sec
+compilation time: 3 sec
 
 
 ######################### loop errors ##########################
@@ -559,7 +559,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  AVERAGE  MAXIMAL  SCRAP
    4.16%   48.11%  plan@pit2.cave
    2.49%   18.78%  plan@pit.cave
-   3.24%   11.68%  plan@homm.cave
+   3.28%   11.68%  plan@homm.cave
    1.10%    8.08%  plan@rift.cave
    0.52%    3.02%  plan@flake.cave
    0.11%    2.75%  plan@birthday.cave
