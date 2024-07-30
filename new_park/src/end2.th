@@ -3,10 +3,10 @@
 encoding utf-8
 # created with SexyTopo 1.8.2
 
-survey End2
+survey end2
 
-input "End2.plan.th2"
-input "End2.ee.th2"
+input "end2.plan.th2"
+input "end2.ee.th2"
 
 	
 	centreline

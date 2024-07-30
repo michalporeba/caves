@@ -2,9 +2,9 @@ encoding utf-8
 
 ##XTHERION## xth_me_area_adjust -787.40 -472.44 1653.54 472.44
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "End2.ee.xvi" 0 {}
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 400
 
-scrap end2-ee -projection extended
+scrap ee -projection extended
 
 point 358.91888 -20.312183 station -name 4
 
