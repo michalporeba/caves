@@ -56,15 +56,15 @@ set XVIstations {
   {      -54.63        -5.22 6@birthday.cave}
   {      -71.16        -2.07 7@birthday.cave}
   {       15.45       -23.52 8@birthday.cave}
-  {      -40.45       147.93 1@end2.cave}
-  {      -61.71       140.26 2@end2.cave}
-  {     -100.49       168.01 3@end2.cave}
-  {     -110.33       152.26 4@end2.cave}
-  {     -139.27       103.64 5@end2.cave}
-  {     -128.05        98.33 6@end2.cave}
-  {     -151.67        81.99 7@end2.cave}
-  {     -149.31        79.04 8@end2.cave}
-  {     -173.72        36.32 end@end2.cave}
+  {      -40.45       147.93 1@ramp.cave}
+  {      -61.71       140.26 2@ramp.cave}
+  {     -100.49       168.01 3@ramp.cave}
+  {     -110.33       152.26 4@ramp.cave}
+  {     -139.27       103.64 5@ramp.cave}
+  {     -128.05        98.33 6@ramp.cave}
+  {     -151.67        81.99 7@ramp.cave}
+  {     -149.31        79.04 8@ramp.cave}
+  {     -173.72        36.32 end@ramp.cave}
   {       67.22         8.96 2@pit.cave}
   {       81.00         9.74 1@pit.cave}
   {       62.89       -13.88 3@pit.cave}

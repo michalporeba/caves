@@ -50,7 +50,7 @@ lookup scrap
     plan@pit2.cave [0 0 80]
 endlookup
 
-select wip-map 
+#select wip-map 
 #select pit-map 
 
 export model -fmt survex -o cave.3d

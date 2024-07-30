@@ -28,10 +28,10 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 14@rift 1@birthday
 	join plan@homm plan@birthday -count 3
 
-	input end2.th
-	equate 24@rift 1@end2
-	equate 20@rift 3@end2
-	join plan@end2 mini@rift
+	input ramp.th
+	equate 24@rift 1@ramp
+	equate 20@rift 3@ramp
+	join plan@ramp mini@rift
 
 	input pit.th
 	equate 1@pit 12@homm	
@@ -54,7 +54,7 @@ map wip-map -title "Work in Progress"
 	break
 	mini@rift.cave
 	break
-	plan@end2.cave
+	plan@ramp.cave
 	break 
 	#plan@birthday.cave
 	break 
