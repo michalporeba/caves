@@ -58,7 +58,10 @@ map wip-map -title "Work in Progress"
 	break 
 	#plan@birthday.cave
 	break 
-	#plan@pit2.cave
+	plan@pit.cave
+	plan@pit2.cave
+	break
+	spider-dig@pit.cave
 endmap
 
 map entrance-map
