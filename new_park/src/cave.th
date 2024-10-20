@@ -22,7 +22,7 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	join right_rift_wall@homm right_wall@rift
 	join right_back_wall@rift left_back_wall@attic
 
-	#join plan@rift mini@rift
+	join plan@rift mini@rift
 
 	input flake.th
 	equate 18@rift 18@flake
@@ -35,7 +35,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input ramp.th
 	equate 24@rift 1@ramp
 	equate 20@rift 3@ramp
-	#join plan@ramp mini@rift
+	join right_wall@ramp right_ramp_wall@rift
+	join left_wall@ramp left_ramp_wall@rift
+	join to_skinny@ramp skinny_rigth_wall@rift
 
 	input pit.th
 	equate 1@pit 12@homm	
@@ -45,20 +47,29 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 4@pit 3@pit2
 	equate 9@pit2 14@rift
 
-	#join plan@pit plan@pit2
-	#join plan@pit2 plan@rift
+	join plan@pit plan@pit2
+	join plan@pit2 plan@rift
 
 
 endsurvey
 
 map wip-map -title "Work in Progress"
-	plan@top.cave
-	break
-	plan@attic.cave
-	break
-	plan@homm.cave
-	break
+	#plan@top.cave
+	#break
+	#plan@attic.cave
+	#break
+	#under-the-attic@attic.cave
+	#plan@homm.cave
+	#break
 	plan@rift.cave
+	mini@rift.cave
+	plan@ramp.cave
+	
+	#break
+	#plan@pit.cave
+	#spider-dig@pit.cave
+	#plan@pit2.cave
+
 endmap
 
 map entrance-map
