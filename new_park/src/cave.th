@@ -54,21 +54,25 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 endsurvey
 
 map wip-map -title "Work in Progress"
-	#plan@top.cave
-	#break
-	#plan@attic.cave
-	#break
-	#under-the-attic@attic.cave
-	#plan@homm.cave
-	#break
+	plan@entrance.cave
+	plan@top.cave
+	break
+	plan@attic.cave
+	break
+	under-the-attic@attic.cave
+	plan@homm.cave
+	plan@birthday.cave
+	break
 	plan@rift.cave
 	mini@rift.cave
 	plan@ramp.cave
-	
-	#break
-	#plan@pit.cave
-	#spider-dig@pit.cave
-	#plan@pit2.cave
+	break
+	plan@flake.cave
+
+	break
+	plan@pit.cave
+	spider-dig@pit.cave
+	plan@pit2.cave
 
 endmap
 

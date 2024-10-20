@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1496.06 -1732.28 1259.84 1023.62
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} Pit.plan.xvi 0 {}
 
 
@@ -103,6 +103,8 @@ line wall -close off
   -187.5 191.5
 endline
 
+point 64.25 -133.25 label -orientation 35.7 -text "Pit" -scale xl
+
 line wall
   386.75 -800.0
   386.5 -798.0 385.0 -791.25 384.5 -787.25
@@ -142,6 +144,7 @@ line wall
   -32.0 18.25 -44.75 20.25 -48.5 22.5
   -52.25 24.75 -71.0 40.25 -72.25 40.75
   -73.5 41.25 -72.75 40.5 -76.5 42.75
+  smooth off
 endline
 
 line wall
@@ -197,6 +200,8 @@ endscrap
 
 
 scrap spider-dig -projection plan -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
+
+point 3.0 -368.0 label -orientation 53.0 -text "Spider Dig" -scale l
 
 line wall -subtype unsurveyed
   -12.5 -165.0

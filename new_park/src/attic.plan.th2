@@ -27,6 +27,8 @@ line wall -subtype underlying
   -265.5 553.5
 endline
 
+point -44.0 381.75 label -orientation 324.0 -text "Attic" -scale xl
+
 line rock-border -close on
   -160.5 567.75
   -161.75 566.5 -162.75 559.25 -163.75 555.75
