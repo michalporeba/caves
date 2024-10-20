@@ -11,14 +11,18 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 
 	input attic.th
 	equate 1@attic 12@homm
+	join right_from_homm@attic right_wall@homm
 
 	input top.th
 	equate 2@attic 2@top
 
 	input rift.th
 	equate 14@rift 14@homm
-	join plan@homm plan@rift
-	join plan@rift mini@rift
+	join left_wall@homm left_wall@rift
+	join right_rift_wall@homm right_wall@rift
+	join right_back_wall@rift left_back_wall@attic
+
+	#join plan@rift mini@rift
 
 	input flake.th
 	equate 18@rift 18@flake
@@ -31,7 +35,7 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input ramp.th
 	equate 24@rift 1@ramp
 	equate 20@rift 3@ramp
-	join plan@ramp mini@rift
+	#join plan@ramp mini@rift
 
 	input pit.th
 	equate 1@pit 12@homm	
@@ -41,27 +45,20 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 4@pit 3@pit2
 	equate 9@pit2 14@rift
 
-	join plan@pit plan@pit2
-	join plan@pit2 plan@rift
+	#join plan@pit plan@pit2
+	#join plan@pit2 plan@rift
 
 
 endsurvey
 
 map wip-map -title "Work in Progress"
-	#plan@homm.cave
+	plan@top.cave
+	break
+	plan@attic.cave
+	break
+	plan@homm.cave
 	break
 	plan@rift.cave
-	break
-	mini@rift.cave
-	break
-	plan@ramp.cave
-	break 
-	#plan@birthday.cave
-	break 
-	plan@pit.cave
-	plan@pit2.cave
-	break
-	spider-dig@pit.cave
 endmap
 
 map entrance-map
@@ -69,12 +66,19 @@ map entrance-map
 endmap 
 
 map pit-map 
-	plan@rift.cave
-	plan@pit.cave
-	plan@pit2.cave
-	
+	plan@top.cave
 	break
-	spider-dig@pit.cave
+	plan@attic.cave
+	#plan@rift.cave
+	#plan@pit.cave
+	#plan@pit2.cave
+	break
+	#spider-dig@pit.cave
+	break
+	under-the-attic@attic.cave
+	
+	plan@homm.cave
+	break
 endmap
 
 map other-scraps

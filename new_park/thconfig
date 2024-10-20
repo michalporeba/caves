@@ -11,7 +11,7 @@ layout local
     grid-size 1 1 1 m
     north true
     doc-author "Michal Poreba"
-    color map-bg [90 90 90]
+    color map-bg [95 95 95]
     #color map-fg altitude
     #color map-fg scrap
     #grid-coords border
@@ -30,8 +30,8 @@ layout coloured
     north true
     doc-author "Michal Poreba"
     color map-bg [90 90 90]
-    color map-fg altitude
-    #color map-fg scrap
+    #color map-fg altitude
+    color map-fg scrap
     #grid-coords border
     symbol-hide group centreline
     #symbol-show group all
@@ -48,6 +48,7 @@ lookup scrap
     plan@ramp.cave [80 80 80] "lower grade"
     plan@birthday.cave [80 80 80] "lower grade"
     plan@pit2.cave [0 0 80]
+    plan@homm.cave [20 40 80]
 endlookup
 
 select wip-map 

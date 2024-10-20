@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap plan -projection plan -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
 
-line wall
+line wall -id left_wall
   -58.75 925.5
   -54.25 920.5 -49.25 914.25 -45.75 909.0
   -41.01 901.89 -38.5 899.25 -33.5 896.75
@@ -110,26 +110,36 @@ line pit -id to-the-pit -close on -outline in
   smooth off
 endline
 
-line wall
-  141.75 772.25
-  140.25 757.0
-  140.25 757.0 149.75 722.25 149.75 720.0
+line rock-border -outline out
+  164.0 830.75
+  164.0 830.75 166.17 830.76 168.75 826.25
+  171.75 821.0 156.01 810.64 151.5 800.0
+  145.25 785.25 145.03 778.63 141.0 773.5
+  135.5 766.5 137.92 769.1 134.5 765.0
+  130.75 760.5 132.5 757.75 132.5 757.75
+  smooth off
+  132.5 757.75 149.75 722.25 149.75 720.0
   149.75 717.75 144.75 718.5 144.75 718.5
   smooth off
 endline
 
-line wall
+line rock-border -outline out
   144.75 718.5
   144.0 719.0 95.25 769.0 95.25 769.0
   smooth off
   95.25 769.0 114.25 805.0 115.75 806.75
   117.25 808.5 162.75 827.75 164.0 830.75
-  165.25 833.75 121.75 895.5 118.25 900.75
-  114.75 906.0 92.75 924.5 88.75 925.75
   smooth off
 endline
 
-line wall -subtype underlying
+line pit -id right_rift_wall
+  164.0 830.75
+  165.25 833.75 121.75 895.5 118.25 900.75
+  114.75 906.0 92.75 924.75 88.75 926.0
+  smooth off
+endline
+
+line wall
   33.5 731.25
   33.5 731.25 36.87 735.75 41.75 736.75
   50.25 738.5 47.25 734.25 47.5 721.5
@@ -141,9 +151,10 @@ line wall -subtype underlying
   78.25 670.0 79.0 655.5 80.0 655.0
   81.0 654.5 87.5 650.5 87.5 650.5
   smooth off
+  82.5 646.25
 endline
 
-line wall -subtype underlying
+line wall
   -4.0 879.0
   -4.0 879.0 1.25 857.5 1.5 853.75
   1.75 850.0 3.0 842.0 6.0 832.5
@@ -153,7 +164,7 @@ line wall -subtype underlying
   smooth off
 endline
 
-line wall -id birthday-undercut -outline none
+line ceiling-step -id birthday-undercut -outline none
   -4.0 879.0
   -4.0 879.0 14.5 865.75 15.5 863.25
   16.5 860.75 49.25 799.5 52.25 795.25
@@ -174,13 +185,9 @@ endline
 
 line wall -subtype invisible
   297.75 816.75
-  221.0 873.75
-endline
-
-line wall -reverse on -subtype invisible
-  141.75 772.25
-  141.0 790.25
-  204.75 838.0
+  295.25 820.25
+  94.5 925.25
+  88.75 926.0
 endline
 
 line pit
@@ -190,11 +197,11 @@ line pit
   202.75 814.75 199.25 810.25 197.75 808.75
   196.25 807.25 186.5 764.0 182.0 763.25
   177.5 762.5 177.75 764.75 174.0 764.25
-  170.25 763.75 130.5 757.25 130.5 757.25
+  170.25 763.75 132.5 757.75 132.5 757.75
   smooth off
 endline
 
-line wall -subtype underlying
+line wall -id right_wall -subtype underlying
   263.25 721.0
   263.25 721.0 282.0 774.75 282.5 776.25
   283.0 777.75 297.75 816.75 297.75 816.75
