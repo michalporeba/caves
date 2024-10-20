@@ -23,7 +23,7 @@ line wall -close off -subtype invisible
 endline
 
 line wall -visibility off
-  117.5 901.5
+  127.0 895.5
   120.25 987.5
   70.75 1068.75
 endline
@@ -131,7 +131,7 @@ line ceiling-step
   smooth off
 endline
 
-point -96.0 1058.0 label -orientation 49 -text "Hall of the Mountain Moll" -scale xl
+point -105.0 1070.0 label -orientation 49 -text "Hall of the Mountain Mole" -scale xl
 
 line wall -id left_wall
   -222.75 1125.5

@@ -30,8 +30,8 @@ layout coloured
     north true
     doc-author "Michal Poreba"
     color map-bg [90 90 90]
-    #color map-fg altitude
-    color map-fg scrap
+    color map-fg altitude
+    #color map-fg scrap
     #grid-coords border
     symbol-hide group centreline
     #symbol-show group all

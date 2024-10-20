@@ -55,7 +55,6 @@ point -541.5 -432.5 soda-straw
 
 point -544.5 -417.0 soda-straw
 
-
 point -331.5 -55.5 label -orientation 294.9 -text "Ramp" -scale xl
 
 line wall -id left_wall
@@ -116,8 +115,9 @@ endline
 point -790.5 155.5 section -scrap ramp_cross_section
 
 line section -direction both
-  -436.5 -178.5
-  -182.5 -267.25
+  -446.0 -174.0
+  -419.0 -184.0 -196.0 -263.5 -173.5 -271.5
+  smooth off
 endline
 
 line wall -id right_wall
@@ -146,6 +146,7 @@ line wall -id right_wall
 endline
 
 endscrap
+
 
 
 scrap ramp_cross_section -projection none -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
@@ -200,4 +201,5 @@ line wall
 endline
 
 endscrap
+
 

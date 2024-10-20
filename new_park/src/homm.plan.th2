@@ -132,7 +132,7 @@ line rock-border -outline out
   smooth off
 endline
 
-line pit -id right_rift_wall
+line pit -id right_rift_wall -reverse on
   164.0 830.75
   165.25 833.75 121.75 895.5 118.25 900.75
   114.75 906.0 92.75 924.75 88.75 926.0
