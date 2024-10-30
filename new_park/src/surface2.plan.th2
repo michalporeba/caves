@@ -1,7 +1,7 @@
 encoding utf-8
 
 ##XTHERION## xth_me_area_adjust -1653.54 -3464.57 4251.97 5275.59
-##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Surface2.plan.xvi" 0 {}
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "surface2.plan.xvi" 0 {}
 ##XTHERION## xth_me_area_zoom_to 25
 
 scrap surface2-plan -projection plan

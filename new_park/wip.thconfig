@@ -1,0 +1,60 @@
+encoding  utf-8
+
+source src/cave.th
+
+layout local
+    debug off
+    scale 1 50
+    #map-header 7 28 nw
+    map-header 0 0 off
+    grid bottom
+    grid-size 1 1 1 m
+    north true
+    doc-author "Michal Poreba"
+    color map-bg [95 95 95]
+    #color map-fg altitude
+    #color map-fg scrap
+    #grid-coords border
+    symbol-hide group centreline
+    symbol-show group all
+    #symbol-show line survey
+    symbol-show group cave-centreline
+    symbol-hide point section
+endlayout
+
+layout coloured
+    debug off
+    scale 1 50
+    map-header 7 28 nw
+    grid bottom
+    grid-size 1 1 1 m
+    north true
+    doc-author "Michal Poreba"
+    color map-bg [90 90 90]
+    color map-fg altitude
+    #color map-fg scrap
+    #grid-coords border
+    symbol-hide group centreline
+    #symbol-show group all
+    #symbol-show line survey
+    #symbol-show group cave-centreline
+endlayout
+
+layout xvi_export
+endlayout
+
+lookup scrap
+    spider-dig@pit.cave [80 0 0] "spider dig area"
+    plan@flake.cave [0 80 0] "flake rift"
+    plan@ramp.cave [80 80 80] "lower grade"
+    plan@birthday.cave [80 80 80] "lower grade"
+    plan@pit2.cave [0 0 80]
+    plan@homm.cave [20 40 80]
+endlookup
+
+select wip-map 
+#select pit-map 
+
+export model -fmt survex -o cave.3d
+export map -fmt xvi -layout xvi_export -o out/wip.xvi
+export map -proj plan -layout local -o out/wip.pdf

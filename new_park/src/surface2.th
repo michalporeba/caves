@@ -3,10 +3,10 @@
 encoding utf-8
 # created with SexyTopo 1.8.2
 
-survey Surface2
+survey surface2
 
-input "Surface2.plan.th2"
-input "Surface2.ee.th2"
+input "surface2.plan.th2"
+input "surface2.ee.th2"
 
 	
 	centreline

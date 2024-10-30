@@ -5,6 +5,9 @@ encoding utf-8
 
 survey cave -title "Ogof New Park" -entrance 0@entrance
 
+	input "doline.th"
+	equate 1@doline 1@entrance
+
 	input "entrance.th"
 	input "homm.th"
 	equate 9@entrance 9@homm
@@ -54,6 +57,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 endsurvey
 
 map wip-map -title "Work in Progress"
+	#plan@doline.cave
+	stream@doline.cave
+
 	plan@entrance.cave
 	plan@top.cave
 	break
