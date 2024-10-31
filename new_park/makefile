@@ -5,3 +5,7 @@ stage01:
 stage02:
 	therion stage02.thconfig
 	xdg-open out/new_park_stage_02_plan.pdf
+
+stage03:
+	therion stage03.thconfig
+	xdg-open out/new_park_stage_03_plan.pdf

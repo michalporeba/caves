@@ -57,15 +57,22 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 endsurvey
 
 
-map digs-and-sinks-map -title "Digs and Sinks"
+map digs-and-sinks-map -title "Sinks and Surface Digs"
 	digs@doline.cave
 endmap
 
-map lower-stream-map -title "Lower Stream"
+map lower-stream-map -title "Stream"
 	ground@doline.cave
 	break
 	lower-stream@doline.cave
 endmap
+
+map lower-middle-stream-map -title "Stream"
+	ground@doline.cave
+	break
+	lower-stream@doline.cave
+	lower-middle-stream@doline.cave
+endmap 
 
 map entrance-map -title "Entrance Series"
 	plan@entrance.cave
@@ -80,6 +87,8 @@ map middle-main-map -title "Hall of the Mountain Mole"
 	plan@homm.cave
 	plan@birthday.cave
 	break
+	under-the-attic@attic.cave
+	break
 	plan@rift.cave
 	mini@rift.cave
 	plan@ramp.cave
@@ -90,6 +99,10 @@ map lower-main-map -title "The Pit Area"
 	plan@pit2.cave
 endmap
 
+map homm-digs-map -title "Inside Digs"
+	plan@flake.cave
+	spider-dig@pit.cave
+endmap
 
 map wip-map -title "Work in Progress"
 	#plan@doline.cave
@@ -119,7 +132,7 @@ map wip-map -title "Work in Progress"
 
 	break
 	plan@pit.cave
-	spider-dig@pit.cave
+	
 	plan@pit2.cave
 
 endmap

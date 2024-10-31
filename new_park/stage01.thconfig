@@ -10,7 +10,7 @@ layout local
     grid-size 10 10 10 m
     north true
     doc-author "Michal Poreba"
-    color map-bg [98 98 98]
+    color map-bg [100 99 90]
     color map-fg map
     symbol-hide group centreline
 endlayout
