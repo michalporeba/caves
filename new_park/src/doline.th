@@ -12,10 +12,13 @@ input "doline.ee.th2"
 	centreline
 		title "Doline"
 		date 2024.07.01
-        team "Michał Poręba"
+        team "Michal Poreba"
 		team "Sarah Garlick"
+		team "Andy Freem"
 
 		data normal from to length compass clino
+		
+		flags surface
 		
 		2	1	5.191	322.26	-48.63		#  {from: 5.216 322.45 -49.07, 5.186 322.28 -48.35, 5.172 322.05 -48.47} temp on a boom
 		2	-	1.594	297.47	-47.40	
@@ -138,8 +141,6 @@ input "doline.ee.th2"
 		13	-	3.912	19.78	-0.48	
 		13	-	2.450	49.44	-1.14	
 		
-		flags duplicate
-		
 		13	14	7.470	18.72	10.08		#  {from: 7.469 19.10 10.02, 7.472 18.71 10.10, 7.469 18.36 10.14}
 		14	-	3.113	232.00	-21.56	
 		14	-	3.755	175.39	-16.59	
@@ -162,8 +163,6 @@ input "doline.ee.th2"
 		15	-	1.069	288.08	-20.74	
 		15	-	1.635	285.23	-26.74	
 		15	-	0.959	271.12	-25.40	
-		
-		flags not duplicate
 
 		14	-	3.577	316.04	-9.51	
 		14	-	3.596	322.32	-11.11	
@@ -269,7 +268,7 @@ input "doline.ee.th2"
 		30	29	2.237	221.85	-4.40		#  {from: 2.237 222.26 -4.32, 2.237 221.57 -4.43, 2.237 221.73 -4.44}
 		30	31	2.110	124.64	0.08		#  {from: 2.110 124.52 0.11, 2.110 125.38 -0.55, 2.110 124.01 0.66}
 	
-	
+		flags not surface
 		extend start 1
 	
 	endcentreline

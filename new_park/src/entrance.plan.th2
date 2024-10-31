@@ -7,13 +7,6 @@ encoding  utf-8
 
 scrap plan -projection plan -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
 
-line rock-border
-  75.0 525.5
-  119.0 506.25
-  120.25 567.25
-  118.75 573.25
-endline
-
 line rock-edge
   133.75 571.25
   157.0 552.0

@@ -1,0 +1,28 @@
+encoding  utf-8
+
+source src/cave.th
+
+layout local
+    debug off
+    scale 1 50
+    map-header -5 20 nw
+    grid bottom
+    grid-size 10 10 10 m
+    north true
+    doc-author "Michal Poreba"
+    color map-bg [98 98 98]
+    color map-fg map
+    symbol-hide group centreline
+endlayout
+
+lookup map
+    lower-stream-map [90 90 100]
+    digs-and-sinks-map [100 70 70]
+    entrance-map [50 100 50]
+endlookup
+
+select lower-stream-map
+select digs-and-sinks-map
+select entrance-map
+
+export map -proj plan -layout local -o out/new_park_stage_01_plan.pdf
