@@ -58,7 +58,14 @@ endsurvey
 
 map wip-map -title "Work in Progress"
 	#plan@doline.cave
-	stream@doline.cave
+	ground@doline.cave
+	break
+	lower-stream@doline.cave
+	#middle-stream@doline.cave
+	#upper-stream@doline.cave
+	break
+	digs@doline.cave
+	
 
 	plan@entrance.cave
 	plan@top.cave
@@ -96,6 +103,7 @@ map pit-map
 	break
 	#spider-dig@pit.cave
 	break
+	
 	under-the-attic@attic.cave
 	
 	plan@homm.cave

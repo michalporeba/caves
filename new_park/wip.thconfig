@@ -52,8 +52,7 @@ lookup scrap
     plan@homm.cave [20 40 80]
 endlookup
 
-select wip-map 
-#select pit-map 
+select wip-map  
 
 export model -fmt survex -o cave.3d
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
