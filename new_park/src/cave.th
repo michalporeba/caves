@@ -19,6 +19,10 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input top.th
 	equate 2@attic 2@top
 
+	input vasiley.th
+	equate 1@vasiley 8@attic
+
+
 	input rift.th
 	equate 14@rift 14@homm
 	join left_wall@homm left_wall@rift
@@ -94,11 +98,11 @@ map middle-main-map -title "Hall of the Mountain Mole"
 	plan@homm.cave
 	plan@birthday.cave
 	break
-	under-the-attic@attic.cave
-	break
 	plan@rift.cave
 	mini@rift.cave
 	plan@ramp.cave
+	break
+	plan@vasiley.cave
 endmap
 
 map lower-main-map -title "The Pit Area"
@@ -121,14 +125,18 @@ map flakey-map -title "Flakey Passage"
 endmap
 
 map wip-map -title "Work in Progress"
+	plan@attic.cave
+	break
+	#under-the-attic@attic.cave
+	break
 	plan@homm.cave
 	plan@rift.cave
-	mini@rift.cave
-	plan@ramp.cave
 	break
-	plan@flake.cave
-	break
+	plan@vasiley.cave
 	plan@flakey.cave
+	break
+	plan@pit.cave
+	plan@pit2.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

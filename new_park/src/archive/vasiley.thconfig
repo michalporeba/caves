@@ -1,0 +1,17 @@
+# Created with SexyTopo 1.8.2 on 2024-08-17
+
+encoding utf-8
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "Vasiley.th"
+
+export model -fmt survex -o "Vasiley-th.3d"
+
+export map -proj plan -layout local -o "Vasiley-plan.pdf"
+
+export map -proj extended -layout local -o "Vasiley-ee.pdf"

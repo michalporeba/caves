@@ -1,0 +1,23 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -551.18 -629.92 1259.84 236.22
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "vasiley.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+
+scrap ee -projection extended
+
+point 355.36642 -190.52594 station -name 7
+
+point 45.301342 -154.19354 station -name 3
+
+point 324.79633 -182.83665 station -name 6
+
+point 233.22514 -225.37935 station -name 5
+
+point 0.0 0.0 station -name 1
+
+point 71.70407 -230.46135 station -name 4
+
+point 33.953285 -55.288635 station -name 2
+
+endscrap

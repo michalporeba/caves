@@ -44,13 +44,8 @@ layout xvi_export
 endlayout
 
 lookup scrap
-    spider-dig@pit.cave [80 0 0] "spider dig area"
-    plan@flake.cave [0 80 0] "flake rift"
-    plan@flakey.cave [80 0 0] "flake rift"
-    plan@ramp.cave [80 80 80] "lower grade"
-    plan@birthday.cave [80 80 80] "lower grade"
-    plan@pit2.cave [0 0 80]
-    plan@homm.cave [20 40 80]
+    under-the-attic@attic.cave [80 100 80] "under-the-attic"
+    plan@vasiley.cave [80 0 0] "vasiley"
 endlookup
 
 select wip-map  
