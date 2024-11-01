@@ -1,7 +1,11 @@
-wip:
-	therion wip.thconfig
+plan:
+	therion wip-plan.thconfig
 	xdg-open out/wip.pdf
-	
+
+ee:
+	therion wip-ee.thconfig
+	xdg-open out/wip.pdf
+
 stage01:
 	therion stage01.thconfig
 	xdg-open out/new_park_stage_01_plan.pdf

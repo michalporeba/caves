@@ -70,7 +70,7 @@ input "pit2.ee.th2"
 		9	6	2.621	242.22	-56.40		#  {from: 2.623 242.47 -56.40, 2.620 241.78 -56.37, 2.620 242.40 -56.44}
 		
 		extend start 1
-	
+		extend ignore 6 9
 	
 	endcentreline
 

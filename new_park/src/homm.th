@@ -12,6 +12,7 @@ input "homm.ee.th2"
 	centreline
 	
 		date 2024.07.08
+		team "Michal Poreba"
 		
 		data normal from to length compass clino
 		
@@ -82,6 +83,7 @@ input "homm.ee.th2"
 		14	-	3.745	108.62	67.79	
 
 
+		flags duplicate
 		9	-	2.161	163.62	18.43	
 		9	-	1.940	157.04	16.39	
 		9	-	1.342	140.87	15.49	
@@ -105,9 +107,13 @@ input "homm.ee.th2"
 		3	-	1.443	196.47	13.09	
 		3	-	2.113	184.23	11.58	
 		3	4	2.713	180.00	12.41	
+		flags not duplicate
 	
+		station 9 "breakthrough"
 		extend start 9
-	
+		extend right 13 14
+		extend right 14
+
 	
 	endcentreline
 

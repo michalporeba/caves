@@ -101,6 +101,9 @@ input "rift.ee.th2"
 		
 
 		extend start 14
+		extend hide 15 16
+		extend right 18 19
+		extend right 19 20
 	
 	
 	endcentreline

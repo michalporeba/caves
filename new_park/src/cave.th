@@ -125,18 +125,21 @@ map flakey-map -title "Flakey Passage"
 endmap
 
 map wip-map -title "Work in Progress"
-	plan@attic.cave
+	ee@doline.cave
 	break
-	#under-the-attic@attic.cave
+	ee@flakey.cave
 	break
-	plan@homm.cave
+	ee@entrance.cave
+	ee@homm.cave
+	#ee@pit.cave
+	#ee@pit2.cave
+	ee@rift.cave
+	break
+	ee@birthday.cave
+endmap
+
+map wip-map-plan -title "Work in Progress"
 	plan@rift.cave
-	break
-	plan@vasiley.cave
-	plan@flakey.cave
-	break
-	plan@pit.cave
-	plan@pit2.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

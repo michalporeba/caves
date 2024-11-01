@@ -71,6 +71,12 @@ input "flakey.ee.th2"
 	
 	
 		extend start 1
+		extend hide 1 2
+		extend hide 2 3
+		extend hide 3 4
+		extend hide 4 5
+		extend vertical 4 6
+		extend hide 9 10
 	
 	
 	endcentreline

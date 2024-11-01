@@ -91,8 +91,10 @@ input "pit.ee.th2"
 		9	-	1.083	319.16	22.59	
 		
 		extend start 1
-	
-	
+		extend vertical 1 2
+		extend right 2 3
+		extend left 3 4
+		extend left 4
 	endcentreline
 
 

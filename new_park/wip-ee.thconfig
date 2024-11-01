@@ -23,7 +23,7 @@ layout local
 endlayout
 
 layout coloured
-    debug off
+    debug all
     scale 1 50
     map-header 7 28 nw
     grid bottom
@@ -34,10 +34,10 @@ layout coloured
     color map-fg altitude
     #color map-fg scrap
     #grid-coords border
-    symbol-hide group centreline
-    #symbol-show group all
-    #symbol-show line survey
-    #symbol-show group cave-centreline
+    #symbol-hide group centreline
+    symbol-show group all
+    symbol-show line survey
+    symbol-show group cave-centreline
 endlayout
 
 layout xvi_export
@@ -48,8 +48,10 @@ lookup scrap
     plan@vasiley.cave [80 0 0] "vasiley"
 endlookup
 
-select wip-map  
+select wip-map
+
+log extend
 
 export model -fmt survex -o cave.3d
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
-export map -proj plan -layout local -o out/wip.pdf
+export map -proj extended -layout local -layout-debug station-names -o out/wip.pdf

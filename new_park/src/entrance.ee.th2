@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap dig2take2-ee -projection extended -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
+scrap ee -projection extended -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
 
 line wall -close off
   496.75 -367.5

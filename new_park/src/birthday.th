@@ -145,7 +145,12 @@ input "birthday.ee.th2"
 	
 	
 		extend start 1
-	
+		extend left 1 2
+		extend vertical 2 3
+		extend right 3 4
+		extend right 4
+		extend hide 3 8
+		
 	
 	endcentreline
 

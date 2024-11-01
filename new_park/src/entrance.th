@@ -1,7 +1,7 @@
 encoding  utf-8
 # created with SexyTopo 1.8.2
 
-survey entrance -title "New Park Farm Cave"
+survey entrance -title "New Park Farm Cave" -entrance 0
 
     input "entrance.plan.th2"
     input "entrance.ee.th2"
