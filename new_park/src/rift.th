@@ -12,9 +12,12 @@ input "rift.ee.th2"
 	centreline
 	
 		date 2024.07.08
-		
+		team "Michal Poreba"
+		team "Sarah Garlick"
+		grade BCRA5
+
 		data normal from to length compass clino
-		
+
 		14	-	0.419	124.06	-14.76	
 		14	-	1.464	139.00	14.56	
 		14	-	1.520	167.91	17.03	

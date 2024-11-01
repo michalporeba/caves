@@ -53,6 +53,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	join plan@pit plan@pit2
 	join plan@pit2 plan@rift
 
+	input flakey.th
+	equate 1@flakey 14@rift
+	#equate 5@flakey 19@rift
 
 endsurvey
 
@@ -77,6 +80,10 @@ endmap
 map entrance-map -title "Entrance Series"
 	plan@entrance.cave
 endmap 
+
+map offset-entrance
+	entrance-map [-6 -2 m] above
+endmap
 
 map upper-main-map -title "The Attic and Top Extension"
 	plan@attic.cave
@@ -104,77 +111,26 @@ map homm-digs-map -title "Inside Digs"
 	spider-dig@pit.cave
 endmap
 
-map wip-map -title "Work in Progress"
-	#plan@doline.cave
-	ground@doline.cave
-	break
-	lower-stream@doline.cave
-	#middle-stream@doline.cave
-	#upper-stream@doline.cave
-	break
-	digs@doline.cave
-	
+map spider-dig-map -title "Inside Digs"
+	spider-dig@pit.cave
+endmap
 
-	plan@entrance.cave
-	plan@top.cave
-	break
-	plan@attic.cave
-	break
-	under-the-attic@attic.cave
+
+map flakey-map -title "Flakey Passage"
+	plan@flakey.cave
+endmap
+
+map wip-map -title "Work in Progress"
 	plan@homm.cave
-	plan@birthday.cave
-	break
 	plan@rift.cave
 	mini@rift.cave
 	plan@ramp.cave
 	break
 	plan@flake.cave
-
 	break
-	plan@pit.cave
-	
-	plan@pit2.cave
-
-endmap
-
-
-map pit-map 
-	plan@top.cave
-	break
-	plan@attic.cave
-	#plan@rift.cave
-	#plan@pit.cave
-	#plan@pit2.cave
-	break
-	#spider-dig@pit.cave
-	break
-	
-	under-the-attic@attic.cave
-	
-	plan@homm.cave
-	break
-endmap
-
-map other-scraps
-	plan@attic.cave
-	break
-	under-the-attic@attic.cave
-	plan@top.cave
-	break
-	plan@homm.cave
-	break
-	plan@rift.cave
-	break
-	mini@rift.cave
-	break 
-	plan@birthday.cave
-	break
-	plan@flake.cave
-	break 
+	plan@flakey.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
 	entrance-map #[-5 0 m] above
-	other-scraps
-	pit-map
 endmap 

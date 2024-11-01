@@ -21,7 +21,7 @@ endlayout
 lookup map
     lower-middle-stream-map [90 90 100]
     digs-and-sinks-map [100 70 70]
-    homm-digs-map [20 60 20]
+    flakey-map [20 60 20]
 endlookup
 
 select lower-middle-stream-map
@@ -30,6 +30,8 @@ select entrance-map
 select upper-main-map
 select middle-main-map
 select lower-main-map
-select homm-digs-map
+select spider-dig-map
 
-export map -proj plan -layout local -o out/new_park_stage_03_plan.pdf
+select flakey-map
+
+export map -proj plan -layout local -o out/new_park_stage_04_plan.pdf

@@ -1,0 +1,33 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -1181.10 2362.20 472.44
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "flakey.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap ee -projection extended
+
+point 331.0229 -193.72282 station -name 3
+
+point 495.13577 -314.3917 station -name 4
+
+point 0.0 0.0 station -name 1
+
+point 989.4005 -518.8474 station -name 8
+
+point 1247.0585 -631.52466 station -name 10
+
+point 589.8927 -326.37622 station -name 5
+
+point 1373.229 -626.9073 station -name 11
+
+point 89.31163 -79.35817 station -name 2
+
+point 621.2838 -380.93845 station -name 6
+
+point 1204.3519 -592.8172 station -name 9
+
+point 857.902 -458.40503 station -name 7
+
+point 1530.3273 -591.5701 station -name 12
+
+endscrap

@@ -9,8 +9,8 @@ survey entrance -title "New Park Farm Cave"
     centreline
     title "Entrance"
     date 2024.07.08
-    #team "Michal Poreba"
-    #team "Sarah Garlick"
+    team "Michal Poreba"
+    team "Sarah Garlick"
 
       data normal from to length compass clino
     

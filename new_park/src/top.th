@@ -12,6 +12,8 @@ input "top.ee.th2"
 	centreline
 	
 		data normal from to length compass clino
+		team "Michal Poreba"
+		grade BCRA5
 		
 		2	3	1.573	45.97	11.13		#  {from: 1.574 46.04 11.15, 1.572 45.94 11.20, 1.572 45.94 11.05}
 		3	-	1.519	43.35	6.05	

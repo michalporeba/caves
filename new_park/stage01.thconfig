@@ -13,6 +13,7 @@ layout local
     color map-bg [100 99 90]
     color map-fg map
     symbol-hide group centreline
+    page-setup 21 29.7 20 28.7 0.5 0.5 cm
 endlayout
 
 lookup map
