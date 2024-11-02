@@ -44,7 +44,7 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 20@rift 3@ramp
 	join right_wall@ramp right_ramp_wall@rift
 	join left_wall@ramp left_ramp_wall@rift
-	join to_skinny@ramp skinny_rigth_wall@rift
+	#join to_skinny@ramp skinny_rigth_wall@rift
 
 	input pit.th
 	equate 1@pit 12@homm	
@@ -146,6 +146,8 @@ endmap
 
 map wip-map-plan -title "Work in Progress"
 	plan@rift.cave
+	mini@rift.cave
+	plan@ramp.cave
 	break
 	plan@flakey.cave
 	plan@under-the-ramp.cave
