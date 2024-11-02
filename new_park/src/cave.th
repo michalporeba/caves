@@ -61,6 +61,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	equate 1@flakey 14@rift
 	#equate 5@flakey 19@rift
 
+	input UnderTheRamp.th
+	equate 1@under-the-ramp 11@flakey
+
 endsurvey
 
 
@@ -122,24 +125,30 @@ endmap
 
 map flakey-map -title "Flakey Passage"
 	plan@flakey.cave
+	plan@under-the-ramp.cave
 endmap
 
 map wip-map -title "Work in Progress"
 	ee@doline.cave
 	break
 	ee@flakey.cave
+	ee@under-the-ramp.cave
 	break
 	ee@entrance.cave
 	ee@homm.cave
 	#ee@pit.cave
 	#ee@pit2.cave
 	ee@rift.cave
+	ee@ramp.cave
 	break
 	ee@birthday.cave
 endmap
 
 map wip-map-plan -title "Work in Progress"
 	plan@rift.cave
+	break
+	plan@flakey.cave
+	plan@under-the-ramp.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
