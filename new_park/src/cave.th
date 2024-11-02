@@ -133,6 +133,9 @@ map spider-dig-map -title "Inside Digs"
 	spider-dig@pit.cave
 endmap
 
+map unexplored-avens-map -title "Unexplored Avens"
+	avens@hf-stream.cave
+endmap
 
 map flakey-map -title "Flakey Passage"
 	plan@flakey.cave
@@ -158,6 +161,8 @@ map wip-map -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
+	avens@hf-stream.cave
+	break
 	plan@rift.cave
 	mini@rift.cave
 	plan@ramp.cave

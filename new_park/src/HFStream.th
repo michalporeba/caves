@@ -7,7 +7,6 @@ survey hf-stream
 
 input "HFStream.plan.th2"
 input "HFStream.ee.th2"
-
 	
 	centreline
 	
