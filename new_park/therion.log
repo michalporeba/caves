@@ -17,7 +17,7 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.4.11
  2> Copyright © 1990-2024 Olly Betts
- 3> /tmp/th2337919/data.svx:5: info: Survey has no fixed points. Therefore I’ve fixed 246 at (0,0,0)
+ 3> /tmp/th2348524/data.svx:5: info: Survey has no fixed points. Therefore I’ve fixed 246 at (0,0,0)
  4> 
  5> Survey contains 1305 survey stations, joined by 1307 legs.
  6> There are 4 loops.
@@ -142,7 +142,7 @@ S     3.86 middle-stream@doline.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/new_park_stage_04_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  2 NOV 2024 17:15
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  2 NOV 2024 17:29
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -163,8 +163,8 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [72] [73] [74] [75] [76] [77] [78] [79] [80] )
  
 Here is how much of MetaPost's memory you used:
- 32299 strings using 716144 characters
- 3532776 bytes of node memory
+ 32482 strings using 720289 characters
+ 3534696 bytes of node memory
  1692 symbolic tokens
  8i,82n,16p,370b,5f stack positions out of 16i,98n,20p,390b,6f
 94 output files written: data-patt.1 .. data.80
@@ -174,7 +174,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  2 NOV 2024 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  2 NOV 2024 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,7 +196,7 @@ Here is how much of TeX's memory you used:
  12i,5n,7p,379b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 203869 bytes).
+Output written on data.pdf (1 page, 205318 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
@@ -229,7 +229,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.37%    4.35%  plan@birthday.cave
    0.13%    3.79%  plan@entrance.cave
    0.19%    3.49%  plan@hf-stream.cave
-   0.11%    2.39%  upper-stream@doline.cave
+   0.13%    2.39%  upper-stream@doline.cave
    0.25%    2.10%  plan@flake.cave
    0.52%    2.08%  plan@top.cave
    0.16%    1.83%  spider-dig@pit.cave
