@@ -127,6 +127,8 @@ line wall
   smooth off
 endline
 
+point -545.25 516.25 label -orientation 20.1 -text "3rd Breakthrough"
+
 line wall
   -356.5 434.25
   -356.5 434.25 -389.25 461.75 -394.75 468.5

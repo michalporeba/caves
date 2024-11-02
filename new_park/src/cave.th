@@ -67,6 +67,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input HFStream.th
 	equate 1@hf-stream 12@flakey
 
+	input MFStream.th
+	equate 1@mf-stream 11@hf-stream
+
 endsurvey
 
 
@@ -135,12 +138,17 @@ endmap
 
 map unexplored-avens-map -title "Unexplored Avens"
 	avens@hf-stream.cave
+	avens@mf-stream.cave
 endmap
 
 map flakey-map -title "Flakey Passage"
 	plan@flakey.cave
 	plan@under-the-ramp.cave
 	plan@hf-stream.cave
+endmap
+
+map streamway-map -title "Streamway"
+	plan@mf-stream.cave
 endmap
 
 map wip-map -title "Work in Progress"
@@ -161,15 +169,16 @@ map wip-map -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
-	avens@hf-stream.cave
+	#avens@hf-stream.cave
 	break
-	plan@rift.cave
-	mini@rift.cave
-	plan@ramp.cave
+	#plan@rift.cave
+	#mini@rift.cave
+	#plan@ramp.cave
 	break
 	plan@flakey.cave
 	plan@under-the-ramp.cave
 	plan@hf-stream.cave
+	plan@mf-stream.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

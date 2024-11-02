@@ -23,6 +23,7 @@ lookup map
     digs-and-sinks-map [100 70 70]
     unexplored-avens-map [80 100 80]
     flakey-map [50 100 50]
+    streamway-map [20 60 20]
 endlookup
 
 select middle-stream-map
@@ -35,5 +36,6 @@ select spider-dig-map
 
 select unexplored-avens-map
 select flakey-map
+select streamway-map
 
 export map -proj plan -layout local -o out/new_park_stage_04_plan.pdf

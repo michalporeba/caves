@@ -1,0 +1,35 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1023.62 -472.44 2047.24 472.44
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "MFStream.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap ee -projection extended
+
+point 939.17554 -122.75499 station -name 12
+
+point 246.40294 -116.6153 station -name 5
+
+point 784.8107 -128.9281 station -name 11
+
+point 558.1198 -147.10669 station -name 9
+
+point 316.3635 -161.2607 station -name 7
+
+point 413.22366 -93.25332 station -name 4
+
+point 510.63257 -70.637024 station -name 6
+
+point 159.95267 -115.5654 station -name 3
+
+point 56.69794 -92.01894 station -name 2
+
+point 1170.3047 -194.454 station -name 13
+
+point 435.06195 -145.32184 station -name 8
+
+point 0.0 0.0 station -name 1
+
+point 753.00165 -129.27975 station -name 10
+
+endscrap

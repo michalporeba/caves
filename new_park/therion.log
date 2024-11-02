@@ -17,36 +17,36 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.4.11
  2> Copyright © 1990-2024 Olly Betts
- 3> /tmp/th2348524/data.svx:5: info: Survey has no fixed points. Therefore I’ve fixed 246 at (0,0,0)
+ 3> /tmp/th2451804/data.svx:5: info: Survey has no fixed points. Therefore I’ve fixed 246 at (0,0,0)
  4> 
- 5> Survey contains 1305 survey stations, joined by 1307 legs.
+ 5> Survey contains 1399 survey stations, joined by 1401 legs.
  6> There are 4 loops.
  7> Survey has 2 connected components.
- 8> Total length of survey legs =  170.51m ( 170.37m adjusted)
- 9> Total plan length of survey legs =  148.08m
-10> Total vertical length of survey legs =   63.91m
-11> Vertical range = 22.99m (from 268 at 2.39m to 1264 at -20.60m)
-12> North-South range = 31.98m (from 1264 at 29.92m to 268 at -2.06m)
-13> East-West range = 27.68m (from 1017 at 8.30m to 1285 at -19.38m)
-14> 1163 1-nodes.
-15>   24 2-nodes.
+ 8> Total length of survey legs =  190.89m ( 190.75m adjusted)
+ 9> Total plan length of survey legs =  167.40m
+10> Total vertical length of survey legs =   67.97m
+11> Vertical range = 24.07m (from 268 at 2.39m to 1397 at -21.68m)
+12> North-South range = 38.70m (from 1396 at 36.64m to 268 at -2.06m)
+13> East-West range = 31.19m (from 1017 at 8.30m to 1373 at -22.90m)
+14> 1244 1-nodes.
+15>   27 2-nodes.
 16>    9 3-nodes.
-17>    6 4-nodes.
-18>    7 5-nodes.
-19>    9 6-nodes.
+17>    7 4-nodes.
+18>    9 5-nodes.
+19>   10 6-nodes.
 20>    4 7-nodes.
 21>   11 8-nodes.
 22>    8 9-nodes.
-23>    6 10-nodes.
-24>    7 11-nodes.
-25>   10 12-nodes.
-26>    4 13-nodes.
+23>    7 10-nodes.
+24>    8 11-nodes.
+25>   11 12-nodes.
+26>    5 13-nodes.
 27>    7 14-nodes.
-28>    2 15-nodes.
+28>    3 15-nodes.
 29>    1 16-node.
 30>    3 17-nodes.
-31>    5 18-nodes.
-32>    2 19-nodes.
+31>    4 18-nodes.
+32>    4 19-nodes.
 33>    2 20-nodes.
 34>    1 21-node.
 35>    1 22-node.
@@ -62,31 +62,31 @@ processing survey data ...
 ######################### transcription ########################
  3> input:5 -- src/cave.th [9]
  3> 246 : 1@entrance.cave
- 5> 1305 : 24@rift.cave
+ 5> 1399 : 24@rift.cave
  6> 4 : -@doline.cave
  7> 2 : 1@doline.cave
-11> 268 : 0@entrance.cave -- 1264 : -@hf-stream.cave
-12> 1264 : -@hf-stream.cave -- 268 : 0@entrance.cave
-13> 1017 : -@pit.cave -- 1285 : -@hf-stream.cave
-14> 1163 : -@under-the-ramp.cave
-15> 24 : -@doline.cave
+11> 268 : 0@entrance.cave -- 1397 : -@mf-stream.cave
+12> 1396 : -@mf-stream.cave -- 268 : 0@entrance.cave
+13> 1017 : -@pit.cave -- 1373 : -@mf-stream.cave
+14> 1244 : -@hf-stream.cave
+15> 27 : -@doline.cave
 16> 9 : -@doline.cave
-17> 6 : -@doline.cave
-18> 7 : 3@doline.cave
-19> 9 : -@doline.cave
+17> 7 : 3@doline.cave
+18> 9 : -@doline.cave
+19> 10 : -@doline.cave
 20> 4 : -@doline.cave
 21> 11 : -@doline.cave
 22> 8 : -@doline.cave
-23> 6 : -@doline.cave
-24> 7 : 3@doline.cave
-25> 10 : -@doline.cave
-26> 4 : -@doline.cave
+23> 7 : 3@doline.cave
+24> 8 : -@doline.cave
+25> 11 : -@doline.cave
+26> 5 : -@doline.cave
 27> 7 : 3@doline.cave
-28> 2 : 1@doline.cave
+28> 3 : -@doline.cave
 29> 1 : 2@doline.cave
 30> 3 : -@doline.cave
-31> 5 : -@doline.cave
-32> 2 : 1@doline.cave
+31> 4 : -@doline.cave
+32> 4 : -@doline.cave
 33> 2 : 1@doline.cave
 34> 1 : 2@doline.cave
 35> 1 : 2@doline.cave
@@ -105,16 +105,19 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.63%
+average distortion: 0.54%
 
 
 ############### export maps & scraps selection #################
+M   -20.12 streamway-map@ (Streamway)
+S   -20.12 plan@mf-stream.cave ()
 M   -17.33 flakey-map@ (Flakey Passage)
 S   -15.80 plan@flakey.cave ()
 S   -17.68 plan@under-the-ramp.cave ()
 S   -18.52 plan@hf-stream.cave ()
-M   -17.75 unexplored-avens-map@ (Unexplored Avens)
+M   -19.07 unexplored-avens-map@ (Unexplored Avens)
 S   -17.75 avens@hf-stream.cave ()
+S   -20.38 avens@mf-stream.cave ()
 M   -11.30 spider-dig-map@ (Inside Digs)
 S   -11.30 spider-dig@pit.cave ()
 M   -11.53 lower-main-map@ (The Pit Area)
@@ -142,7 +145,7 @@ S     3.86 middle-stream@doline.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/new_park_stage_04_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  2 NOV 2024 17:29
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  2 NOV 2024 19:38
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -150,31 +153,34 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5]
+[1]
+[Warning: scrap outline intersects itself in scrap plan@mf-stream.cave] [2]
+[3] [4] [5] [6] [7] [8] [9]
 [Warning: scrap outline intersects itself in scrap plan@under-the-ramp.cave]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[Warning: scrap outline intersects itself in scrap plan@pit.cave] [22] [23]
-[24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[Warning: scrap outline intersects itself in scrap plan@rift.cave] [35] [36]
-[37] [38] [39] [40] [41] [42]
-[Warning: scrap outline intersects itself in scrap plan@homm.cave] [43] [44]
-[45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] (./mptextmp.mp) [71]
-[72] [73] [74] [75] [76] [77] [78] [79] [80] )
+[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
+[25] [26] [27]
+[Warning: scrap outline intersects itself in scrap plan@pit.cave] [28] [29]
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
+[Warning: scrap outline intersects itself in scrap plan@rift.cave] [41] [42]
+[43] [44] [45] [46] [47] [48]
+[Warning: scrap outline intersects itself in scrap plan@homm.cave] [49] [50]
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] (./mptextmp.mp) [77]
+[78] [79] [80] [81] [82] [83] [84] [85] [86] )
  
 Here is how much of MetaPost's memory you used:
- 32482 strings using 720289 characters
- 3534696 bytes of node memory
+ 36230 strings using 807829 characters
+ 3549648 bytes of node memory
  1692 symbolic tokens
- 8i,82n,16p,370b,5f stack positions out of 16i,98n,20p,390b,6f
-94 output files written: data-patt.1 .. data.80
+ 9i,82n,16p,370b,5f stack positions out of 16i,98n,20p,390b,6f
+100 output files written: data-patt.1 .. data.86
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  2 NOV 2024 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  2 NOV 2024 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,25 +189,25 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 175 numeric registers used out of 32768
+ 187 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 397 strings out of 495845
- 5313 string characters out of 6182321
- 30116 words of memory out of 5000000
- 1887 multiletter control sequences out of 15000+600000
+ 409 strings out of 495845
+ 5443 string characters out of 6182321
+ 42436 words of memory out of 5000000
+ 1899 multiletter control sequences out of 15000+600000
  17897 words of font info for 60 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
- 12i,5n,7p,379b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 12i,5n,7p,414b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 205318 bytes).
+Output written on data.pdf (1 page, 231978 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 353 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 933 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -228,8 +234,9 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.55%    5.19%  plan@ramp.cave
    0.37%    4.35%  plan@birthday.cave
    0.13%    3.79%  plan@entrance.cave
-   0.19%    3.49%  plan@hf-stream.cave
+   0.09%    2.78%  plan@mf-stream.cave
    0.13%    2.39%  upper-stream@doline.cave
+   0.17%    2.35%  plan@hf-stream.cave
    0.25%    2.10%  plan@flake.cave
    0.52%    2.08%  plan@top.cave
    0.16%    1.83%  spider-dig@pit.cave
@@ -239,11 +246,12 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.12%    1.23%  plan@attic.cave
    0.05%    1.06%  lower-middle-stream@doline.cave
    0.04%    0.51%  plan@doline.cave
-   0.04%    0.37%  avens@hf-stream.cave
    0.02%    0.24%  lower-stream@doline.cave
    0.03%    0.22%  middle-stream@doline.cave
    0.03%    0.11%  ground@doline.cave
    0.01%    0.10%  under-the-attic@attic.cave
    0.01%    0.07%  digs@doline.cave
+   0.00%    0.00%  avens@hf-stream.cave
+   0.00%    0.00%  avens@mf-stream.cave
    0.00%    0.00%  scrap113@doline.cave
 ################### end of scrap distortions ###################
