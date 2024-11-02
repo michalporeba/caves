@@ -1,0 +1,35 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -866.14 -866.14 2125.98 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "HFStream.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 450.4933 -98.911064 station -name 5
+
+point 439.42508 19.078466 station -name 6
+
+point 582.99994 5.584874 station -name 9
+
+point 376.81485 -59.56771 station -name 3
+
+point 517.94183 -2.7555604 station -name 7
+
+point 786.19104 -25.215706 station -name 11
+
+point 697.4651 7.8817177 station -name 10
+
+point 873.9314 -19.917038 station -name 12
+
+point 429.77667 -69.77788 station -name 4
+
+point 562.5838 130.84966 station -name 8
+
+point 874.6087 -41.15268 station -name 13
+
+point 150.39331 -54.29789 station -name 2
+
+endscrap

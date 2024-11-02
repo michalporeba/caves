@@ -64,6 +64,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input UnderTheRamp.th
 	equate 1@under-the-ramp 11@flakey
 
+	input HFStream.th
+	equate 1@hf-stream 12@flakey
+
 endsurvey
 
 
@@ -82,6 +85,14 @@ map lower-middle-stream-map -title "Stream"
 	break
 	lower-stream@doline.cave
 	lower-middle-stream@doline.cave
+endmap 
+
+map middle-stream-map -title "Stream"
+	ground@doline.cave
+	break
+	lower-stream@doline.cave
+	lower-middle-stream@doline.cave
+	middle-stream@doline.cave
 endmap 
 
 map entrance-map -title "Entrance Series"
@@ -126,6 +137,7 @@ endmap
 map flakey-map -title "Flakey Passage"
 	plan@flakey.cave
 	plan@under-the-ramp.cave
+	plan@hf-stream.cave
 endmap
 
 map wip-map -title "Work in Progress"
@@ -133,6 +145,7 @@ map wip-map -title "Work in Progress"
 	break
 	ee@flakey.cave
 	ee@under-the-ramp.cave
+	ee@hf-stream.cave
 	break
 	ee@entrance.cave
 	ee@homm.cave
@@ -151,6 +164,7 @@ map wip-map-plan -title "Work in Progress"
 	break
 	plan@flakey.cave
 	plan@under-the-ramp.cave
+	plan@hf-stream.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
