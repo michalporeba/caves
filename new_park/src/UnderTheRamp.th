@@ -13,7 +13,7 @@ input "UnderTheRamp.ee.th2"
     
     date 2024.11.01
     team "Michal Poreba"
-    team "Saram Garlick"
+    team "Sarah Garlick"
     data normal from to length compass clino
     
     1  2  1.243  223.06  30.28    #  {from: 1.243 222.73 30.17, 1.243 223.45 30.34, 1.243 223.01 30.35}

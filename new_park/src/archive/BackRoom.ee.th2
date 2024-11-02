@@ -1,0 +1,21 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -236.22 -236.22 551.18 393.70
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "BackRoom.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+
+scrap ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 143.07349 58.254414 station -name 5
+
+point 203.21606 34.125195 station -name 3
+
+point 83.94978 7.1291065 station -name 2
+
+point 166.73715 12.955208 station -name 4
+
+point 190.74136 90.9821 station -name 6
+
+endscrap

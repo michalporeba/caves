@@ -57,6 +57,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	join plan@pit plan@pit2
 	join plan@pit2 plan@rift
 
+	input BackRoom.th
+	equate 1@backroom 4@pit
+
 	input flakey.th
 	equate 1@flakey 14@rift
 	#equate 5@flakey 19@rift
@@ -151,12 +154,19 @@ map streamway-map -title "Streamway"
 	plan@mf-stream.cave
 endmap
 
+map backroom-map -title "Back Room"
+	higher@backroom.cave
+	break
+	plan@backroom.cave
+endmap
+
 map wip-map -title "Work in Progress"
 	ee@doline.cave
 	break
 	ee@flakey.cave
 	ee@under-the-ramp.cave
 	ee@hf-stream.cave
+	ee@mf-stream.cave
 	break
 	ee@entrance.cave
 	ee@homm.cave
@@ -169,16 +179,17 @@ map wip-map -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
-	#avens@hf-stream.cave
+	plan@entrance.cave
+	plan@top.cave
 	break
-	#plan@rift.cave
-	#mini@rift.cave
-	#plan@ramp.cave
+	plan@homm.cave
 	break
-	plan@flakey.cave
-	plan@under-the-ramp.cave
-	plan@hf-stream.cave
-	plan@mf-stream.cave
+	higher@backroom.cave
+	break
+	plan@backroom.cave
+	break
+	plan@pit.cave
+	
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

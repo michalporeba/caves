@@ -46,6 +46,12 @@ endlayout
 lookup scrap
     under-the-attic@attic.cave [80 100 80] "under-the-attic"
     plan@vasiley.cave [80 0 0] "vasiley"
+    plan@backroom.cave [80 60 60]
+    higher@backroom.cave [60 60 80]
+    plan@entrance.cave [80 100 80]
+    plan@top.cave [80 100 80]
+    plan@homm.cave [60 80 60]
+    plan@pit.cave [40 60 40]
 endlookup
 
 select wip-map-plan

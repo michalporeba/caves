@@ -129,6 +129,8 @@ endline
 
 point -545.25 516.25 label -orientation 20.1 -text "3rd Breakthrough"
 
+point -509.75 557.25 label -orientation 22.3 -text "Flakey Passage" -scale xl
+
 line wall
   -356.5 434.25
   -356.5 434.25 -389.25 461.75 -394.75 468.5

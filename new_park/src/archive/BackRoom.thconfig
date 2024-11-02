@@ -1,0 +1,17 @@
+# Created with SexyTopo 1.8.3 on 2024-11-01
+
+encoding utf-8
+
+layout local
+  debug off
+  # map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
+
+source "BackRoom.th"
+
+export model -fmt survex -o "BackRoom-th.3d"
+
+export map -proj plan -layout local -o "BackRoom-plan.pdf"
+
+export map -proj extended -layout local -o "BackRoom-ee.pdf"
