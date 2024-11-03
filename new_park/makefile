@@ -6,6 +6,10 @@ ee:
 	therion wip-ee.thconfig
 	xdg-open out/wip.pdf
 
+print:
+	therion print.thconfig
+	xdg-open out/print.pdf
+
 stage01:
 	therion stage01.thconfig
 	xdg-open out/new_park_stage_01_plan.pdf
@@ -21,3 +25,7 @@ stage03:
 stage04:
 	therion stage04.thconfig
 	xdg-open out/new_park_stage_04_plan.pdf
+
+stage05:
+	therion stage05.thconfig
+	xdg-open out/new_park_stage_05_plan.pdf

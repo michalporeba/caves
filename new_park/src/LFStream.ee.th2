@@ -1,0 +1,67 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1574.80 -1338.58 7795.28 1259.84
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "LFStream.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap ee -projection extended
+
+point 3203.9756 -166.31926 station -name 20
+
+point 4622.205 -153.50537 station -name 26
+
+point 762.19617 -11.226523 station -name 8
+
+point 3716.6682 -180.87099 station -name 23
+
+point 1084.9576 -120.411415 station -name 11
+
+point 2549.3132 -190.10516 station -name 17
+
+point 1326.4117 -99.45106 station -name 12
+
+point 2103.2776 -182.31992 station -name 15
+
+point 1611.4274 -114.88074 station -name 13
+
+point 3313.0386 -143.23592 station -name 22
+
+point 5180.4966 -172.92897 station -name 28
+
+point 4512.899 -135.9389 station -name 25
+
+point 5093.584 -144.25002 station -name 27
+
+point 974.2271 -49.489094 station -name 10
+
+point 200.14935 17.637554 station -name 3
+
+point 699.87933 -21.98601 station -name 7
+
+point 624.259 -17.591387 station -name 6
+
+point 1912.5559 -191.548 station -name 14
+
+point 2398.7559 -200.91571 station -name 16
+
+point 4088.8586 -184.14693 station -name 24
+
+point 141.42348 20.943707 station -name 2
+
+point 2959.96 -166.30783 station -name 19
+
+point 5579.4014 -227.91415 station -name 29
+
+point 3271.4417 -153.01038 station -name 21
+
+point 0.0 0.0 station -name 1
+
+point 787.72815 -23.173824 station -name 9
+
+point 458.7962 7.287913 station -name 5
+
+point 2660.2239 -191.43306 station -name 18
+
+point 421.0153 17.8846 station -name 4
+
+endscrap

@@ -73,6 +73,9 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input MFStream.th
 	equate 1@mf-stream 11@hf-stream
 
+	input LFStream.th
+	equate 1@lf-stream 13@mf-stream
+
 endsurvey
 
 
@@ -152,6 +155,11 @@ endmap
 
 map streamway-map -title "Streamway"
 	plan@mf-stream.cave
+	stream@lf-stream.cave
+endmap
+
+map canal-map -title "Canal"
+	canal@lf-stream.cave
 endmap
 
 map backroom-map -title "Back Room"
@@ -182,7 +190,7 @@ map wip-map -title "Work in Progress"
 	ee@birthday.cave
 endmap
 
-map wip-map-plan -title "Work in Progress"
+map wip-map-plan-of-backroom -title "Work in Progress"
 	plan@attic.cave
 	plan@entrance.cave
 	plan@top.cave
@@ -194,7 +202,16 @@ map wip-map-plan -title "Work in Progress"
 	plan@backroom.cave
 	break
 	plan@pit.cave
-	
+endmap
+
+map wip-map-plan -title "Work in Progress"
+	#avens@hf-stream.cave
+	#avens@mf-stream.cave
+	break
+	#plan@hf-stream.cave
+	#plan@mf-stream.cave
+	stream@lf-stream.cave
+	canal@lf-stream.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
