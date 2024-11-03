@@ -4,7 +4,7 @@ initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: stage04.thconfig
+configuration file: wip-ee.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -96,54 +96,359 @@ processing survey data ...
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
-processing extended elevation ... done
+processing extended elevation ... 
+START 0@entrance.cave
+RIGHT 1@doline.cave
+RIGHT 2@doline.cave
+RIGHT 3@doline.cave
+RIGHT 9@doline.cave
+RIGHT 10@doline.cave
+RIGHT 12@doline.cave
+RIGHT 13@doline.cave
+RIGHT 16@doline.cave
+RIGHT 17@doline.cave
+RIGHT 18@doline.cave
+RIGHT 19@doline.cave
+RIGHT 20@doline.cave
+RIGHT 21@doline.cave
+RIGHT 23@doline.cave
+RIGHT 24@doline.cave
+RIGHT 25@doline.cave
+RIGHT 26@doline.cave
+RIGHT 29@doline.cave
+RIGHT 30@doline.cave
+RIGHT 31@doline.cave
+BACK 30@doline.cave
+BACK 29@doline.cave
+BACK 26@doline.cave
+RIGHT 27@doline.cave
+RIGHT 28@doline.cave
+BACK 27@doline.cave
+BACK 26@doline.cave
+BACK 25@doline.cave
+BACK 24@doline.cave
+BACK 23@doline.cave
+BACK 21@doline.cave
+RIGHT 22@doline.cave
+BACK 21@doline.cave
+BACK 20@doline.cave
+BACK 19@doline.cave
+BACK 18@doline.cave
+BACK 17@doline.cave
+BACK 16@doline.cave
+BACK 13@doline.cave
+RIGHT 14@doline.cave
+RIGHT 15@doline.cave
+BACK 14@doline.cave
+BACK 13@doline.cave
+BACK 12@doline.cave
+BACK 10@doline.cave
+RIGHT 11@doline.cave
+BACK 10@doline.cave
+BACK 9@doline.cave
+BACK 3@doline.cave
+RIGHT 5@doline.cave
+RIGHT 6@doline.cave
+RIGHT 7@doline.cave
+BACK 6@doline.cave
+BACK 5@doline.cave
+BACK 3@doline.cave
+BACK 2@doline.cave
+BACK 1@doline.cave
+RIGHT 2@entrance.cave
+RIGHT 3@entrance.cave
+RIGHT 4@entrance.cave
+RIGHT 5@entrance.cave
+RIGHT 6@entrance.cave
+RIGHT 7@entrance.cave
+RIGHT 8@entrance.cave
+RIGHT 9@entrance.cave
+RIGHT 2@homm.cave
+RIGHT 3@homm.cave
+RIGHT 4@homm.cave
+BACK 3@homm.cave
+BACK 2@homm.cave
+BACK 9@entrance.cave
+RIGHT 10@homm.cave
+RIGHT 11@homm.cave
+RIGHT 1@pit.cave
+VERTICAL 2@pit.cave
+RIGHT 7@pit2.cave
+RIGHT 8@pit2.cave
+BACK 7@pit2.cave
+BACK 2@pit.cave
+RIGHT 2@pit2.cave
+RIGHT 5@pit2.cave
+RIGHT 6@pit2.cave
+BACK 5@pit2.cave
+BACK 2@pit2.cave
+RIGHT 4@pit2.cave
+BACK 2@pit2.cave
+RIGHT 1@backroom.cave
+RIGHT 2@backroom.cave
+RIGHT 2'@backroom.cave
+RIGHT 5@backroom.cave
+RIGHT 6@backroom.cave
+BACK 5@backroom.cave
+BACK 2'@backroom.cave
+RIGHT 4@backroom.cave
+BACK 2'@backroom.cave
+RIGHT 3@backroom.cave
+BACK 2'@backroom.cave
+BACK 2@backroom.cave
+BACK 1@backroom.cave
+RIGHT 5@pit.cave
+RIGHT 6@pit.cave
+RIGHT 7@pit.cave
+RIGHT 8@pit.cave
+RIGHT 9@pit.cave
+RIGHT end@pit.cave
+BACK 9@pit.cave
+BACK 8@pit.cave
+BACK 7@pit.cave
+BACK 6@pit.cave
+BACK 5@pit.cave
+BACK 1@backroom.cave
+RIGHT 3@pit.cave
+LEFT 2@pit.cave
+BACK 3@pit.cave
+BACK 1@backroom.cave
+BACK 2@pit2.cave
+BACK 2@pit.cave
+BACK 3@pit.cave
+BACK 1@backroom.cave
+BACK 2@pit2.cave
+BACK 2@pit.cave
+BACK 1@pit.cave
+RIGHT 2@attic.cave
+RIGHT 3@top.cave
+RIGHT 4@top.cave
+RIGHT 5@top.cave
+RIGHT 6@top.cave
+RIGHT 7@top.cave
+RIGHT 8@top.cave
+BACK 7@top.cave
+BACK 6@top.cave
+BACK 5@top.cave
+BACK 4@top.cave
+BACK 3@top.cave
+BACK 2@attic.cave
+RIGHT 1@vasiley.cave
+RIGHT 2@vasiley.cave
+RIGHT 3@vasiley.cave
+RIGHT 4@vasiley.cave
+RIGHT 5@vasiley.cave
+RIGHT 6@vasiley.cave
+RIGHT 7@vasiley.cave
+BACK 6@vasiley.cave
+BACK 5@vasiley.cave
+BACK 4@vasiley.cave
+BACK 3@vasiley.cave
+BACK 2@vasiley.cave
+BACK 1@vasiley.cave
+RIGHT 9@attic.cave
+RIGHT 10@attic.cave
+RIGHT 11@attic.cave
+RIGHT 12@attic.cave
+RIGHT 13@attic.cave
+BACK 12@attic.cave
+BACK 11@attic.cave
+BACK 10@attic.cave
+BACK 9@attic.cave
+BACK 1@vasiley.cave
+BACK 2@attic.cave
+BACK 1@pit.cave
+RIGHT 13@homm.cave
+RIGHT 1@flakey.cave
+RIGHT 2@flakey.cave
+RIGHT 3@flakey.cave
+RIGHT 4@flakey.cave
+VERTICAL 6@flakey.cave
+RIGHT 7@flakey.cave
+RIGHT 8@flakey.cave
+RIGHT 9@flakey.cave
+RIGHT 1@under-the-ramp.cave
+RIGHT 2@under-the-ramp.cave
+RIGHT 4@under-the-ramp.cave
+RIGHT 5@under-the-ramp.cave
+RIGHT 6@under-the-ramp.cave
+RIGHT 7@under-the-ramp.cave
+RIGHT 7e@under-the-ramp.cave
+BACK 7@under-the-ramp.cave
+RIGHT 7u@under-the-ramp.cave
+BACK 7@under-the-ramp.cave
+BACK 6@under-the-ramp.cave
+BACK 5@under-the-ramp.cave
+BACK 4@under-the-ramp.cave
+BACK 2@under-the-ramp.cave
+RIGHT 3@under-the-ramp.cave
+RIGHT 3e@under-the-ramp.cave
+BACK 3@under-the-ramp.cave
+BACK 2@under-the-ramp.cave
+BACK 1@under-the-ramp.cave
+RIGHT 1@hf-stream.cave
+RIGHT 2@hf-stream.cave
+RIGHT 3@hf-stream.cave
+RIGHT 6@hf-stream.cave
+RIGHT 7@hf-stream.cave
+RIGHT 9@hf-stream.cave
+RIGHT 10@hf-stream.cave
+RIGHT 1@mf-stream.cave
+RIGHT 2@mf-stream.cave
+RIGHT 3@mf-stream.cave
+RIGHT 5@mf-stream.cave
+RIGHT 7@mf-stream.cave
+RIGHT 8@mf-stream.cave
+RIGHT 9@mf-stream.cave
+RIGHT 10@mf-stream.cave
+RIGHT 11@mf-stream.cave
+RIGHT 12@mf-stream.cave
+RIGHT 13@mf-stream.cave
+BACK 12@mf-stream.cave
+BACK 11@mf-stream.cave
+BACK 10@mf-stream.cave
+BACK 9@mf-stream.cave
+BACK 8@mf-stream.cave
+BACK 7@mf-stream.cave
+BACK 5@mf-stream.cave
+BACK 3@mf-stream.cave
+RIGHT 4@mf-stream.cave
+RIGHT 6@mf-stream.cave
+BACK 4@mf-stream.cave
+BACK 3@mf-stream.cave
+BACK 2@mf-stream.cave
+BACK 1@mf-stream.cave
+RIGHT 13@hf-stream.cave
+BACK 1@mf-stream.cave
+RIGHT 12@hf-stream.cave
+BACK 1@mf-stream.cave
+BACK 10@hf-stream.cave
+BACK 9@hf-stream.cave
+BACK 7@hf-stream.cave
+RIGHT 8@hf-stream.cave
+BACK 7@hf-stream.cave
+BACK 6@hf-stream.cave
+BACK 3@hf-stream.cave
+RIGHT 4@hf-stream.cave
+RIGHT 5@hf-stream.cave
+BACK 4@hf-stream.cave
+BACK 3@hf-stream.cave
+BACK 2@hf-stream.cave
+BACK 1@hf-stream.cave
+BACK 1@under-the-ramp.cave
+BACK 9@flakey.cave
+RIGHT 10@flakey.cave
+BACK 9@flakey.cave
+BACK 8@flakey.cave
+BACK 7@flakey.cave
+BACK 6@flakey.cave
+BACK 4@flakey.cave
+RIGHT 5@flakey.cave
+BACK 4@flakey.cave
+BACK 3@flakey.cave
+BACK 2@flakey.cave
+BACK 1@flakey.cave
+RIGHT 6@pit2.cave
+BACK 1@flakey.cave
+LEFT 2@birthday.cave
+VERTICAL 3@birthday.cave
+RIGHT 8@birthday.cave
+BACK 3@birthday.cave
+RIGHT 4@birthday.cave
+RIGHT 5@birthday.cave
+RIGHT 6@birthday.cave
+RIGHT 7@birthday.cave
+BACK 6@birthday.cave
+BACK 5@birthday.cave
+BACK 4@birthday.cave
+BACK 3@birthday.cave
+BACK 2@birthday.cave
+BACK 1@flakey.cave
+RIGHT 15@rift.cave
+RIGHT 17@rift.cave
+RIGHT 18@rift.cave
+RIGHT 24@rift.cave
+RIGHT 2@ramp.cave
+RIGHT 20@rift.cave
+RIGHT 4@ramp.cave
+RIGHT 5@ramp.cave
+RIGHT 7@ramp.cave
+RIGHT 8@ramp.cave
+RIGHT end@ramp.cave
+BACK 8@ramp.cave
+BACK 7@ramp.cave
+BACK 5@ramp.cave
+RIGHT 6@ramp.cave
+BACK 5@ramp.cave
+BACK 4@ramp.cave
+BACK 20@rift.cave
+RIGHT 21@rift.cave
+RIGHT end@rift.cave
+BACK 21@rift.cave
+BACK 20@rift.cave
+LEFT 19@rift.cave
+LEFT 18@rift.cave
+BACK 19@rift.cave
+BACK 20@rift.cave
+BACK 2@ramp.cave
+BACK 24@rift.cave
+RIGHT 25@flake.cave
+RIGHT 26@flake.cave
+RIGHT 27@flake.cave
+BACK 26@flake.cave
+BACK 25@flake.cave
+BACK 24@rift.cave
+BACK 18@rift.cave
+BACK 19@rift.cave
+BACK 20@rift.cave
+BACK 2@ramp.cave
+BACK 24@rift.cave
+BACK 18@rift.cave
+BACK 17@rift.cave
+BACK 15@rift.cave
+RIGHT 16@rift.cave
+BACK 15@rift.cave
+BACK 1@flakey.cave
+BACK 13@homm.cave
+BACK 1@pit.cave
+BACK 11@homm.cave
+BACK 10@homm.cave
+BACK 9@entrance.cave
+BACK 8@entrance.cave
+BACK 7@entrance.cave
+BACK 6@entrance.cave
+BACK 5@entrance.cave
+BACK 4@entrance.cave
+BACK 3@entrance.cave
+BACK 2@entrance.cave
+BACK 1@doline.cave
+done
 processing references ... done
 selecting export objects ... done
+writing cave.3d ... done
 processing projection plan ... done
 average distortion: 0.54%
+writing out/wip.xvi ... done
+processing projection extended ... done
+average distortion: 8.90%
 
 
 ############### export maps & scraps selection #################
-M   -22.51 streamway-map@ (Streamway)
-S   -22.51 plan@mf-stream.cave ()
-M   -19.72 flakey-map@ (Flakey Passage)
-S   -18.19 plan@flakey.cave ()
-S   -20.07 plan@under-the-ramp.cave ()
-S   -20.91 plan@hf-stream.cave ()
-M   -21.46 unexplored-avens-map@ (Unexplored Avens)
-S   -20.14 avens@hf-stream.cave ()
-S   -22.77 avens@mf-stream.cave ()
-M   -13.69 spider-dig-map@ (Inside Digs)
-S   -13.69 spider-dig@pit.cave ()
-M   -13.92 lower-main-map@ (The Pit Area)
-S   -13.97 plan@pit.cave ()
-S   -13.87 plan@pit2.cave ()
-M   -10.89 backroom-map@ (Back Room)
-S   -10.30 higher@backroom.cave ()
-S   -11.48 plan@backroom.cave ()
-M   -14.68 middle-main-map@ (Hall of the Mountain Mole)
-S   -11.43 plan@homm.cave ()
-S   -12.53 plan@birthday.cave ()
-S   -15.99 plan@rift.cave ()
-S   -18.96 mini@rift.cave ()
-S   -16.42 plan@ramp.cave ()
-S   -12.77 plan@vasiley.cave ()
-M   -10.17 upper-main-map@ (The Attic and Top Extension)
-S   -10.35 plan@attic.cave ()
-S    -9.99 plan@top.cave ()
-M    -5.15 entrance-map@ (Entrance Series)
-S    -5.15 plan@entrance.cave ()
-M    -0.20 digs-and-sinks-map@ (Sinks and Surface Digs)
-S    -0.20 digs@doline.cave ()
-M     0.52 middle-stream-map@ (Stream)
-S    -0.06 ground@doline.cave ()
-S    -0.06 lower-stream@doline.cave ()
-S     0.75 lower-middle-stream@doline.cave ()
-S     1.47 middle-stream@doline.cave ()
+M     0.00 wip-map@ (Work in Progress)
+S     0.00 ee@doline.cave ()
+S     0.00 ee@flakey.cave ()
+S     0.00 ee@hf-stream.cave ()
+S     0.00 ee@mf-stream.cave ()
+S     0.00 ee@under-the-ramp.cave ()
+S     0.00 ee@entrance.cave ()
+S     0.00 ee@homm.cave ()
+S     0.00 ee@rift.cave ()
+S     0.00 ee@ramp.cave ()
+S     0.00 ee@birthday.cave ()
 ########## end of export maps & scraps selection ###############
-writing out/new_park_stage_04_plan.pdf ...
+writing out/wip.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  3 NOV 2024 08:17
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  3 NOV 2024 10:05
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -152,36 +457,28 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [1]
-[Warning: scrap outline intersects itself in scrap plan@mf-stream.cave] [2]
-[3] [4] [5] [6] [7] [8] [9]
-[Warning: scrap outline intersects itself in scrap plan@under-the-ramp.cave]
-[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-[25] [26] [27]
-[Warning: scrap outline intersects itself in scrap plan@pit.cave]
-[Warning: scrap outline intersects itself in scrap plan@pit.cave] [28] [29]
-[30] [31]
-[Warning: scrap outline intersects itself in scrap plan@backroom.cave] [32]
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
-[Warning: scrap outline intersects itself in scrap plan@rift.cave] [48] [49]
-[50] [51] [52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap plan@homm.cave] [56] [57]
-[58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
-[73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] (./mptextmp.mp)
-[85] [86] [87] [88] [89] [90] [91] [92] [93] [94] )
+[Warning: scrap outline intersects itself in scrap ee@birthday.cave] [2] [3]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[Warning: scrap outline intersects itself in scrap ee@entrance.cave] [16] [17]
+[18] [19]
+[Warning: scrap outline intersects itself in scrap ee@under-the-ramp.cave]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[35] [36] [37] (./mptextmp.mp) [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47] )
  
 Here is how much of MetaPost's memory you used:
- 39397 strings using 885377 characters
- 3627032 bytes of node memory
- 1692 symbolic tokens
- 9i,82n,16p,370b,5f stack positions out of 16i,98n,20p,390b,6f
-108 output files written: data-patt.1 .. data.94
+ 19403 strings using 534861 characters
+ 3440328 bytes of node memory
+ 1690 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+61 output files written: data-patt.1 .. data.47
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  3 NOV 2024 08:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  3 NOV 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -189,26 +486,25 @@ entering extended mode
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 200 numeric registers used out of 32768
-
-[1] ) 
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 111 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 422 strings out of 495845
- 5591 string characters out of 6182321
- 43398 words of memory out of 5000000
- 1912 multiletter control sequences out of 15000+600000
- 17897 words of font info for 60 fonts, out of 8000000 for 9000
+ 329 strings out of 495845
+ 4529 string characters out of 6182321
+ 113911 words of memory out of 5000000
+ 1823 multiletter control sequences out of 15000+600000
+ 15392 words of font info for 52 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
- 12i,5n,7p,449b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 249385 bytes).
+ 6i,5n,6p,270b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+
+Output written on data.pdf (1 page, 121184 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 160 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -257,4 +553,27 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.00%    0.00%  avens@hf-stream.cave
    0.00%    0.00%  avens@mf-stream.cave
    0.00%    0.00%  scrap113@doline.cave
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+  31.97%   96.06%  ee@pit.cave
+  67.47%   89.88%  ee@birthday.cave
+  17.70%   88.73%  ee@pit2.cave
+  11.05%   86.98%  ee@flakey.cave
+   4.29%   16.34%  ee@rift.cave
+   0.83%    3.28%  ee@homm.cave
+   0.18%    1.02%  ee@backroom.cave
+   0.03%    0.84%  ee@under-the-ramp.cave
+   0.04%    0.74%  ee@mf-stream.cave
+   0.17%    0.66%  dig2take2-ee@flake.cave
+   0.10%    0.64%  ee@ramp.cave
+   0.07%    0.51%  ee@entrance.cave
+   0.04%    0.46%  ee@hf-stream.cave
+   0.06%    0.31%  ee@vasiley.cave
+   0.02%    0.29%  ee@doline.cave
+   0.03%    0.23%  attic-ee@attic.cave
+   0.06%    0.21%  top-ee@top.cave
 ################### end of scrap distortions ###################

@@ -164,10 +164,14 @@ map wip-map -title "Work in Progress"
 	ee@doline.cave
 	break
 	ee@flakey.cave
-	ee@under-the-ramp.cave
+	
 	ee@hf-stream.cave
 	ee@mf-stream.cave
 	break
+	
+	ee@under-the-ramp.cave
+	break
+	
 	ee@entrance.cave
 	ee@homm.cave
 	#ee@pit.cave
@@ -179,6 +183,7 @@ map wip-map -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
+	plan@attic.cave
 	plan@entrance.cave
 	plan@top.cave
 	break
