@@ -30,14 +30,13 @@ endlookup
 select middle-stream-map
 select digs-and-sinks-map
 select entrance-map
+
 select upper-main-map
-
-select backroom-map
-
 select middle-main-map
+select backroom-map
 select lower-main-map
-select spider-dig-map
 
+select spider-dig-map
 select unexplored-avens-map
 select flakey-map
 select streamway-map
