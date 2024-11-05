@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -994.1417 -2805.1653 3513.82694 4537.4491
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {995.49 1 1.0} {-82.28999999999996 12} surface2.plan.xvi 0 {}
 
 
@@ -79,7 +79,9 @@ line wall
   smooth off
 endline
 
-point 570.74036 2649.6987 station -name 23 -scale xl
+point 639.0 2534.0 label -orientation 291.0 -text "Corner Sink" -scale l
+
+point 570.74036 2649.6987 station -name 23 -scale xl -subtype painted
 
 point 836.6567 2439.1333 station -name 20
 
@@ -102,6 +104,7 @@ line wall
   1404.0 3041.0 1338.0 3028.0 1315.0 3021.0
   1292.0 3014.0 1223.0 3009.0 1185.0 2992.0
   1147.0 2975.0 1128.0 2964.0 1099.5 2960.5
+  smooth off
 endline
 
 line wall
@@ -111,6 +114,7 @@ line wall
   1268.0 2793.0 1314.0 2797.0 1325.5 2798.5
   1337.0 2800.0 1386.0 2810.0 1410.0 2815.0
   1434.0 2820.0 1476.0 2826.0 1489.0 2827.0
+  smooth off
 endline
 
 line wall
@@ -175,7 +179,7 @@ line wall -id lower-middle-left
   1133.5 1130.0 1120.0 1176.5 1114.5 1196.0
   1109.0 1215.5 1107.5 1262.5 1100.0 1274.5
   1092.5 1286.5 1082.0 1330.5 1077.5 1337.5
-  1073.0 1344.5 1054.0 1364.0 1079.5 1486.0
+  1073.0 1344.5 1060.25 1381.25 1079.5 1486.0
   smooth off
 endline
 
@@ -267,6 +271,7 @@ line wall
   1728.5 2997.5 1710.5 2996.5 1709.0 2995.5
   1707.5 2994.5 1629.5 2988.5 1586.0 2994.0
   1542.5 2999.5 1502.0 3021.5 1490.5 3023.0
+  smooth off
 endline
 
 line wall
@@ -479,7 +484,7 @@ endline
 
 point 1163.0 404.0 label -orientation 3.2 -text "Holly's Hole" -scale l
 
-point 1014.0 -375.0 label -orientation 313.3 -text "Main Sinks" -scale l
+point 1014.0 -375.0 label -orientation 313.3 -text "Rob's Sinks" -scale l
 
 point -11.0 -1109.0 label -orientation 46.4 -text "Flood Sink" -scale l
 
@@ -569,8 +574,8 @@ line wall
 endline
 
 line wall -visibility off
-  21.0 -966.0
-  78.0 -988.0
+  20.75 -970.0
+  79.75 -996.25
   90.25 -1058.25
 endline
 
@@ -625,7 +630,7 @@ line wall
   73.75 -857.5 61.5 -868.5 55.0 -875.75
   48.5 -883.0 36.25 -901.25 33.75 -910.5
   31.25 -919.75 27.25 -924.5 25.5 -932.5
-  23.75 -940.5 21.0 -966.0 21.0 -966.0
+  23.75 -940.5 20.75 -970.0 20.75 -970.0
   smooth off
 endline
 

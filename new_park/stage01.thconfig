@@ -2,18 +2,20 @@ encoding  utf-8
 
 source src/cave.th
 
+input layouts.thconfig
+
 layout local
-    debug off
-    scale 1 50
-    map-header -5 20 nw
-    grid bottom
-    grid-size 10 10 10 m
-    north true
-    doc-author "Michal Poreba"
-    color map-bg [100 99 90]
-    color map-fg map
-    symbol-hide group centreline
-    page-setup 21 29.7 20 28.7 0.5 0.5 cm
+    map-header -5 5 sw
+endlayout
+
+layout local-yellow
+    copy yellow
+    copy local
+endlayout
+
+layout local-white
+    copy white
+    copy local
 endlayout
 
 lookup map
@@ -26,4 +28,5 @@ select lower-stream-map
 select digs-and-sinks-map
 select entrance-map
 
-export map -proj plan -layout local -o out/new_park_stage_01_plan.pdf
+export map -proj plan -layout local-white -o out/new_park_stage_01_white.pdf
+export map -proj plan -layout local-yellow -o out/new_park_stage_01_yellow.pdf

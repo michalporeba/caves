@@ -155,6 +155,9 @@ endmap
 
 map streamway-map -title "Streamway"
 	plan@mf-stream.cave
+endmap
+
+map slot-machine-map -title "Slot Machine"
 	stream@lf-stream.cave
 endmap
 
@@ -167,6 +170,29 @@ map backroom-map -title "Back Room"
 	break
 	plan@backroom.cave
 endmap
+
+
+
+map print-map
+
+	middle-stream-map
+	digs-and-sinks-map
+	entrance-map
+
+	upper-main-map
+	middle-main-map
+	backroom-map
+	lower-main-map
+
+	spider-dig-map
+	unexplored-avens-map
+	flakey-map
+	streamway-map
+	slot-machine-map [-10 -55 m] none
+	canal-map [-10 -55 m] none
+
+endmap
+
 
 map wip-map -title "Work in Progress"
 	ee@doline.cave

@@ -1,0 +1,35 @@
+layout base-layout
+    debug off
+    scale 1 50
+    #map-header 7 16 nw
+    #map-header 0 0 off
+    grid bottom
+    grid-size 10 10 10 m
+    north true
+    doc-author "Michal Poreba"
+    symbol-hide group centreline
+    symbol-hide point section
+    symbol-hide line section
+    #page-setup 21 29.7 20 28.7 2 2 cm
+endlayout
+
+layout yellow
+    copy base-layout
+    color map-bg [100 99 90]
+    color map-fg map
+endlayout
+
+layout white
+    copy base-layout
+
+    color map-bg [100 100 100]
+    color map-fg [100 98 80]
+    color map-fg map
+endlayout
+
+layout black 
+    copy base-layout
+    
+    color map-bg [0 0 0]
+    color map-fg map
+endlayout

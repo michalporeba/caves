@@ -10,8 +10,25 @@ layout local
     grid-size 20 20 20 m
     north true
     doc-author "Michal Poreba"
-    #color map-bg 
+    color map-bg [100 100 100]
     color map-fg [100 99 90]
+    color map-fg map
+    symbol-hide group centreline
+    symbol-hide point section
+    symbol-hide line section
+    #page-setup 21 29.7 20 28.7 2 2 cm
+endlayout
+
+layout altitude
+    debug off
+    scale 1 50
+    map-header 7 16 nw
+    grid bottom
+    grid-size 20 20 20 m
+    north true
+    doc-author "Michal Poreba"
+    color map-bg [100 100 100]
+    color map-fg altitude
     symbol-hide group centreline
     symbol-hide point section
     symbol-hide line section
@@ -29,20 +46,7 @@ lookup map
     canal-map [50 50 100]
 endlookup
 
-select middle-stream-map
-select digs-and-sinks-map
-select entrance-map
+select print-map
 
-select upper-main-map
-select middle-main-map
-select backroom-map
-select lower-main-map
-
-select spider-dig-map
-select unexplored-avens-map
-select flakey-map
-select streamway-map
-select slot-machine-map
-select canal-map
-
-export map -proj plan -layout local -o out/new_park_stage_05_plan.pdf
+export map -proj plan -layout local -o out/print.pdf
+export map -proj plan -layout altitude -o out/altitude_print.pdf

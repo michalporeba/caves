@@ -29,3 +29,8 @@ stage04:
 stage05:
 	therion stage05.thconfig
 	xdg-open out/new_park_stage_05_plan.pdf
+
+
+all:
+	therion stage01.thconfig
+	therion stage02.thconfig

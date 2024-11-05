@@ -25,6 +25,7 @@ lookup map
     backroom-map [80 100 80]
     flakey-map [50 100 50]
     streamway-map [20 60 20]
+    slot-machine-map [20 60 20]
     canal-map [50 50 100]
 endlookup
 
@@ -41,7 +42,8 @@ select spider-dig-map
 select unexplored-avens-map
 select flakey-map
 select streamway-map
-
+select slot-machine-map
 select canal-map
 
 export map -proj plan -layout local -o out/new_park_stage_05_plan.pdf
+export map -proj plan -o out/new_part.kml
