@@ -236,8 +236,10 @@ map wip-map-plan -title "Work in Progress"
 	break
 	#plan@hf-stream.cave
 	#plan@mf-stream.cave
-	stream@lf-stream.cave
-	canal@lf-stream.cave
+	#stream@lf-stream.cave
+	#canal@lf-stream.cave
+	#plan@pit.cave
+	plan@pit2.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
