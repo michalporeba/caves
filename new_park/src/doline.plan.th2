@@ -79,9 +79,9 @@ line wall
   smooth off
 endline
 
-point 639.0 2534.0 label -orientation 291.0 -text "Corner Sink" -scale l
+point 573.0 2617.25 label -orientation 297.5 -text "Corner Sink" -scale l
 
-point 570.74036 2649.6987 station -name 23 -scale xl -subtype painted
+point 570.74036 2649.6987 station -name 23 -subtype painted -clip off -visibility on
 
 point 836.6567 2439.1333 station -name 20
 

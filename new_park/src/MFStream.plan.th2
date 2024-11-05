@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1496.06 -1653.54 1496.06 1653.54
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -1400.06 -2200 2500 1653.54
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {-356.02 1 1.0} {417.6700000000001 12} MFStream.plan.xvi 0 {}
 
 
@@ -406,7 +406,7 @@ line wall
   smooth off
 endline
 
-point 230.0 143.25 label -orientation 350.3 -text "Main Sinks flow?"
+point 230.0 143.25 label -orientation 350.3 -text "Rob Sinks flow"
 
 point -169.0 292.5 label -orientation 348.0 -text "Marble Junction" -scale xl
 
@@ -426,6 +426,15 @@ endline
 area water
   l59--158-219
 endarea
+
+line water-flow -reverse on -subtype conjectural
+  340.0 164.0
+  440.0 176.0 577.18 205.67 780.0 156.0
+  976.0 108.0 1310.57 -82.34 1484.0 -320.0
+  1592.0 -468.0 1696.0 -664.0 1908.0 -1040.0
+  1966.59 -1143.92 2228.0 -1600.0 2276.0 -2040.0
+  smooth off
+endline
 
 line contour -id l59--158-219 -close on
   -162.5 218.5

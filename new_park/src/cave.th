@@ -57,6 +57,10 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	join plan@pit plan@pit2
 	join plan@pit2 plan@rift
 
+	input Spider.th
+	equate 2@spider 4@pit
+	#equate 3@spider 5@pit
+
 	input BackRoom.th
 	equate 1@backroom 4@pit
 
@@ -135,7 +139,8 @@ endmap
 
 map homm-digs-map -title "Inside Digs"
 	plan@flake.cave
-	spider-dig@pit.cave
+	#spider-dig@pit.cave
+	plan@spider.cave
 endmap
 
 map spider-dig-map -title "Inside Digs"
@@ -148,8 +153,9 @@ map unexplored-avens-map -title "Unexplored Avens"
 endmap
 
 map flakey-map -title "Flakey Passage"
-	plan@flakey.cave
 	plan@under-the-ramp.cave
+	break
+	plan@flakey.cave
 	plan@hf-stream.cave
 endmap
 
@@ -238,8 +244,11 @@ map wip-map-plan -title "Work in Progress"
 	#plan@mf-stream.cave
 	#stream@lf-stream.cave
 	#canal@lf-stream.cave
-	#plan@pit.cave
+	plan@pit.cave
 	plan@pit2.cave
+	plan@spider.cave
+	break
+	spider-dig@pit.cave
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

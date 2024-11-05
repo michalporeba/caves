@@ -7,6 +7,7 @@ layout base-layout
     grid-size 10 10 10 m
     north true
     doc-author "Michal Poreba"
+    symbol-set BCRC
     symbol-hide group centreline
     symbol-hide point section
     symbol-hide line section
