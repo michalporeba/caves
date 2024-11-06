@@ -59,5 +59,7 @@ endlookup
 select wip-map-plan
 
 export model -fmt survex -o cave.3d
+export model -o cave.lox
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
 export map -proj plan -layout local -layout-debug station-names -o out/wip.pdf
+#export model -o cave.kml

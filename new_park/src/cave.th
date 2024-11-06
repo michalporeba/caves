@@ -87,6 +87,13 @@ map digs-and-sinks-map -title "Sinks and Surface Digs"
 	digs@doline.cave
 endmap
 
+map all-digs-and-sinks-map -title "Sinks and Surface Digs"
+	digs@doline.cave
+	brians-dig@doline.cave
+endmap
+
+
+
 map lower-stream-map -title "Stream"
 	ground@doline.cave
 	break
@@ -107,6 +114,18 @@ map middle-stream-map -title "Stream"
 	lower-middle-stream@doline.cave
 	middle-stream@doline.cave
 endmap 
+
+
+map upper-stream-map -title "Stream"
+	ground@doline.cave
+	break
+	lower-stream@doline.cave
+	lower-middle-stream@doline.cave
+	middle-stream@doline.cave
+	upper-stream@doline.cave
+endmap 
+
+
 
 map entrance-map -title "Entrance Series"
 	plan@entrance.cave
@@ -171,6 +190,10 @@ map canal-map -title "Canal"
 	canal@lf-stream.cave
 endmap
 
+map unsurveyed-extension-map -title "Unsurveyed Extensions"
+	unsurveyed@lf-stream.cave
+endmap
+
 map backroom-map -title "Back Room"
 	higher@backroom.cave
 	break
@@ -181,8 +204,8 @@ endmap
 
 map print-map
 
-	middle-stream-map
-	digs-and-sinks-map
+	upper-stream-map
+	all-digs-and-sinks-map
 	entrance-map
 
 	upper-main-map
@@ -194,8 +217,9 @@ map print-map
 	unexplored-avens-map
 	flakey-map
 	streamway-map
-	slot-machine-map [-10 -55 m] none
-	canal-map [-10 -55 m] none
+	slot-machine-map [-2 -60 m] none
+	canal-map [-2 -60 m] none
+	unsurveyed-extension-map [-2 -60 m] none
 
 endmap
 
@@ -207,6 +231,7 @@ map wip-map -title "Work in Progress"
 	
 	ee@hf-stream.cave
 	ee@mf-stream.cave
+	ee@lf-stream.cave
 	break
 	
 	ee@under-the-ramp.cave
@@ -220,6 +245,8 @@ map wip-map -title "Work in Progress"
 	ee@ramp.cave
 	break
 	ee@birthday.cave
+
+
 endmap
 
 map wip-map-plan-of-backroom -title "Work in Progress"
@@ -243,12 +270,16 @@ map wip-map-plan -title "Work in Progress"
 	#plan@hf-stream.cave
 	#plan@mf-stream.cave
 	#stream@lf-stream.cave
-	#canal@lf-stream.cave
-	plan@pit.cave
-	plan@pit2.cave
-	plan@spider.cave
-	break
-	spider-dig@pit.cave
+	canal@lf-stream.cave
+	unsurveyed@lf-stream.cave
+	#plan@pit.cave
+	#plan@pit2.cave
+	#plan@spider.cave
+	#break
+	#spider-dig@pit.cave
+	#plan@entrance.cave
+	#lower-stream@doline.cave
+	
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"

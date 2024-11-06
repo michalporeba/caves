@@ -406,9 +406,9 @@ line wall
   smooth off
 endline
 
-point 230.0 143.25 label -orientation 350.3 -text "Rob Sinks flow"
+point 230.0 143.25 label -orientation 350.3 -text "Rob's Sinks flow"
 
-point -169.0 292.5 label -orientation 348.0 -text "Marble Junction" -scale xl
+point -169.0 292.5 label -orientation 348.0 -text "Marble Junctions" -scale xl
 
 point -283.0 691.0 narrow-end
 

@@ -2,20 +2,22 @@ encoding  utf-8
 
 source src/cave.th
 
+input layouts.thconfig
+
 layout local
-    debug off
-    scale 1 50
-    map-header 7 16 nw
-    grid bottom
-    grid-size 10 10 10 m
-    north true
-    doc-author "Michal Poreba"
-    color map-bg [100 99 90]
-    color map-fg map
-    symbol-hide group centreline
-    symbol-hide point section
-    symbol-hide line section
-    page-setup 21 29.7 20 28.7 2 2 cm
+    map-header 8 3 sw
+endlayout
+
+layout local-yellow
+    copy base-layout
+    copy local
+    copy yellow
+endlayout
+
+layout local-white
+    copy base-layout
+    copy local
+    copy white
 endlayout
 
 lookup map
@@ -42,4 +44,5 @@ select unexplored-avens-map
 select flakey-map
 select streamway-map
 
-export map -proj plan -layout local -o out/new_park_stage_04_plan.pdf
+export map -proj plan -layout local-yellow -o out/new_park_stage_04_yellow.pdf
+export map -proj plan -layout local-white -o out/new_park_stage_04_white.pdf

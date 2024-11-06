@@ -34,3 +34,7 @@ stage05:
 all:
 	therion stage01.thconfig
 	therion stage02.thconfig
+	therion stage03.thconfig
+	therion stage04.thconfig
+	therion stage05.thconfig
+	therion print.thconfig

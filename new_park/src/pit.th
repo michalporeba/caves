@@ -92,9 +92,13 @@ input "pit.ee.th2"
 		
 		extend start 1
 		extend vertical 1 2
-		extend right 2 3
+		extend vertical 2 3
 		extend left 3 4
-		extend left 4
+		extend vertical 4 5
+		extend left 5 6
+		extend left 6 7 
+		extend left 7 8
+		extend left 8 9
 	endcentreline
 
 

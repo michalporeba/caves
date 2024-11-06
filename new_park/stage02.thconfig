@@ -9,13 +9,15 @@ layout local
 endlayout
 
 layout local-yellow
-    copy yellow
+    copy base-layout
     copy local
+    copy yellow
 endlayout
 
 layout local-white
-    copy white
+    copy base-layout
     copy local
+    copy white
 endlayout
 
 lookup map

@@ -1,8 +1,6 @@
 layout base-layout
     debug off
     scale 1 50
-    #map-header 7 16 nw
-    #map-header 0 0 off
     grid bottom
     grid-size 10 10 10 m
     north true
@@ -15,22 +13,18 @@ layout base-layout
 endlayout
 
 layout yellow
-    copy base-layout
     color map-bg [100 99 90]
     color map-fg map
 endlayout
 
 layout white
-    copy base-layout
-
     color map-bg [100 100 100]
     color map-fg [100 98 80]
     color map-fg map
+    map-header-bg on
 endlayout
 
 layout black 
-    copy base-layout
-    
     color map-bg [0 0 0]
     color map-fg map
 endlayout

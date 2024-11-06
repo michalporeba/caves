@@ -73,9 +73,15 @@ input "pit2.ee.th2"
 		flags not duplicate
 		9	6	2.621	242.22	-56.40		#  {from: 2.623 242.47 -56.40, 2.620 241.78 -56.37, 2.620 242.40 -56.44}
 		
-		extend start 1
-		extend ignore 6 9
-	
+		extend start 9
+		extend ignore 1 2
+		extend ignore 2 3
+		extend ignore 1 7
+		extend ignore 8 7
+		
+		
+		extend ignore 5 6
+		
 	endcentreline
 
 
