@@ -452,7 +452,7 @@ line rock-border -close on
   smooth off
 endline
 
-point 1163.0 404.0 label -orientation 3.2 -text "Holly's Hole" -scale l
+point 1163.0 404.0 label -orientation 3.2 -text "Holly's Sink" -scale l
 
 point 1014.0 -375.0 label -orientation 313.3 -text "Rob's Sinks" -scale l
 
