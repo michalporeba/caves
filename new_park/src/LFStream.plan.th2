@@ -763,10 +763,6 @@ point -417.25 3682.0 water-flow -orientation 344.5 -scale xl
 
 point -754.0 3831.5 water-flow -orientation 294.4 -scale xl
 
-area clay
-  l117--1444-4294
-endarea
-
 line wall -subtype unsurveyed
   -1669.75 4436.5
   -1669.75 4433.5 -1673.25 4425.25 -1673.25 4423.25

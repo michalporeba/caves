@@ -144,7 +144,7 @@ S   -27.04 unsurveyed@lf-stream.cave ()
 ########## end of export maps & scraps selection ###############
 writing out/wip.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  6 NOV 2024 15:52
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  7 NOV 2024 16:31
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -158,17 +158,17 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 
  
 Here is how much of MetaPost's memory you used:
- 10228 strings using 253260 characters
- 3761432 bytes of node memory
+ 10232 strings using 253729 characters
+ 3640216 bytes of node memory
  1688 symbolic tokens
- 11i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f33 output files written: data-patt.1 .. data.19
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f33 output files written: data-patt.1 .. data.19
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  6 NOV 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  7 NOV 2024 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,14 +182,14 @@ entering extended mode
 Here is how much of TeX's memory you used:
  289 strings out of 495845
  4053 string characters out of 6182321
- 129896 words of memory out of 5000000
+ 130222 words of memory out of 5000000
  1783 multiletter control sequences out of 15000+600000
  15392 words of font info for 52 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
  6i,5n,6p,270b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 
-Output written on data.pdf (1 page, 75718 bytes).
+Output written on data.pdf (1 page, 64729 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
