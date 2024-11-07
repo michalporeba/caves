@@ -80,6 +80,8 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 	input LFStream.th
 	equate 1@lf-stream 13@mf-stream
 
+	input Grade2Extension.th
+	equate 0@Grade2Extension 29@lf-stream
 endsurvey
 
 
@@ -196,7 +198,8 @@ map canal-map -title "Canal"
 endmap
 
 map unsurveyed-extension-map -title "Unsurveyed Extensions"
-	unsurveyed@lf-stream.cave
+	connection@Grade2Extension.cave
+	plan@Grade2Extension.cave
 endmap
 
 map backroom-map -title "Back Room"
@@ -295,7 +298,9 @@ map wip-map-plan -title "Work in Progress"
 	#plan@mf-stream.cave
 	#stream@lf-stream.cave
 	canal@lf-stream.cave
-	unsurveyed@lf-stream.cave
+	#unsurveyed@lf-stream.cave
+	connection@Grade2Extension.cave
+	plan@Grade2Extension.cave
 	#plan@pit.cave
 	#plan@pit2.cave
 	#plan@spider.cave

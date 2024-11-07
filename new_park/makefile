@@ -7,8 +7,11 @@ ee:
 	xdg-open out/wip.pdf
 
 print:
+	therion outline.thconfig
 	therion print.thconfig
-	xdg-open out/print.pdf
+	
+	cd src/print && pdflatex new_park.tex
+	xdg-open src/print/new_park.pdf
 
 stage01:
 	therion stage01.thconfig
@@ -38,3 +41,5 @@ all:
 	therion stage04.thconfig
 	therion stage05.thconfig
 	therion print.thconfig
+
+

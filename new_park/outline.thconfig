@@ -7,7 +7,7 @@ input layouts.thconfig
 layout local
     map-header 0 0 off
     surface-opacity 90
-    rotate 25
+    rotate 20
 endlayout
 
 layout local-yellow    
@@ -23,6 +23,7 @@ layout local-white
     scale 1 500
     base-scale 1 50
     color map-fg [0 0 0]
+    color map-fg map
     symbol-hide point label
     symbol-hide line map-connection
     symbol-hide point water-flow
@@ -47,15 +48,8 @@ layout altitude
 endlayout
 
 lookup map
-    upper-stream-map [90 90 100]
-    all-digs-and-sinks-map [100 70 70]
-    unexplored-avens-map [80 100 80]
-    backroom-map [80 100 80]
-    flakey-map [50 100 50]
-    streamway-map [20 60 20]
-    slot-machine-map [80 80 100]
-    canal-map [50 50 100]
-    unsurveyed-extension-map [100 100 100]
+    upper-stream-map [100 100 100]
+    unsurveyed-extension-map [80 80 80]
 endlookup
 
 select outline-map

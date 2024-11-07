@@ -4,7 +4,7 @@ initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: wip-plan.thconfig
+configuration file: outline.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -18,16 +18,16 @@ processing survey data ...
  1> Survex 1.4.11
  2> Copyright © 1990-2024 Olly Betts
  3> 
- 4> Survey contains 1715 survey stations, joined by 1717 legs.
+ 4> Survey contains 1729 survey stations, joined by 1731 legs.
  5> There are 3 loops.
- 6> Total length of survey legs =  272.90m ( 273.06m adjusted)
- 7> Total plan length of survey legs =  246.61m
+ 6> Total length of survey legs =  313.20m ( 313.36m adjusted)
+ 7> Total plan length of survey legs =  286.91m
  8> Total vertical length of survey legs =   80.36m
  9> Vertical range = 27.68m (from 268 at 0.00m to 1713 at -27.68m)
-10> North-South range = 93.92m (from 1713 at 93.92m to 268 at 0.00m)
-11> East-West range = 51.35m (from 1017 at 8.91m to 1686 at -42.44m)
-12> 1518 1-nodes.
-13>   33 2-nodes.
+10> North-South range = 122.52m (from 1728 at 122.52m to 268 at 0.00m)
+11> East-West range = 56.32m (from 1017 at 8.91m to 1728 at -47.41m)
+12> 1519 1-nodes.
+13>   46 2-nodes.
 14>   11 3-nodes.
 15>   12 4-nodes.
 16>   13 5-nodes.
@@ -36,8 +36,8 @@ processing survey data ...
 19>   13 8-nodes.
 20>    9 9-nodes.
 21>   10 10-nodes.
-22>   10 11-nodes.
-23>   11 12-nodes.
+22>    9 11-nodes.
+23>   12 12-nodes.
 24>   10 13-nodes.
 25>    9 14-nodes.
 26>    3 15-nodes.
@@ -60,13 +60,13 @@ processing survey data ...
 43>    1 42-node.
 44> 
 ######################### transcription ########################
- 4> 1715 : 24@rift.cave
+ 4> 1729 : 24@rift.cave
  5> 3 : -@doline.cave
  9> 268 : 0@entrance.cave -- 1713 : end@lf-stream.cave
-10> 1713 : end@lf-stream.cave -- 268 : 0@entrance.cave
-11> 1017 : -@pit.cave -- 1686 : -@lf-stream.cave
-12> 1518 : -@mf-stream.cave
-13> 33 : -@doline.cave
+10> 1728 : 12@Grade2Extension.cave -- 268 : 0@entrance.cave
+11> 1017 : -@pit.cave -- 1728 : 12@Grade2Extension.cave
+12> 1519 : -@mf-stream.cave
+13> 46 : -@doline.cave
 14> 11 : -@doline.cave
 15> 12 : -@doline.cave
 16> 13 : -@doline.cave
@@ -75,8 +75,8 @@ processing survey data ...
 19> 13 : -@doline.cave
 20> 9 : -@doline.cave
 21> 10 : -@doline.cave
-22> 10 : -@doline.cave
-23> 11 : -@doline.cave
+22> 9 : -@doline.cave
+23> 12 : -@doline.cave
 24> 10 : -@doline.cave
 25> 9 : -@doline.cave
 26> 3 : -@doline.cave
@@ -103,48 +103,58 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing cave.3d ... done
-writing cave.lox ...
 processing projection plan ... done
-average distortion: 0.42%
-.....
-therion: warning -- digs@doline.cave -- multiple scrap outer outlines not supported yet
-.....
-therion: warning -- plan@entrance.cave -- multiple scrap outer outlines not supported yet
-therion: warning -- plan@entrance.cave -- invalid scrap outline
-.
-therion: warning -- plan@homm.cave -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- plan@attic.cave -- multiple scrap outer outlines not supported yet
-therion: warning -- plan@attic.cave -- invalid scrap outline
-..
-therion: warning -- plan@top.cave -- multiple scrap outer outlines not supported yet
-..
-therion: warning -- plan@rift.cave -- multiple scrap outer outlines not supported yet
-.........
-therion: warning -- plan@backroom.cave -- multiple scrap outer outlines not supported yet
-....
-therion: warning -- plan@hf-stream.cave -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- avens@hf-stream.cave -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- plan@mf-stream.cave -- multiple scrap outer outlines not supported yet
-..
-therion: warning -- stream@lf-stream.cave -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- canal@lf-stream.cave -- multiple scrap outer outlines not supported yet
-. done
-writing out/wip.xvi ... done
+average distortion: 0.90%
 
 
 ############### export maps & scraps selection #################
-M   -26.43 wip-map-plan@ (Work in Progress)
+M   -14.89 outline-map@ ()
+M     0.21 lower-middle-stream-map@ (Stream)
+S    -0.06 ground@doline.cave ()
+S    -0.06 lower-stream@doline.cave ()
+S     0.75 lower-middle-stream@doline.cave ()
+M    -0.20 digs-and-sinks-map@ (Sinks and Surface Digs)
+S    -0.20 digs@doline.cave ()
+M    -5.15 entrance-map@ (Entrance Series)
+S    -5.15 plan@entrance.cave ()
+M   -10.17 upper-main-map@ (The Attic and Top Extension)
+S   -10.35 plan@attic.cave ()
+S    -9.99 plan@top.cave ()
+M   -14.68 middle-main-map@ (Hall of the Mountain Mole)
+S   -11.43 plan@homm.cave ()
+S   -12.53 plan@birthday.cave ()
+S   -15.99 plan@rift.cave ()
+S   -18.96 mini@rift.cave ()
+S   -16.42 plan@ramp.cave ()
+S   -12.77 plan@vasiley.cave ()
+M   -10.89 backroom-map@ (Back Room)
+S   -10.30 higher@backroom.cave ()
+S   -11.48 plan@backroom.cave ()
+M   -13.92 lower-main-map@ (The Pit Area)
+S   -13.97 plan@pit.cave ()
+S   -13.87 plan@pit2.cave ()
+M   -13.69 spider-dig-map@ (Inside Digs)
+S   -13.69 spider-dig@pit.cave ()
+M   -21.46 unexplored-avens-map@ (Unexplored Avens)
+S   -20.14 avens@hf-stream.cave ()
+S   -22.77 avens@mf-stream.cave ()
+M   -19.72 flakey-map@ (Flakey Passage)
+S   -20.07 plan@under-the-ramp.cave ()
+S   -18.19 plan@flakey.cave ()
+S   -20.91 plan@hf-stream.cave ()
+M   -22.51 streamway-map@ (Streamway)
+S   -22.51 plan@mf-stream.cave ()
+M   -24.03 slot-machine-map@ (Slot Machine)
+S   -24.03 stream@lf-stream.cave ()
+M   -25.82 canal-map@ (Canal)
 S   -25.82 canal@lf-stream.cave ()
-S   -27.04 unsurveyed@lf-stream.cave ()
+M   -26.40 unsurveyed-extension-map@ (Unsurveyed Extensions)
+S   -26.40 connection@Grade2Extension.cave ()
+S   -26.40 plan@Grade2Extension.cave ()
 ########## end of export maps & scraps selection ###############
-writing out/wip.pdf ...
+writing out/outline.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  7 NOV 2024 16:31
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  7 NOV 2024 23:53
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -152,23 +162,40 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5]
-[Warning: scrap outline intersects itself in scrap canal@lf-stream.cave] [6]
-[7] [8] [9] (./mptextmp.mp) [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] )
-
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[Warning: scrap outline intersects itself in scrap plan@rift.cave] [33] [34]
+[35] [36] [37] [38] [39]
+[Warning: scrap outline intersects itself in scrap plan@homm.cave] [40] [41]
+[42]
+[Warning: scrap outline intersects itself in scrap plan@backroom.cave] [43]
+[44] [45] [46] [47] [48] [49] [50] [51] [52]
+[Warning: scrap outline intersects itself in scrap plan@pit.cave]
+[Warning: scrap outline intersects itself in scrap plan@pit.cave] [53] [54]
+[55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+[70] [71]
+[Warning: scrap outline intersects itself in scrap plan@under-the-ramp.cave]
+[72] [73] [74] [75]
+[Warning: scrap outline intersects itself in scrap plan@mf-stream.cave] [76]
+[77] [78] [79]
+[Warning: scrap outline intersects itself in scrap stream@lf-stream.cave] [80]
+[81] [82] [83] [84] [85] [86] [87]
+[Warning: scrap outline intersects itself in scrap plan@Grade2Extension.cave]
+[88] [89] [90] [91] [92] [93] (./mptextmp.mp) [94] )
  
 Here is how much of MetaPost's memory you used:
- 10232 strings using 253729 characters
- 3640216 bytes of node memory
- 1688 symbolic tokens
- 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f33 output files written: data-patt.1 .. data.19
+ 45824 strings using 964062 characters
+ 3760440 bytes of node memory
+ 1886 symbolic tokens
+ 9i,82n,13p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+108 output files written: data-patt.1 .. data.94
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  7 NOV 2024 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.10.19)  7 NOV 2024 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -176,25 +203,27 @@ entering extended mode
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 71 numeric registers used out of 32768
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex) (./th_pages.tex)
+ 253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 289 strings out of 495845
- 4053 string characters out of 6182321
- 130222 words of memory out of 5000000
- 1783 multiletter control sequences out of 15000+600000
+ 495 strings out of 495845
+ 6690 string characters out of 6182321
+ 41012 words of memory out of 5000000
+ 1989 multiletter control sequences out of 15000+600000
  15392 words of font info for 52 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
- 6i,5n,6p,270b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 7i,5n,9p,270b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 
-Output written on data.pdf (1 page, 64729 bytes).
+Output written on data.pdf (1 page, 360931 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 522 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1529 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -214,7 +243,9 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
    4.60%   78.98%  plan@pit2.cave
+  26.25%   53.69%  connection@Grade2Extension.cave
    1.19%   45.15%  plan@rift.cave
+   2.81%   21.54%  plan@Grade2Extension.cave
    2.56%   18.75%  plan@pit.cave
    3.29%   11.65%  plan@homm.cave
    0.15%    5.43%  plan@backroom.cave

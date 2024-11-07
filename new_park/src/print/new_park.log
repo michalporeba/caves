@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  6 NOV 2024 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  7 NOV 2024 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,20 +223,20 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../out/outline.pdf, id=1, 225.67311pt x 843.54147pt>
+<../../out/outline.pdf, id=1, 225.67311pt x 952.6591pt>
 File: ../../out/outline.pdf Graphic file (type pdf)
 <use ../../out/outline.pdf>
 Package pdftex.def Info: ../../out/outline.pdf  used on input line 15.
-(pdftex.def)             Requested size: 452.17155pt x 1690.09369pt.
+(pdftex.def)             Requested size: 400.37457pt x 1690.09369pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
-<../../out/print.pdf, id=2, 2459.0069pt x 2462.93147pt>
+<../../out/print.pdf, id=2, 2459.0069pt x 3008.49974pt>
 File: ../../out/print.pdf Graphic file (type pdf)
 <use ../../out/print.pdf>
 Package pdftex.def Info: ../../out/print.pdf  used on input line 19.
-(pdftex.def)             Requested size: 1687.41133pt x 1690.09369pt.
+(pdftex.def)             Requested size: 1381.42451pt x 1690.09369pt.
 
 Overfull \hbox (17.2222pt too wide) in paragraph at lines 14--21
 []$[]$  $[]$ 
@@ -262,10 +262,10 @@ Here is how much of TeX's memory you used:
  725 hyphenation exceptions out of 8191
  72i,6n,79p,225b,206s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on new_park.pdf (1 page, 562748 bytes).
+Output written on new_park.pdf (1 page, 601845 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 673 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
