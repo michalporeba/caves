@@ -7,11 +7,11 @@ survey Grade2Extension
 input "Grade2Extension.th2"
 
 centreline
-    team "Gareth Davies"
-    team "Gareth Smith"
-    team "Antonia Freem"
-    team "Andy Freem"
-    team "Sarah Garlick"
+    #team "Gareth Davies"
+    #team "Gareth Smith"
+    #team "Antonia Freem"
+    #team "Andy Freem"
+    #team "Sarah Garlick"
 
     data normal from to length compass clino
 
@@ -23,8 +23,8 @@ centreline
     2   3   1.80    285 0
     3   4   3.80    15  0
     4   5   1.50    285 0
-    5   5'  0.75    15  0
-    5'  6   3.00    15  0
+    5   5'  1.00    15  0
+    5'  6   3.50    15  0
     6   7   2.75    60  0
     7   8   7.60    325 0
     8   9   2.00    310 0

@@ -1,0 +1,56 @@
+encoding  utf-8
+
+source src/cave.th
+
+input layouts.thconfig
+
+layout local
+    map-header 0 0 off
+    surface-opacity 90
+    #rotate 20
+endlayout
+
+layout local-yellow    
+    copy local
+    copy base-layout
+    copy yellow
+endlayout
+
+layout local-white
+    copy local
+    copy base-layout
+    copy white
+    scale 1 500
+    base-scale 1 50
+    color map-fg [0 0 0]
+    color map-fg map
+    symbol-hide point label
+    symbol-hide line map-connection
+    symbol-hide point water-flow
+    symbol-hide line water-flow
+endlayout
+
+layout altitude
+    debug off
+    scale 1 50
+    map-header 7 16 n
+    grid bottom
+    grid-size 20 20 20 m
+    north true
+    doc-author "Michal Poreba"
+    color map-bg [100 100 100]
+    color map-fg altitude
+    symbol-hide group centreline
+    symbol-hide point section
+    symbol-hide line section
+    #page-setup 21 29.7 20 28.7 2 2 cm
+endlayout
+
+lookup map
+    upper-stream-map [100 100 100]
+    unsurveyed-extension-map [80 80 80]
+endlookup
+
+select ee-map
+
+export map -proj extended -layout local-white -o out/outline-ee.pdf

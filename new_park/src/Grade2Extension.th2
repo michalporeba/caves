@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -2176 1664 128
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -128 -2576 1664 1000
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Grade2Extension.jpeg 0 {}
 
 
@@ -12,8 +12,6 @@ point 1043.0 -1870.0 station -name 3
 point 1155.5 -1906.5 station -name 2
 
 point 1127.0 -1994.0 station -name 1
-
-point 1329.0 -2101.0 station -name 0
 
 line wall -subtype unsurveyed
   1096.75 -1990.25
@@ -76,6 +74,7 @@ line wall -subtype unsurveyed
   1012.25 -1935.5 1013.0 -1951.75 1013.0 -1955.0
   1013.0 -1958.25 1011.75 -1968.0 1011.0 -1971.25
   1010.25 -1974.5 1009.5 -1978.0 1005.5 -1981.75
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -124,6 +123,7 @@ line wall -subtype unsurveyed
   983.5 -1604.0 988.75 -1605.75 992.75 -1608.0
   996.75 -1610.25 1003.5 -1612.5 1007.0 -1614.5
   1010.5 -1616.5 1024.25 -1623.25 1027.75 -1625.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed -outline none
@@ -178,6 +178,7 @@ line wall -subtype overlying
   981.75 -1790.75 986.25 -1795.0 986.5 -1805.75
   986.75 -1816.5 1007.0 -1829.5 1012.25 -1836.75
   1017.5 -1844.0 1020.0 -1848.25 1026.0 -1857.5
+  smooth off
 endline
 
 line wall -reverse on -subtype unsurveyed -visibility off
@@ -271,20 +272,9 @@ line wall -close on -subtype unsurveyed
   981.5 -404.75 975.0 -396.5 971.25 -403.5
 endline
 
-point 1132.5 -1117.5 label -orientation 23.2 -text "Foamy Ramp" -scale xl
+point 1132.5 -1117.5 label -orientation 18 -text "Foamy Ramp" -scale xl
 
-point 699.0 -175.25 label -orientation 21.6 -text "Red Chamber" -scale xl
-
-line pit
-  887.25 -365.75
-  887.5 -363.75 932.0 -248.0 932.0 -248.0
-  smooth off
-endline
-
-line pit
-  917.5 -241.75
-  875.5 -359.25
-endline
+point 1214.0 -1964.0 label -orientation 288.4 -text "Grade 2 from here" -scale xl
 
 line wall -visibility off
   953.0 -155.75
@@ -387,6 +377,10 @@ line wall -subtype unsurveyed
   1181.25 -1365.25 1164.5 -1370.5 1160.0 -1371.0
   smooth off
 endline
+
+point 1154.0 -1322.0 label -orientation 20.6 -text "Cockaleg" -scale l
+
+point 1068.0 -1472.0 label -orientation 20.6 -text "Spikey Land" -scale xl
 
 line wall -subtype unsurveyed
   817.0 -345.0
@@ -540,6 +534,20 @@ area water
   l56-1224--992
 endarea
 
+line map-connection
+  1065.0 -2029.0
+  1040.0 -2102.0
+  1208.0 -2102.0
+  1636.0 -884.0
+  1636.0 -884.0 1095.0 -686.0 1096.0 -690.0
+  1097.0 -694.0 1424.0 170.0 1424.0 170.0
+  smooth off
+  856.0 364.0
+  1108.0 956.0
+  1406.0 946.0
+  1372.0 852.0
+endline
+
 line contour -id l56-1224--992 -close on
   1205.75 -982.75
   1185.25 -980.5 1161.5 -976.0 1157.0 -974.0
@@ -568,7 +576,9 @@ endline
 
 point 1097.5 -1642.75 water-flow -orientation 288.7 -scale l
 
-point 927.0 -219.25 water-flow -orientation 19.6 -scale l
+point 902.0 -298.0 label -orientation 52.3 -text "area of faulting" -scale xl
+
+point 939.0 -223.25 water-flow -orientation 294.7 -scale xl
 
 endscrap
 

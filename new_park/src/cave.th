@@ -197,7 +197,7 @@ map canal-map -title "Canal"
 	canal@lf-stream.cave
 endmap
 
-map unsurveyed-extension-map -title "Unsurveyed Extensions"
+map unsurveyed-extension-map -title "Grade 2 Extension"
 	connection@Grade2Extension.cave
 	plan@Grade2Extension.cave
 endmap
@@ -227,7 +227,7 @@ map print-map
 	streamway-map
 	slot-machine-map [-2 -60 m] none
 	canal-map [-2 -60 m] none
-	unsurveyed-extension-map [-2 -60 m] none
+	unsurveyed-extension-map [-6 -105 m] none
 
 endmap
 
@@ -251,6 +251,30 @@ map outline-map
 	unsurveyed-extension-map
 endmap
 
+map ee-map -title "Work in Progress"
+	ee@doline.cave
+	break
+	ee@flakey.cave
+	
+	ee@hf-stream.cave
+	ee@mf-stream.cave
+	ee@lf-stream.cave
+	extension-ee@lf-stream.cave
+	break
+	
+	ee@under-the-ramp.cave
+	break
+	
+	ee@entrance.cave
+	ee@homm.cave
+	#ee@pit.cave
+	#ee@pit2.cave
+	ee@rift.cave
+	ee@ramp.cave
+	break
+	ee@birthday.cave
+endmap
+
 map wip-map -title "Work in Progress"
 	ee@doline.cave
 	break
@@ -272,8 +296,6 @@ map wip-map -title "Work in Progress"
 	ee@ramp.cave
 	break
 	ee@birthday.cave
-
-
 endmap
 
 map wip-map-plan-of-backroom -title "Work in Progress"

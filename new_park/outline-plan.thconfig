@@ -54,4 +54,4 @@ endlookup
 
 select outline-map
 
-export map -proj plan -layout local-white -o out/outline.pdf
+export map -proj plan -layout local-white -o out/outline-plan.pdf

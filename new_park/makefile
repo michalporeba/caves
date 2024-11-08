@@ -7,31 +7,32 @@ ee:
 	xdg-open out/wip.pdf
 
 print:
-	therion outline.thconfig
+	therion outline-plan.thconfig
+	therion outline-ee.thconfig
 	therion print.thconfig
 	
-	cd src/print && pdflatex new_park.tex
-	xdg-open src/print/new_park.pdf
+	cd src/print && pdflatex -output-directory=../../out/ print_with_outlines.tex
+	xdg-open out/print_with_outlines.pdf
 
 stage01:
 	therion stage01.thconfig
-	xdg-open out/new_park_stage_01_plan.pdf
+	xdg-open out/new_park_stage_01_yellow.pdf
 
 stage02:
 	therion stage02.thconfig
-	xdg-open out/new_park_stage_02_plan.pdf
+	xdg-open out/new_park_stage_02_yellow.pdf
 
 stage03:
 	therion stage03.thconfig
-	xdg-open out/new_park_stage_03_plan.pdf
+	xdg-open out/new_park_stage_03_yellow.pdf
 
 stage04:
 	therion stage04.thconfig
-	xdg-open out/new_park_stage_04_plan.pdf
+	xdg-open out/new_park_stage_04_yellow.pdf
 
 stage05:
 	therion stage05.thconfig
-	xdg-open out/new_park_stage_05_plan.pdf
+	xdg-open out/new_park_stage_05_yellow.pdf
 
 
 all:

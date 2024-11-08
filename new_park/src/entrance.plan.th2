@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap plan -projection plan -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
+scrap plan -projection plan -author 2024.11.08 "Michal Poreba" -copyright 2024 "Cartographers, Surveyors (data)" -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
 
 line rock-edge
   133.75 571.25

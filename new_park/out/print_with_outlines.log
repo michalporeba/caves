@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  8 NOV 2024 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  8 NOV 2024 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**new_park.tex
-(./new_park.tex
+**print_with_outlines.tex
+(./print_with_outlines.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -137,8 +137,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [a1paper].
 
-(./new_park.aux)
-\openout1 = `new_park.aux'.
+(../../out//print_with_outlines.aux)
+\openout1 = `print_with_outlines.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -223,55 +223,32 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../out/outline-plan.pdf, id=1, 240.80966pt x 951.17357pt>
+<../../out/outline-plan.pdf, id=1, 240.80966pt x 955.04803pt>
 File: ../../out/outline-plan.pdf Graphic file (type pdf)
 <use ../../out/outline-plan.pdf>
-Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 15.
-(pdftex.def)             Requested size: 413.49373pt x 1633.1882pt.
+Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 16.
+(pdftex.def)             Requested size: 411.81818pt x 1633.1882pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
-<../../out/print-straight.pdf, id=2, 2726.23523pt x 2047.3188pt>
+(Font)              <5> on input line 17.
+<../../out/print-straight.pdf, id=2, 2720.57394pt x 2047.3188pt>
 File: ../../out/print-straight.pdf Graphic file (type pdf)
 <use ../../out/print-straight.pdf>
-Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 19.
-(pdftex.def)             Requested size: 1739.87596pt x 1306.55554pt.
-<../../out/outline-ee.pdf, id=3, 1037.215pt x 341.42555pt>
+Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 21.
+(pdftex.def)             Requested size: 1736.26294pt x 1306.55554pt.
+<../../out/outline-ee.pdf, id=3, 1058.91606pt x 341.42555pt>
 File: ../../out/outline-ee.pdf Graphic file (type pdf)
 <use ../../out/outline-ee.pdf>
-Package pdftex.def Info: ../../out/outline-ee.pdf  used on input line 20.
-(pdftex.def)             Requested size: 1751.11903pt x 326.63264pt.
+Package pdftex.def Info: ../../out/outline-ee.pdf  used on input line 26.
+(pdftex.def)             Requested size: 1608.93901pt x 293.96191pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-[][]
+Overfull \hbox (44.90134pt too wide) in paragraph at lines 20--28
+|  $[]$ 
  []
 
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 14--22
-[]$[]$  $[]$ 
- []
-
-File: ../../out/outline-plan.pdf Graphic file (type pdf)
-<use ../../out/outline-plan.pdf>
-Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 25.
-(pdftex.def)             Requested size: 413.49373pt x 1633.1882pt.
-<../../out/print-rotated.pdf, id=5, 2867.61328pt x 2085.16025pt>
-File: ../../out/print-rotated.pdf Graphic file (type pdf)
-<use ../../out/print-rotated.pdf>
-Package pdftex.def Info: ../../out/print-rotated.pdf  used on input line 29.
-(pdftex.def)             Requested size: 1796.84834pt x 1306.55554pt.
-File: ../../out/outline-ee.pdf Graphic file (type pdf)
-<use ../../out/outline-ee.pdf>
-Package pdftex.def Info: ../../out/outline-ee.pdf  used on input line 30.
-(pdftex.def)             Requested size: 1751.11903pt x 326.63264pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-[][]
- []
-
-
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 24--32
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 14--29
 []$[]$  $[]$ 
  []
 
@@ -281,26 +258,25 @@ Overfull \hbox (17.2222pt too wide) in paragraph at lines 24--32
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../out/outline-plan.pdf
 > <../../out/print-straight.pdf> <../../out/outline-ee.pdf>]
-
-[2 <../../out/print-rotated.pdf>] (./new_park.aux)
+(../../out//print_with_outlines.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3218 strings out of 474384
- 52169 string characters out of 5754584
+ 3212 strings out of 474384
+ 52113 string characters out of 5754584
  1927905 words of memory out of 5000000
- 26040 multiletter control sequences out of 15000+600000
+ 26033 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
- 72i,7n,79p,225b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,236b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on new_park.pdf (2 pages, 1007160 bytes).
+Output written on ../../out//print_with_outlines.pdf (1 page, 636610 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 576 compressed objects within 6 object streams
+ 769 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
 

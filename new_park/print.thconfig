@@ -5,19 +5,21 @@ source src/cave.th
 input layouts.thconfig
 
 layout local
-    map-header 80 6 sw
-    rotate 25
+    map-header 83 6 sw
+    map-comment "Grade 6d, 2a (draft version - 2024-11-08)"
 endlayout
 
-layout local-yellow    
+layout local-straight
     copy local
     copy base-layout
-    copy yellow
-    scale 1 200
+    copy white
+    scale 1 100
+    base-scale 1 50
 endlayout
 
-layout local-white
+layout local-rotated
     copy local
+    rotate 15
     copy base-layout
     copy white
     scale 1 100
@@ -48,10 +50,12 @@ lookup map
     flakey-map [50 100 50]
     full-streamway-map [20 60 20]
     canal-map [50 50 100]
-    unsurveyed-extension-map [100 100 100]
+    unsurveyed-extension-map [80 80 80]
 endlookup
 
 select print-map
 
-export map -proj plan -layout local-white -o out/print.pdf
+export map -proj plan -layout local-straight -o out/print-straight.pdf
+export map -proj plan -layout local-rotated -o out/print-rotated.pdf
+
 export map -proj plan -layout altitude -o out/altitude_print.pdf
