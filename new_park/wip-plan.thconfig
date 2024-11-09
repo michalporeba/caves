@@ -20,6 +20,7 @@ layout local
     symbol-show line survey
     symbol-show group cave-centreline
     symbol-hide point section
+    symbol-hide line map-connection
     symbol-hide area water
 endlayout
 

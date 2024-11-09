@@ -197,9 +197,23 @@ map canal-map -title "Canal"
 	canal@lf-stream.cave
 endmap
 
-map unsurveyed-extension-map -title "Grade 2 Extension"
+map connection-map -title "Don't Show"
 	connection@Grade2Extension.cave
+endmap 
+
+
+map canal-and-connection-map -title "Canal"
+	canal-map
+	connection-map
+endmap
+
+map unsurveyed-extension-map -title "Grade 2 Extension"
 	plan@Grade2Extension.cave
+endmap
+
+map connection-and-extension-map -title "Grade 2 Extension"
+	connection-map
+	unsurveyed-extension-map [-4 -50 m] none
 endmap
 
 map backroom-map -title "Back Room"
@@ -227,7 +241,7 @@ map print-map
 	streamway-map
 	slot-machine-map [-2 -60 m] none
 	canal-map [-2 -60 m] none
-	unsurveyed-extension-map [-6 -105 m] none
+	connection-and-extension-map [-2 -60 m] none
 
 endmap
 
@@ -248,7 +262,7 @@ map outline-map
 	streamway-map
 	slot-machine-map
 	canal-map
-	unsurveyed-extension-map
+	connection-and-extension-map
 endmap
 
 map ee-map -title "Work in Progress"

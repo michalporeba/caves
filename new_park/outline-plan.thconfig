@@ -49,7 +49,7 @@ endlayout
 
 lookup map
     upper-stream-map [100 100 100]
-    unsurveyed-extension-map [80 80 80]
+    connection-and-extension-map [80 80 80]
 endlookup
 
 select outline-map

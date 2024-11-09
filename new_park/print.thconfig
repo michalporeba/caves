@@ -50,7 +50,7 @@ lookup map
     flakey-map [50 100 50]
     full-streamway-map [20 60 20]
     canal-map [50 50 100]
-    unsurveyed-extension-map [80 80 80]
+    connection-and-extension-map [80 80 80]
 endlookup
 
 select print-map
