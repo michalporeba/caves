@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  9 NOV 2024 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  9 NOV 2024 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,20 +140,20 @@ LaTeX Warning: Unused global option(s):
 (../../out//print_with_outlines.aux)
 \openout1 = `print_with_outlines.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -223,46 +223,41 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../out/outline-plan.pdf, id=1, 351.22217pt x 792.41045pt>
+<../../out/outline-plan.pdf, id=1, 240.80966pt x 960.0367pt>
 File: ../../out/outline-plan.pdf Graphic file (type pdf)
 <use ../../out/outline-plan.pdf>
-Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 10.
-(pdftex.def)             Requested size: 723.91159pt x 1633.1882pt.
-
-Overfull \hbox (287.39943pt too wide) in paragraph at lines 9--11
-[]|  [] 
- []
-
+Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 20.
+(pdftex.def)             Requested size: 409.6723pt x 1633.1882pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
+(Font)              <5> on input line 21.
 <../../out/print-straight.pdf, id=2, 2762.7214pt x 2047.3188pt>
 File: ../../out/print-straight.pdf Graphic file (type pdf)
 <use ../../out/print-straight.pdf>
-Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 15.
+Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 25.
 (pdftex.def)             Requested size: 1763.16135pt x 1306.55554pt.
 <../../out/outline-ee.pdf, id=3, 1058.91606pt x 341.42555pt>
 File: ../../out/outline-ee.pdf Graphic file (type pdf)
 <use ../../out/outline-ee.pdf>
-Package pdftex.def Info: ../../out/outline-ee.pdf  used on input line 20.
+Package pdftex.def Info: ../../out/outline-ee.pdf  used on input line 30.
 (pdftex.def)             Requested size: 1608.93901pt x 293.96191pt.
 
-Overfull \hbox (44.90134pt too wide) in paragraph at lines 14--22
+Overfull \hbox (44.90134pt too wide) in paragraph at lines 24--32
 |  $[]$ 
  []
 
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 8--23
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 18--33
 []$[]$  $[]$ 
  []
 
 
 
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../out/outline-plan.pdf
-> <../../out/print-straight.pdf> <../../out/outline-ee.pdf>]
+ <../../out/outline-plan.pdf> <../../out/print-straight.pdf> <../../out/outline
+-ee.pdf>]
 (../../out//print_with_outlines.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -270,18 +265,19 @@ L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3212 strings out of 474384
- 52113 string characters out of 5754584
+ 3216 strings out of 474384
+ 52159 string characters out of 5754584
  1927905 words of memory out of 5000000
- 26033 multiletter control sequences out of 15000+600000
- 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 26035 multiletter control sequences out of 15000+600000
+ 558675 words of font info for 38 fonts, out of 8000000 for 9000
  725 hyphenation exceptions out of 8191
- 72i,9n,79p,236b,269s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ../../out//print_with_outlines.pdf (1 page, 649612 bytes).
+ 72i,9n,79p,236b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on ../../out//print_with_outlines.pdf (1 page, 658799 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 390 compressed objects within 4 object streams
+ 778 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  22 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,17 @@
 
 \usepackage[margin=1cm]{geometry}
 
+\usepackage{eso-pic}
+
 \begin{document}
+
+% Add the overlaying text
+\AddToShipoutPictureBG*{
+  \put(0,0){\parbox[b][\paperheight]{\paperwidth}{%
+    \Huge\bfseries Your Text Here
+    \vspace*{20cm}
+  }}%
+}
 
 \begin{minipage}{0.2\textwidth}
     \hspace*{1cm}

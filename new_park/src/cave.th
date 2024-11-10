@@ -211,6 +211,11 @@ map unsurveyed-extension-map -title "Grade 2 Extension"
 	plan@Grade2Extension.cave
 endmap
 
+map inline-connection-and-extension-map -title "Grade 2 Extension"
+	connection-map
+	unsurveyed-extension-map
+endmap
+
 map connection-and-extension-map -title "Grade 2 Extension"
 	connection-map
 	unsurveyed-extension-map [-4 -50 m] none
@@ -262,7 +267,7 @@ map outline-map
 	streamway-map
 	slot-machine-map
 	canal-map
-	connection-and-extension-map
+	inline-connection-and-extension-map
 endmap
 
 map ee-map -title "Work in Progress"
