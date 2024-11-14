@@ -270,9 +270,11 @@ input "doline.ee.th2"
 	
 		flags not surface
 
-		#cs OSGB:SS
+		cs OSGB:SS
 		station 3 fixed
-		#fix 3 249226 191453 0
+		#fix 3 49219 91449 0
+		fix 3 49223 91450 0
+
 		extend start 1
 	
 	endcentreline

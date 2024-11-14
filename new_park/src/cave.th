@@ -352,6 +352,15 @@ map wip-map-plan -title "Work in Progress"
 	
 endmap
 
+map ontheground-map
+	upper-stream-map
+	full-streamway-map
+	digs-and-sinks-map
+	entrance-map
+
+	upper-main-map
+endmap
+
 map dig-map -title "Ogof New Park (2024-07-14)"
 	entrance-map #[-5 0 m] above
 endmap 
