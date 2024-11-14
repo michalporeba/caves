@@ -354,11 +354,9 @@ endmap
 
 map ontheground-map
 	upper-stream-map
-	full-streamway-map
 	digs-and-sinks-map
-	entrance-map
-
-	upper-main-map
+	
+	outline-map
 endmap
 
 map dig-map -title "Ogof New Park (2024-07-14)"
