@@ -46,23 +46,28 @@ layout xvi_export
 endlayout
 
 lookup scrap
-    under-the-attic@attic.cave [80 100 80] "under-the-attic"
-    plan@vasiley.cave [80 0 0] "vasiley"
-    plan@backroom.cave [80 60 60]
-    higher@backroom.cave [60 60 80]
-    plan@entrance.cave [80 100 80]
-    plan@top.cave [80 100 80]
-    plan@homm.cave [60 80 60]
-    plan@pit.cave [40 60 40]
-    avens@hf-stream.cave [100 90 90]
-    avens@mf-stream.cave [100 90 90]
+    under-the-attic@attic.onp [80 100 80] "under-the-attic"
+    plan@vasiley.onp [80 0 0] "vasiley"
+    plan@backroom.onp [80 60 60]
+    higher@backroom.onp [60 60 80]
+    plan@entrance.onp [80 100 80]
+    plan@top.onp [80 100 80]
+    plan@homm.onp [60 80 60]
+    plan@pit.onp [40 60 40]
+    avens@hf-stream.onp [100 90 90]
+    avens@mf-stream.onp [100 90 90]
+    connection@Grade2Extension2.onp [80 100 80]
+    plan2-1@Grade2Extension2.onp [80 100 80]
+    plan2-2@Grade2Extension2.onp [80 100 80]
 endlookup
 
-select ontheground-map
+select wip-map-plan
 
-export model -fmt survex -o cave.3d
-export model -o cave.lox
+#export model -fmt survex -o onp.3d
+#export model -o onp.lox
+
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
 export map -proj plan -layout local -layout-debug station-names -o out/wip.pdf
-export model -o model.kml
-export map -o map.kml
+
+export model -o onp_model.kml
+export map -o onp_outline.kml

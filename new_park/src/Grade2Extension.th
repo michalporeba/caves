@@ -7,11 +7,10 @@ survey Grade2Extension
 input "Grade2Extension.th2"
 
 centreline
-    #team "Gareth Davies"
-    #team "Gareth Smith"
-    #team "Antonia Freem"
-    #team "Andy Freem"
-    #team "Sarah Garlick"
+    date 2024.11.07
+    team "Gareth Smith"
+    team "Antonia Freem"
+    team "Sarah Garlick"
 
     data normal from to length compass clino
 

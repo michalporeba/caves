@@ -3,7 +3,7 @@
 encoding utf-8
 # created with SexyTopo 1.8.2
 
-survey cave -title "Ogof New Park" -entrance 0@entrance
+survey onp -title "Ogof New Park" -entrance 0@entrance
 
 	input "doline.th"
 	equate 1@doline 1@entrance
@@ -82,55 +82,58 @@ survey cave -title "Ogof New Park" -entrance 0@entrance
 
 	input Grade2Extension.th
 	equate 0@Grade2Extension 29@lf-stream
+
+	input Grade2Extension.2.th
+	equate 0@Grade2Extension2 29@lf-stream
 endsurvey
 
 
 map digs-and-sinks-map -title "Sinks and Surface Digs"
-	digs@doline.cave
+	digs@doline.onp
 endmap
 
 map all-digs-and-sinks-map -title "Sinks and Surface Digs"
-	digs@doline.cave
-	brians-dig@doline.cave
+	digs@doline.onp
+	brians-dig@doline.onp
 endmap
 
 
 
 map lower-stream-map -title "Stream"
-	ground@doline.cave
+	ground@doline.onp
 	break
-	lower-stream@doline.cave
+	lower-stream@doline.onp
 endmap
 
 map lower-middle-stream-map -title "Stream"
-	ground@doline.cave
+	ground@doline.onp
 	break
-	lower-stream@doline.cave
-	lower-middle-stream@doline.cave
+	lower-stream@doline.onp
+	lower-middle-stream@doline.onp
 endmap 
 
 map middle-stream-map -title "Stream"
-	ground@doline.cave
+	ground@doline.onp
 	break
-	lower-stream@doline.cave
-	lower-middle-stream@doline.cave
-	middle-stream@doline.cave
+	lower-stream@doline.onp
+	lower-middle-stream@doline.onp
+	middle-stream@doline.onp
 endmap 
 
 
 map upper-stream-map -title "Stream"
-	ground@doline.cave
+	ground@doline.onp
 	break
-	lower-stream@doline.cave
-	lower-middle-stream@doline.cave
-	middle-stream@doline.cave
-	upper-stream@doline.cave
+	lower-stream@doline.onp
+	lower-middle-stream@doline.onp
+	middle-stream@doline.onp
+	upper-stream@doline.onp
 endmap 
 
 
 
 map entrance-map -title "Entrance Series"
-	plan@entrance.cave
+	plan@entrance.onp
 endmap 
 
 map offset-entrance
@@ -138,67 +141,67 @@ map offset-entrance
 endmap
 
 map upper-main-map -title "The Attic and Top Extension"
-	plan@attic.cave
-	plan@top.cave
+	plan@attic.onp
+	plan@top.onp
 endmap 
 
 map middle-main-map -title "Hall of the Mountain Mole"
-	plan@homm.cave
-	plan@birthday.cave
+	plan@homm.onp
+	plan@birthday.onp
 	break
-	plan@rift.cave
-	mini@rift.cave
-	plan@ramp.cave
+	plan@rift.onp
+	mini@rift.onp
+	plan@ramp.onp
 	break
-	plan@vasiley.cave
+	plan@vasiley.onp
 endmap
 
 map lower-main-map -title "The Pit Area"
-	plan@pit.cave
-	plan@pit2.cave
+	plan@pit.onp
+	plan@pit2.onp
 endmap
 
 map homm-digs-map -title "Inside Digs"
-	plan@flake.cave
-	#spider-dig@pit.cave
-	plan@spider.cave
+	plan@flake.onp
+	#spider-dig@pit.onp
+	plan@spider.onp
 endmap
 
 map spider-dig-map -title "Inside Digs"
-	spider-dig@pit.cave
+	spider-dig@pit.onp
 endmap
 
 map unexplored-avens-map -title "Unexplored Avens"
-	avens@hf-stream.cave
-	avens@mf-stream.cave
+	avens@hf-stream.onp
+	avens@mf-stream.onp
 endmap
 
 map flakey-map -title "Flakey Passage"
-	plan@under-the-ramp.cave
+	plan@under-the-ramp.onp
 	break
-	plan@flakey.cave
-	plan@hf-stream.cave
+	plan@flakey.onp
+	plan@hf-stream.onp
 endmap
 
 map streamway-map -title "Streamway"
-	plan@mf-stream.cave
+	plan@mf-stream.onp
 endmap
 
 map full-streamway-map -title "Streamway"
-	plan@mf-stream.cave
-	stream@lf-stream.cave
+	plan@mf-stream.onp
+	stream@lf-stream.onp
 endmap
 
 map slot-machine-map -title "Slot Machine"
-	stream@lf-stream.cave
+	stream@lf-stream.onp
 endmap
 
 map canal-map -title "Canal"
-	canal@lf-stream.cave
+	canal@lf-stream.onp
 endmap
 
 map connection-map -title "Don't Show"
-	connection@Grade2Extension.cave
+	connection@Grade2Extension2.onp
 endmap 
 
 
@@ -208,7 +211,8 @@ map canal-and-connection-map -title "Canal"
 endmap
 
 map unsurveyed-extension-map -title "Grade 2 Extension"
-	plan@Grade2Extension.cave
+	plan2-1@Grade2Extension2.onp
+	plan2-2@Grade2Extension2.onp
 endmap
 
 map inline-connection-and-extension-map -title "Grade 2 Extension"
@@ -222,9 +226,9 @@ map connection-and-extension-map -title "Grade 2 Extension"
 endmap
 
 map backroom-map -title "Back Room"
-	higher@backroom.cave
+	higher@backroom.onp
 	break
-	plan@backroom.cave
+	plan@backroom.onp
 endmap
 
 
@@ -271,90 +275,99 @@ map outline-map
 endmap
 
 map ee-map -title "Work in Progress"
-	ee@doline.cave
+	ee@doline.onp
 	break
-	ee@flakey.cave
+	ee@flakey.onp
 	
-	ee@hf-stream.cave
-	ee@mf-stream.cave
-	ee@lf-stream.cave
-	extension-ee@lf-stream.cave
-	break
-	
-	ee@under-the-ramp.cave
+	ee@hf-stream.onp
+	ee@mf-stream.onp
+	ee@lf-stream.onp
+	extension-ee@lf-stream.onp
 	break
 	
-	ee@entrance.cave
-	ee@homm.cave
-	#ee@pit.cave
-	#ee@pit2.cave
-	ee@rift.cave
-	ee@ramp.cave
+	ee@under-the-ramp.onp
 	break
-	ee@birthday.cave
+	
+	ee@entrance.onp
+	ee@homm.onp
+	#ee@pit.onp
+	#ee@pit2.onp
+	ee@rift.onp
+	ee@ramp.onp
+	break
+	ee@birthday.onp
 endmap
 
 map wip-map -title "Work in Progress"
-	ee@doline.cave
+	ee@doline.onp
 	break
-	ee@flakey.cave
+	ee@flakey.onp
 	
-	ee@hf-stream.cave
-	ee@mf-stream.cave
-	ee@lf-stream.cave
-	break
-	
-	ee@under-the-ramp.cave
+	ee@hf-stream.onp
+	ee@mf-stream.onp
+	ee@lf-stream.onp
 	break
 	
-	ee@entrance.cave
-	ee@homm.cave
-	#ee@pit.cave
-	#ee@pit2.cave
-	ee@rift.cave
-	ee@ramp.cave
+	ee@under-the-ramp.onp
 	break
-	ee@birthday.cave
+	
+	ee@entrance.onp
+	ee@homm.onp
+	#ee@pit.onp
+	#ee@pit2.onp
+	ee@rift.onp
+	ee@ramp.onp
+	break
+	ee@birthday.onp
 endmap
 
 map wip-map-plan-of-backroom -title "Work in Progress"
-	plan@attic.cave
-	plan@entrance.cave
-	plan@top.cave
+	plan@attic.onp
+	plan@entrance.onp
+	plan@top.onp
 	break
-	plan@homm.cave
+	plan@homm.onp
 	break
-	higher@backroom.cave
+	higher@backroom.onp
 	break
-	plan@backroom.cave
+	plan@backroom.onp
 	break
-	plan@pit.cave
+	plan@pit.onp
 endmap
 
 map wip-map-plan -title "Work in Progress"
-	#avens@hf-stream.cave
-	#avens@mf-stream.cave
+	#avens@hf-stream.onp
+	#avens@mf-stream.onp
 	break
-	#plan@hf-stream.cave
-	#plan@mf-stream.cave
-	#stream@lf-stream.cave
-	canal@lf-stream.cave
-	#unsurveyed@lf-stream.cave
-	connection@Grade2Extension.cave
-	plan@Grade2Extension.cave
-	#plan@pit.cave
-	#plan@pit2.cave
-	#plan@spider.cave
+	#plan@hf-stream.onp
+	#plan@mf-stream.onp
+	#stream@lf-stream.onp
+	
+	canal@lf-stream.onp
+	#unsurveyed@lf-stream.onp
+	
+	connection@Grade2Extension2.onp
+	plan2-1@Grade2Extension2.onp
+	plan2-2@Grade2Extension2.onp
+	break
+
+	connection@Grade2Extension.onp
+	plan@Grade2Extension.onp
+	
+
+	#plan@pit.onp
+	#plan@pit2.onp
+	#plan@spider.onp
 	#break
-	#spider-dig@pit.cave
-	#plan@entrance.cave
+	#spider-dig@pit.onp
+	#plan@entrance.onp
 	#lower-stream@doline.cave
 	
 endmap
 
 map ontheground-map
 	upper-stream-map
-	digs-and-sinks-map
+	all-digs-and-sinks-map
 	
 	outline-map
 endmap

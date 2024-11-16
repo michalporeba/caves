@@ -43,18 +43,18 @@ layout xvi_export
 endlayout
 
 lookup scrap
-    spider-dig@pit.cave [80 0 0] "spider dig area"
-    plan@flake.cave [0 80 0] "flake rift"
-    plan@ramp.cave [80 80 80] "lower grade"
-    plan@birthday.cave [80 80 80] "lower grade"
-    plan@pit2.cave [0 0 80]
-    plan@homm.cave [20 40 80]
+    spider-dig@pit.onp [80 0 0] "spider dig area"
+    plan@flake.onp [0 80 0] "flake rift"
+    plan@ramp.onp [80 80 80] "lower grade"
+    plan@birthday.onp [80 80 80] "lower grade"
+    plan@pit2.onp [0 0 80]
+    plan@homm.onp [20 40 80]
 endlookup
 
 select wip-map 
 #select pit-map 
 
-export model -fmt survex -o cave.3d
+export model -fmt survex -o onp.3d
 export map -fmt xvi -layout xvi_export -o out/plan.xvi
 export map -proj extended -fmt xvi -o out/elevation.xvi
 export map -proj plan -o out/standard_plan.pdf

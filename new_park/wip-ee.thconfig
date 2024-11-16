@@ -18,7 +18,7 @@ layout local
     symbol-hide group centreline
     symbol-show group all
     symbol-show line survey
-    symbol-show group cave-centreline
+    symbol-show group onp-centreline
     symbol-hide point section
 endlayout
 
@@ -37,21 +37,21 @@ layout coloured
     #symbol-hide group centreline
     symbol-show group all
     symbol-show line survey
-    symbol-show group cave-centreline
+    symbol-show group onp-centreline
 endlayout
 
 layout xvi_export
 endlayout
 
 lookup scrap
-    under-the-attic@attic.cave [80 100 80] "under-the-attic"
-    plan@vasiley.cave [80 0 0] "vasiley"
+    under-the-attic@attic.onp [80 100 80] "under-the-attic"
+    plan@vasiley.onp [80 0 0] "vasiley"
 endlookup
 
 select wip-map
 
 log extend
 
-export model -fmt survex -o cave.3d
+export model -fmt survex -o onp.3d
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
 export map -proj extended -layout local -layout-debug station-names -o out/wip.pdf
