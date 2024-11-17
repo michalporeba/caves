@@ -3,6 +3,10 @@
 encoding utf-8
 # created with SexyTopo 1.8.2
 
+#survey FreedownSink
+
+#endsurvey
+
 survey onp -title "Ogof New Park" -entrance 0@entrance
 
 	input "doline.th"
@@ -343,16 +347,16 @@ map wip-map-plan -title "Work in Progress"
 	#plan@mf-stream.onp
 	#stream@lf-stream.onp
 	
-	canal@lf-stream.onp
+	#canal@lf-stream.onp
 	#unsurveyed@lf-stream.onp
 	
-	connection@Grade2Extension2.onp
-	plan2-1@Grade2Extension2.onp
-	plan2-2@Grade2Extension2.onp
+	#connection@Grade2Extension2.onp
+	#plan2-1@Grade2Extension2.onp
+	#plan2-2@Grade2Extension2.onp
 	break
 
-	connection@Grade2Extension.onp
-	plan@Grade2Extension.onp
+	#connection@Grade2Extension.onp
+	#plan@Grade2Extension.onp
 	
 
 	#plan@pit.onp
@@ -360,8 +364,8 @@ map wip-map-plan -title "Work in Progress"
 	#plan@spider.onp
 	#break
 	#spider-dig@pit.onp
-	#plan@entrance.onp
-	#lower-stream@doline.cave
+	plan@entrance.onp
+	lower-stream@doline.onp
 	
 endmap
 

@@ -273,7 +273,7 @@ input "doline.ee.th2"
 		cs OSGB:SS
 		station 3 fixed
 		#fix 3 49219 91449 0
-		fix 3 49223 91450 0
+		fix 3 49223 91450 65
 
 		extend start 1
 	
