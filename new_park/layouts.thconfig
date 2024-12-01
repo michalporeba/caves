@@ -24,6 +24,20 @@ layout white
     map-header-bg on
 endlayout
 
+layout film
+    copy base-layout
+    grid off
+    color map-bg [100 100 100]
+    color map-fg [100 100 100]
+    #color map-fg [100 98 80]
+    color map-fg map
+    map-header 0 0 off
+    symbol-hide point label
+    symbol-hide line water-flow
+    symbol-hide line map-connection
+    transparency on
+endlayout
+
 layout black 
     color map-bg [0 0 0]
     color map-fg map

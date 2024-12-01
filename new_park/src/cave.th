@@ -187,6 +187,12 @@ map flakey-map -title "Flakey Passage"
 	plan@hf-stream.onp
 endmap
 
+map before-streamway-map -title "Before the Streamway"
+	plan@rift.onp
+	mini@rift.onp
+	plan@ramp.onp
+endmap
+
 map streamway-map -title "Streamway"
 	plan@mf-stream.onp
 endmap
@@ -214,7 +220,13 @@ map canal-and-connection-map -title "Canal"
 	connection-map
 endmap
 
+map end-of-canal-map -title "End of the Canal"
+	pool-end@lf-stream.onp
+endmap 
+
 map unsurveyed-extension-map -title "Grade 2 Extension"
+	plan2-3@Grade2Extension2.onp
+	break
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
 endmap
@@ -350,9 +362,13 @@ map wip-map-plan -title "Work in Progress"
 	#canal@lf-stream.onp
 	#unsurveyed@lf-stream.onp
 	
-	#connection@Grade2Extension2.onp
-	#plan2-1@Grade2Extension2.onp
-	#plan2-2@Grade2Extension2.onp
+	plan2-3@Grade2Extension2.onp
+	
+	break
+	connection@Grade2Extension2.onp
+	plan2-1@Grade2Extension2.onp
+	plan2-2@Grade2Extension2.onp
+	
 	break
 
 	#connection@Grade2Extension.onp
@@ -364,8 +380,8 @@ map wip-map-plan -title "Work in Progress"
 	#plan@spider.onp
 	#break
 	#spider-dig@pit.onp
-	plan@entrance.onp
-	lower-stream@doline.onp
+	#plan@entrance.onp
+	#lower-stream@doline.onp
 	
 endmap
 

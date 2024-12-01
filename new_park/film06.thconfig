@@ -1,0 +1,17 @@
+encoding  utf-8
+
+source src/cave.th
+
+input layouts.thconfig
+
+lookup map
+    unsurveyed-extension-map [80 100 80]
+    connection-map [80 100 80]
+    end-of-canal-map [50 50 100]
+endlookup
+
+select end-of-canal-map
+select connection-map
+select unsurveyed-extension-map
+
+export map -proj plan -layout film -o out/new_park_film_06.pdf
