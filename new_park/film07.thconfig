@@ -1,0 +1,14 @@
+encoding  utf-8
+
+source src/cave.th
+
+input layouts.thconfig
+
+lookup map
+    far-streamway-map [80 100 80]
+endlookup
+
+select far-streamway-map
+select beyond-the-rainbow-bridge-map
+
+export map -proj plan -layout film -o out/new_park_film_07.pdf

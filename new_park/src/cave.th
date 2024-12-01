@@ -232,6 +232,17 @@ map unsurveyed-extension-map -title "Grade 2 Extension"
 	break
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
+	plan2-4@Grade2Extension2.onp
+endmap
+
+map far-streamway-map
+	plan@Grade2Extension3.onp
+endmap
+
+map beyond-the-rainbow-bridge-map
+	plan2-3@Grade2Extension2.onp
+	break
+	plan2-4@Grade2Extension2.onp
 endmap
 
 map inline-connection-and-extension-map -title "Grade 2 Extension"
