@@ -1,0 +1,30 @@
+encoding  utf-8
+
+source src/cave.th
+
+input layouts.thconfig
+
+lookup map
+beyond-the-rainbow-bridge-map [80 100 80]
+    far-streamway-map [100 98 80]
+    unsurveyed-extension-map [80 100 80]
+    connection-map [80 100 80]
+    canal-map [50 50 100]
+    end-of-canal-map [50 50 100]
+    middle-stream-map [90 90 100]
+    unexplored-avens-map [80 100 80]
+    flakey-map [50 100 50]
+    full-streamway-map [20 60 20]
+endlookup
+
+select far-streamway-map
+select connection-map
+select unsurveyed-extension-map
+select canal-map
+select end-of-canal-map
+select before-streamway-map
+select unexplored-avens-map
+select flakey-map
+select full-streamway-map
+
+export map -proj plan -layout film -o out/new_park_film_from_flakey.pdf

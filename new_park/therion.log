@@ -4,7 +4,7 @@ initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
-configuration file: film07.thconfig
+configuration file: film_from_flakey.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -125,15 +125,37 @@ average distortion: 0.94%
 
 
 ############### export maps & scraps selection #################
-M    37.96 beyond-the-rainbow-bridge-map@ ()
+M    41.09 full-streamway-map@ (Streamway)
+S    41.85 plan@mf-stream.onp ()
+S    40.33 stream@lf-stream.onp ()
+M    44.64 flakey-map@ (Flakey Passage)
+S    44.29 plan@under-the-ramp.onp ()
+S    46.17 plan@flakey.onp ()
+S    43.45 plan@hf-stream.onp ()
+M    42.90 unexplored-avens-map@ (Unexplored Avens)
+S    44.22 avens@hf-stream.onp ()
+S    41.58 avens@mf-stream.onp ()
+M    47.24 before-streamway-map@ (Before the Streamway)
+S    48.38 plan@rift.onp ()
+S    45.40 mini@rift.onp ()
+S    47.94 plan@ramp.onp ()
+M    37.31 end-of-canal-map@ (End of the Canal)
+S    37.31 pool-end@lf-stream.onp ()
+M    38.54 canal-map@ (Canal)
+S    38.54 canal@lf-stream.onp ()
+M    37.96 unsurveyed-extension-map@ (Grade 2 Extension)
 S    37.96 plan2-3@Grade2Extension2.onp ()
+S    37.96 plan2-1@Grade2Extension2.onp ()
+S    37.96 plan2-2@Grade2Extension2.onp ()
 S    37.96 plan2-4@Grade2Extension2.onp ()
+M    37.96 connection-map@ (Don't Show)
+S    37.96 connection@Grade2Extension2.onp ()
 M    36.07 far-streamway-map@ ()
 S    36.07 plan@Grade2Extension3.onp ()
 ########## end of export maps & scraps selection ###############
-writing out/new_park_film_07.pdf ...
+writing out/new_park_film_from_flakey.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  1 DEC 2024 13:55
+This is MetaPost, version 2.10 (TeX Live 2025/dev/Debian) (kpathsea version 6.4.0/dev)  1 DEC 2024 14:39
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
@@ -141,21 +163,34 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] (./mptextmp.mp) [10] )
+[1]
+[Warning: scrap outline intersects itself in scrap stream@lf-stream.onp] [2]
+[3] [4] [5]
+[Warning: scrap outline intersects itself in scrap plan@mf-stream.onp] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[Warning: scrap outline intersects itself in scrap plan@under-the-ramp.onp]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33]
+[Warning: scrap outline intersects itself in scrap plan@rift.onp] [34] [35]
+[36] [37] [38] [39]
+[Warning: scrap outline intersects itself in scrap canal@lf-stream.onp] [40]
+[41] [42] [43] [44] [45] [46] [47] [48] [49]
+[Warning: scrap outline intersects itself in scrap plan2-1@Grade2Extension2.onp
+] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] (./mptextmp.mp) [60] )
  
 Here is how much of MetaPost's memory you used:
- 7065 strings using 153091 characters
- 3492384 bytes of node memory
- 1885 symbolic tokens
- 11i,82n,14p,312b,4f stack positions out of 16i,98n,17p,312b,6f
-24 output files written: data-patt.1 .. data-patt.14
+ 35929 strings using 794767 characters
+ 3618520 bytes of node memory
+ 1886 symbolic tokens
+ 11i,82n,14p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+74 output files written: data-patt.1 .. data.60
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.11.29)  1 DEC 2024 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdftex 2024.11.29)  1 DEC 2024 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,24 +199,24 @@ entering extended mode
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 65 numeric registers used out of 32768
+ 152 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 280 strings out of 497075
- 3995 string characters out of 6206389
- 45527 words of memory out of 5000000
- 1522 multiletter control sequences out of 15000+600000
+ 367 strings out of 497075
+ 4990 string characters out of 6206389
+ 44554 words of memory out of 5000000
+ 1609 multiletter control sequences out of 15000+600000
  14794 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 6i,5n,6p,270b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 6i,5n,6p,379b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 
-Output written on data.pdf (1 page, 45505 bytes).
+Output written on data.pdf (1 page, 213868 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 263 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -207,7 +242,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.86%   44.84%  plan@rift.onp
    2.64%   19.25%  plan@pit.onp
    4.36%   12.14%  plan2-3@Grade2Extension2.onp
-   0.87%   11.65%  plan2-2@Grade2Extension2.onp
+   0.88%   11.65%  plan2-2@Grade2Extension2.onp
    3.35%   11.63%  plan@homm.onp
    0.06%   11.33%  upper-stream@doline.onp
    0.46%    4.80%  plan2-4@Grade2Extension2.onp

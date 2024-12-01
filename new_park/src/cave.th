@@ -261,8 +261,6 @@ map backroom-map -title "Back Room"
 	plan@backroom.onp
 endmap
 
-
-
 map print-map
 
 	upper-stream-map
@@ -379,14 +377,14 @@ map wip-map-plan -title "Work in Progress"
 	plan2-3@Grade2Extension2.onp
 	
 	break
-	connection@Grade2Extension2.onp
+	#connection@Grade2Extension2.onp
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
 	plan2-4@Grade2Extension2.onp
 	
 	break
 
-	plan@Grade2Extension3.onp
+	#plan@Grade2Extension3.onp
 
 	#connection@Grade2Extension.onp
 	#plan@Grade2Extension.onp
