@@ -84,11 +84,14 @@ survey onp -title "Ogof New Park" -entrance 0@entrance
 	input LFStream.th
 	equate 1@lf-stream 13@mf-stream
 
-	input Grade2Extension.th
-	equate 0@Grade2Extension 29@lf-stream
+	#input Grade2Extension.th
+	#equate 0@Grade2Extension 29@lf-stream
 
 	input Grade2Extension.2.th
 	equate 0@Grade2Extension2 29@lf-stream
+
+	input Grade2Extension.3.th
+	equate 1@Grade2Extension3 24@Grade2Extension2
 endsurvey
 
 
@@ -368,8 +371,11 @@ map wip-map-plan -title "Work in Progress"
 	connection@Grade2Extension2.onp
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
+	plan2-4@Grade2Extension2.onp
 	
 	break
+
+	plan@Grade2Extension3.onp
 
 	#connection@Grade2Extension.onp
 	#plan@Grade2Extension.onp

@@ -1,0 +1,37 @@
+# Created after watching a video, and discussing the passage with the original explorers
+
+encoding utf-8
+
+survey Grade2Extension3
+
+input "Grade2Extension.3.th2"
+
+centreline
+    team "Antonia Freem"
+    team "Vasiley Baciu"
+    team "Jules Carter"
+    team "Tomasz Zalewski"
+    team "Gareth"
+
+    date 2024.11.16
+
+    data normal from to length compass clino
+
+    1   2   4.00    270 0
+    2   3   4.00    280 0
+    3   4   2.00    290 0
+    4   5   2.00    300 0
+    5   6   4.50    15  0
+    6   7   4.50    15  -25
+    7   8   2.50    285 -40
+    8   9   3.00    0   0
+    9   10  4.00    75  0
+    10  11  2.00    15   0
+    11  12  3.00    285 0
+    9   13  2.00    320 0
+    13  14  5.00    310 0
+
+    extend start 1
+endcentreline
+
+endsurvey

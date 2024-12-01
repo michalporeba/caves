@@ -21,7 +21,7 @@ layout local
     symbol-show group cave-centreline
     symbol-hide point section
     symbol-hide line map-connection
-    symbol-hide area water
+    #symbol-hide area water
 endlayout
 
 layout coloured
@@ -59,6 +59,7 @@ lookup scrap
     connection@Grade2Extension2.onp [80 100 80]
     plan2-1@Grade2Extension2.onp [80 100 80]
     plan2-2@Grade2Extension2.onp [80 100 80]
+    plan@Grade2Extension3.onp
 endlookup
 
 select wip-map-plan
