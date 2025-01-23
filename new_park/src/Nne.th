@@ -10,6 +10,7 @@ input "Nne .ee.th2"
 
 	
 	centreline
+		team "Michal Poreba"
 	
 		data normal from to length compass clino
 		

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -6658 2863 128
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128 -6658 3863 6128
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Grade2Extension.2.1.jpg 0 {}
 
 
@@ -363,6 +363,20 @@ line wall
   2021.0 -3972.0 2010.0 -3969.0 2009.0 -3959.0
   2008.0 -3949.0 2009.0 -3922.0 2009.0 -3922.0
   smooth off
+endline
+
+line map-connection
+  1884.0 -4982.0
+  1860.0 -5084.0
+  2164.0 -5096.0
+  3556.0 -648.0
+  3556.0 -648.0 1490.0 8.0 1484.0 4.0
+  1478.0 0.0 2544.0 3032.0 2544.0 3032.0
+  smooth off
+  1468.0 3412.0
+  2320.0 5520.0
+  3328.0 5356.0
+  3256.0 5128.0
 endline
 
 line wall

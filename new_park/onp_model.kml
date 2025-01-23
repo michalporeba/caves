@@ -5,7 +5,7 @@
 <Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
 <Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
 <Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
-<name><![CDATA[Ogof New Park]]></name>
+<name><![CDATA[Ogof New Park (2024)]]></name>
 <description><![CDATA[Length 405 m<br>Depth 30 m]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[New Park Farm Cave]]></name>

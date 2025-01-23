@@ -4,31 +4,50 @@
 \usepackage[margin=1cm]{geometry}
 
 \usepackage{eso-pic}
+\usepackage{mdframed}
 
 \begin{document}
 
 % Add the overlaying text
 \AddToShipoutPictureBG*{
   \put(0,0){\parbox[b][\paperheight]{\paperwidth}{%
-    \Huge\bfseries Your Text Here
+    \Huge\bfseries
     \vspace*{20cm}
   }}%
 }
 
-\begin{minipage}{0.2\textwidth}
-    \hspace*{1cm}
-    \includegraphics[height=\textheight,keepaspectratio]{../../out/outline-plan.pdf}
+% \begin{minipage}[t]{0.83\textwidth}
+%   \begin{minipage}{\textwidth}
+%     \begin{mdframed}[linewidth=1pt,linecolor=gray!40]
+%       \includegraphics[width=1\textwidth,keepaspectratio]{../../out/print-straight.pdf}
+%     \end{mdframed}
+%   \end{minipage}
+%   \begin{minipage}{\textwidth}
+%       \vspace*{1cm}
+%       \includegraphics[trim={0 2.5cm 0 2.7cm}, clip, height=0.10\textheight,keepaspectratio]{../../out/outline-ee.pdf}
+%       \vspace*{1cm}
+%   \end{minipage}
+% \end{minipage}
+% \hfill
+% \begin{minipage}{0.13\textwidth}
+%     \hspace*{1cm}
+%     \includegraphics[height=\textheight,keepaspectratio]{../../out/outline-plan.pdf}
+%     \hspace*{1cm}
+% \end{minipage}
+
+\begin{minipage}[t]{0.9\textwidth}
+  \begin{minipage}{\textwidth}
+    \begin{mdframed}[linewidth=1pt,linecolor=gray!40]
+      \includegraphics[trim={0 0 6cm 0}, clip, width=1\textwidth,keepaspectratio]{../../out/print-straight.pdf}
+    \end{mdframed}
+  \end{minipage}
 \end{minipage}
 \hfill
-\begin{minipage}{0.8\textwidth}
-    \begin{minipage}{\textwidth}
-        \includegraphics[height=0.8\textheight,keepaspectratio]{../../out/print-straight.pdf}
-    \end{minipage}
-    \hfill  
-    \hspace*{1.5cm}
-    \begin{minipage}{\textwidth}
-        \includegraphics[trim={0 2.5cm 0 2.7cm}, clip, height=0.18\textheight,keepaspectratio]{../../out/outline-ee.pdf}
-    \end{minipage}
+\begin{minipage}{0.10\textwidth}
+    %\hspace*{1cm}
+    %\begin{mdframed}[linewidth=1pt,linecolor=gray!40]
+      \includegraphics[trim={0.5cm 0 0 0}, clip, height=0.8\textheight,keepaspectratio]{../../out/outline-plan.pdf}
+    %\end{mdframed}
 \end{minipage}
 
 \end{document}

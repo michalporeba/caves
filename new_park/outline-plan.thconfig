@@ -7,13 +7,18 @@ input layouts.thconfig
 layout local
     map-header 0 0 off
     surface-opacity 90
-    rotate 20
-endlayout
-
-layout local-yellow    
-    copy local
-    copy base-layout
-    copy yellow
+    rotate 23
+    #statistics explo-length hide
+    #map-header 5 5 sw
+    #code tex-map
+    #  \legendtitle={}
+    #  \cavename={}
+    #  \scalebarfalse
+    #  \cavelengthtitle={}
+    #  \cavelength={}
+    #  \cavedepthtitle={}
+    #  \cavedepth={}
+    #endcode
 endlayout
 
 layout local-white

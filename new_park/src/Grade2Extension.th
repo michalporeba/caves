@@ -8,9 +8,9 @@ input "Grade2Extension.th2"
 
 centreline
     date 2024.11.07
-    team "Gareth Smith"
-    team "Antonia Freem"
-    team "Sarah Garlick"
+    #team "Gareth Smith"
+    #team "Antonia Freem"
+    #team "Sarah Garlick"
 
     data normal from to length compass clino
 

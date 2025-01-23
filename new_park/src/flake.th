@@ -12,6 +12,7 @@ input "flake.ee.th2"
 	centreline
 	
 		date 2024.07.08
+		team "Michal Poreba"
 		
 		data normal from to length compass clino
 		

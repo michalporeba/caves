@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -3858.27 -1889.76 3307.09 6062.99
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {-697.2800000000002 1 1.0} {2355.69 20} LFStream.plan.xvi 0 {}
 
 
@@ -198,8 +198,8 @@ line map-connection
   82.0 3854.0
   -748.0 4096.0
   -426.0 5044.0
-  238.0 5044.0
-  184.0 4880.0
+  122.0 5044.0
+  78.0 4886.0
 endline
 
 line contour -id l62-48-274 -close on
@@ -874,6 +874,7 @@ line wall
   -961.0 3925.0 -972.0 3915.75 -978.25 3915.5
   -984.5 3915.25 -1003.0 3936.0 -1005.5 3941.25
   -1008.0 3946.5 -1027.0 3971.0 -1033.75 3983.25
+  smooth off
 endline
 
 point -1848.75 4419.5 station -name end
@@ -1166,7 +1167,6 @@ point -1848.75 4419.5 station -name end
 
 point -1330.8743 4064.1619 station -name 29
 
-
 line wall -id move12
   -1912.75 4321.75
   -1908.0 4320.25 -1895.25 4321.25 -1883.0 4317.75
@@ -1250,8 +1250,8 @@ line wall -id move1
   -1261.5 3965.25 -1249.25 3959.0 -1228.5 3949.25
   -1207.75 3939.5 -1196.75 3930.5 -1176.25 3919.5
   -1155.75 3908.5 -1135.0 3898.5 -1121.5 3891.5
+  smooth off
 endline
-
 
 line wall -id move3
   -1213.25 4207.75
@@ -1283,7 +1283,6 @@ line wall -id move13 -subtype unsurveyed
   -1918.0 4322.0 -1915.0 4321.75 -1912.75 4321.75
   smooth off
 endline
-
 
 line wall -id move2
   -1033.75 3983.25
@@ -1318,7 +1317,6 @@ line wall -id move14
   -1774.5 4404.0 -1780.5 4404.5 -1808.0 4411.0
   smooth off
 endline
-
 
 endscrap
 

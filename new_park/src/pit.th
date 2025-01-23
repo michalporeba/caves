@@ -10,6 +10,8 @@ input "pit.ee.th2"
 
 	
 	centreline
+		team "Michal Poreba"
+		team "Sarah Garlick"
 	
 		data normal from to length compass clino
 		
