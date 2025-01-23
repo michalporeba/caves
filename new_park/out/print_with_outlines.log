@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.29)  1 DEC 2024 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  23 JAN 2025 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,7 +223,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../out/outline-plan.pdf, id=1, 266.18446pt x 1182.2168pt>
+<../../out/outline-plan.pdf, id=1, 241.37177pt x 1045.61638pt>
 File: ../../out/outline-plan.pdf Graphic file (type pdf)
 <use ../../out/outline-plan.pdf>
 Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 20.
@@ -232,16 +232,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 21.
-<../../out/print-straight.pdf, id=2, 3287.27121pt x 2059.12279pt>
+<../../out/print-straight.pdf, id=2, 2714.87271pt x 2059.12279pt>
 File: ../../out/print-straight.pdf Graphic file (type pdf)
 <use ../../out/print-straight.pdf>
 Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 25.
-(pdftex.def)             Requested size: 2085.93945pt x 1306.55554pt.
-
-Overfull \hbox (217.1553pt too wide) in paragraph at lines 25--26
-[][] 
- []
-
+(pdftex.def)             Requested size: 1722.72372pt x 1306.55554pt.
 <../../out/outline-ee.pdf, id=3, 1058.9261pt x 284.52296pt>
 File: ../../out/outline-ee.pdf Graphic file (type pdf)
 <use ../../out/outline-ee.pdf>
@@ -284,7 +279,7 @@ Here is how much of TeX's memory you used:
  72i,9n,79p,236b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ../../out//print_with_outlines.pdf (1 page, 748932 bytes).
+Output written on ../../out//print_with_outlines.pdf (1 page, 649177 bytes).
 PDF statistics:
  873 PDF objects out of 1000 (max. 8388607)
  440 compressed objects within 5 object streams

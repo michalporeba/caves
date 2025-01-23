@@ -159,13 +159,14 @@ map middle-main-map -title "Hall of the Mountain Mole"
 	plan@rift.onp
 	mini@rift.onp
 	plan@ramp.onp
-	break
-	plan@vasiley.onp
+	
 endmap
 
-map lower-main-map -title "The Pit Area"
+map lower-main-map -title "The Pit Level"
 	plan@pit.onp
 	plan@pit2.onp
+	break
+	plan@vasiley.onp
 endmap
 
 map homm-digs-map -title "Inside Digs"
@@ -377,12 +378,11 @@ map wip-map-plan -title "Work in Progress"
 	#canal@lf-stream.onp
 	#unsurveyed@lf-stream.onp
 	
-	plan2-3@Grade2Extension2.onp
 	
-	break
-	#connection@Grade2Extension2.onp
+	connection@Grade2Extension2.onp
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
+	plan2-3@Grade2Extension2.onp
 	plan2-4@Grade2Extension2.onp
 	
 	break
