@@ -368,17 +368,6 @@ map wip-map-plan-of-backroom -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
-	#avens@hf-stream.onp
-	#avens@mf-stream.onp
-	break
-	#plan@hf-stream.onp
-	#plan@mf-stream.onp
-	#stream@lf-stream.onp
-	
-	#canal@lf-stream.onp
-	#unsurveyed@lf-stream.onp
-	
-	
 	connection@Grade2Extension2.onp
 	plan2-1@Grade2Extension2.onp
 	plan2-2@Grade2Extension2.onp
