@@ -14,6 +14,10 @@ print:
 	cd src/print && pdflatex -output-directory=../../out/ print_with_outlines.tex
 	xdg-open out/print_with_outlines.pdf
 
+wprint:
+	cd src/print && pdflatex -output-directory=../../out/ print2.tex
+	xdg-open out/print2.pdf
+
 stage01:
 	therion stage01.thconfig
 	xdg-open out/new_park_stage_01_yellow.pdf

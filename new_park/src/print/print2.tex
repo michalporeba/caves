@@ -1,0 +1,36 @@
+\documentclass[a1paper,landscape]{article}
+\usepackage{pdfpages}
+
+\usepackage[margin=1cm]{geometry}
+
+\usepackage{eso-pic}
+\usepackage{mdframed}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  
+  \node[draw=none,fill=none] (main) 
+    at (0,0){
+      \includegraphics[height=0.98\textheight,keepaspectratio]{../../out/outline-plan.pdf}
+    };
+  \node[draw=red,fill=none,
+    anchor=north west
+  ] (outline) at (main) [right] {
+    \includegraphics[trim={0 0 0 0}, clip, width=0.85\textwidth,keepaspectratio]{../../out/print-straight.pdf}
+  };
+  
+  \node[
+    draw=none,fill=gray!20,text width=10cm,
+    align=center,
+    font=\bfseries\fontsize{24}{28}\selectfont,
+    anchor=south west
+  ] 
+    at (0,0) {
+      Ogof Park Newydd / New Park Cave
+  };
+
+  \end{tikzpicture}
+
+\end{document}
