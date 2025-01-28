@@ -1,7 +1,0 @@
-therion 6.2.1 (2024-03-20)
-  - using Proj 9.4.1, compiled against 9.4.1
-initialization file: /etc/therion.ini
-reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-therion: error -- source files not specified
