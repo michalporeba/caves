@@ -1,13 +1,21 @@
-therion 6.2.1 (2024-03-20)
-  - using Proj 9.4.1, compiled against 9.4.1
+therion 6.2.0 (2023-12-21)
+  - using Proj 9.4.0, compiled against 9.4.0
 initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: print.thconfig
 reading ... done
-reading source files ... done
+reading source files ... downloading the grid https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif from https://cdn.proj.org into /root/.local/share/proj...
+done
+done
 preprocessing database ... done
+downloading the grid https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif from https://cdn.proj.org into /root/.local/share/proj...
+done
+downloading the grid https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif from https://cdn.proj.org into /root/.local/share/proj...
+done
+downloading the grid https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif from https://cdn.proj.org into /root/.local/share/proj...
+done
 therion: warning -- src/cave.th [40] -- equate used to define new station (24@rift)
 therion: warning -- year 2024 magnetic declination used for undated surveys
 undated surveys:
@@ -20,7 +28,7 @@ ramp.onp
 spider.onp
 top.onp
 output coordinate system: OSGB:SS
-meridian convergence (deg): 1.7078
+meridian convergence (deg): 1.7142
 geomag declinations (deg):
   2024.1.1  -0.6058
   2025.1.1  -0.4012
@@ -121,7 +129,8 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.94%
+average distortion: 0.90%
+writing out/wip.xvi ... done
 
 
 ############### export maps & scraps selection #################
@@ -236,10 +245,8 @@ entering extended mode
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 83 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  583 strings out of 495845
@@ -601,6 +608,9 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.01%    0.08%  digs@doline.onp
    0.01%    0.08%  pool-end@lf-stream.onp
    0.00%    0.01%  brians-dig@doline.onp
+   0.00%    0.01%  ground@doline.onp
+   0.00%    0.01%  lower-stream@doline.onp
+   0.00%    0.00%  under-the-attic@attic.onp
    0.00%    0.00%  avens@hf-stream.onp
    0.00%    0.00%  avens@mf-stream.onp
    0.00%    0.00%  unsurveyed@lf-stream.onp
@@ -609,10 +619,10 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (-4.179, 51.602) (-4.179, 51.602)
-  [OSGB:SS → LONG-LAT] AoU: [yes] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (9) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=hgridshift grids=uk_os_OSTN15_NTv2_OSGBtoETRS.tif step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
-  [OSGB:SS → LAT-LONG] AoU: [no] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (9) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=hgridshift grids=uk_os_OSTN15_NTv2_OSGBtoETRS.tif step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
+  Area of Use (AoU): (-4.178, 51.602) (-4.178, 51.602)
+  [OSGB:SS → LONG-LAT] AoU: [yes] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (6) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=push v_3 step proj=cart ellps=airy step proj=helmert x=446.448 y=-125.157 z=542.06 rx=0.15 ry=0.247 rz=0.842 s=-20.489 convention=position_vector step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [2.000 m]
+  [OSGB:SS → LAT-LONG] AoU: [no] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (6) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=push v_3 step proj=cart ellps=airy step proj=helmert x=446.448 y=-125.157 z=542.06 rx=0.15 ry=0.247 rz=0.842 s=-20.489 convention=position_vector step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [2.000 m]
   [OSGB:SS → OSGB:SS] AoU: [yes] transformation: [Inverse of unknown + unknown] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [OSGB:SS → EPSG:4326] AoU: [yes] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (9) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=hgridshift grids=uk_os_OSTN15_NTv2_OSGBtoETRS.tif step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
-  [EPSG:4326 → OSGB:SS] AoU: [yes] transformation: [axis order change (2D) + Inverse of OSGB36 to WGS 84 (9) + axis order change (2D) + unknown] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step inv proj=hgridshift grids=uk_os_OSTN15_NTv2_OSGBtoETRS.tif step proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy] accuracy: [1.000 m]
+  [OSGB:SS → EPSG:4326] AoU: [yes] transformation: [Inverse of unknown + axis order change (2D) + OSGB36 to WGS 84 (6) + axis order change (2D)] definition: [proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy step proj=push v_3 step proj=cart ellps=airy step proj=helmert x=446.448 y=-125.157 z=542.06 rx=0.15 ry=0.247 rz=0.842 s=-20.489 convention=position_vector step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [2.000 m]
+  [EPSG:4326 → OSGB:SS] AoU: [yes] transformation: [axis order change (2D) + Inverse of OSGB36 to WGS 84 (6) + axis order change (2D) + unknown] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=push v_3 step proj=cart ellps=WGS84 step inv proj=helmert x=446.448 y=-125.157 z=542.06 rx=0.15 ry=0.247 rz=0.842 s=-20.489 convention=position_vector step inv proj=cart ellps=airy step proj=pop v_3 step proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=200000 y_0=-200000 ellps=airy] accuracy: [2.000 m]
 ########## end of CRS transformations chosen by PROJ ###########

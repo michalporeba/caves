@@ -1,6 +1,6 @@
 plan:
 	therion wip-plan.thconfig
-	xdg-open out/wip.pdf
+	#xdg-open out/wip.pdf
 
 ee:
 	therion wip-ee.thconfig
