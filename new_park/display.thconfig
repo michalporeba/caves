@@ -6,7 +6,6 @@ input layouts.thconfig
 
 layout local
     #map-header 83 6 sw
-    map-header 4 5 sw
     map-comment "Grade 6d, 2a"
     symbol-hide line map-connection
 endlayout
@@ -15,18 +14,20 @@ layout local-straight
     copy local
     copy base-layout
     copy white
-    scale 1 150
-    base-scale 1 50
+    map-header 4 5 sw
+    scale 1 180
+    base-scale 1 55
     #map-image 0 0 sw out/new_park_stage_02_yellow.pdf
 endlayout
 
 layout local-rotated
     copy local
-    rotate 15
+    rotate 18
     copy base-layout
     copy white
-    scale 1 100
-    base-scale 1 50
+    map-header 63 30 sw
+    scale 1 180
+    base-scale 1 55
 endlayout
 
 layout altitude
@@ -63,4 +64,8 @@ endlookup
 
 select display-map
 
-export map -proj plan -layout local-straight -o out/display.pdf
+export map -proj plan -layout local-straight -o out/display_2x4.pdf
+export map -proj plan -layout local-rotated -o out/display_2x6.pdf
+
+export model -o out/display_model.kml
+export map -o out/display_outline.kml
