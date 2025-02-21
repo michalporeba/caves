@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.10.19)  23 JAN 2025 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.29)  21 FEB 2025 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,24 +369,24 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../out/print-straight.pdf, id=1, 3287.27121pt x 2059.12279pt>
+<../../out/print-straight.pdf, id=1, 3681.4036pt x 2073.5669pt>
 File: ../../out/print-straight.pdf Graphic file (type pdf)
 <use ../../out/print-straight.pdf>
 Package pdftex.def Info: ../../out/print-straight.pdf  used on input line 41.
-(pdftex.def)             Requested size: 2080.3599pt x 1374.51515pt.
+(pdftex.def)             Requested size: 2080.3599pt x 1228.80434pt.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 43.
-<../../out/outline-plan.pdf, id=3, 230.6216pt x 1186.36229pt>
+<../../out/outline-plan.pdf, id=3, 277.09523pt x 1257.37761pt>
 File: ../../out/outline-plan.pdf Graphic file (type pdf)
 <use ../../out/outline-plan.pdf>
 Package pdftex.def Info: ../../out/outline-plan.pdf  used on input line 49.
-(pdftex.def)             Requested size: 238.33926pt x 1306.55554pt.
+(pdftex.def)             Requested size: 273.17662pt x 1306.55554pt.
 
-Overfull \hbox (4.72789pt too wide) in paragraph at lines 49--51
+Overfull \hbox (39.56525pt too wide) in paragraph at lines 49--51
 [][] 
  []
 
@@ -407,18 +407,18 @@ L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4952 strings out of 474384
- 84967 string characters out of 5754584
+ 4952 strings out of 475544
+ 84967 string characters out of 5777740
  1927905 words of memory out of 5000000
- 27710 multiletter control sequences out of 15000+600000
+ 27526 multiletter control sequences out of 15000+600000
  558675 words of font info for 38 fonts, out of 8000000 for 9000
- 725 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  79i,9n,93p,461b,388s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ../../out//print_with_outlines.pdf (1 page, 729490 bytes).
+Output written on ../../out//print_with_outlines.pdf (1 page, 765429 bytes).
 PDF statistics:
- 785 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
+ 814 PDF objects out of 1000 (max. 8388607)
+ 409 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

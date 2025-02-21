@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -6658 3863 6128
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Grade2Extension.2.1.jpg 0 {}
 
 
@@ -379,6 +379,23 @@ line map-connection
   3256.0 5128.0
 endline
 
+area water
+endarea
+
+point 1157.0 -1248.0 label -orientation 20.1 -text "occasional sump" -scale m
+
+point 1831.0 -1622.0 label -orientation 7.2 -text "Foamy Ramp" -scale l
+
+point 602.0 -1324.0 water-flow -orientation 284.0
+
+point 2397.0 -1611.0 water-flow -orientation 284.0
+
+point 1223.0 -2951.0 label -orientation 283.1 -text "Spikyland Bedding Plane " -scale l
+
+point 1534.0 -4069.0 label -orientation 10.5 -text "Second Rift" -scale m
+
+point 1900.0 -4375.0 label -orientation 274.4 -text "First Rift" -scale m
+
 line wall
   1941.0 -4960.0
   1946.0 -4931.0 1952.0 -4911.0 1957.0 -4889.0
@@ -443,6 +460,10 @@ line wall
   1689.78 -5714.74 1691.0 -5692.0 1651.0 -5790.0
   smooth off
 endline
+
+point 1990.0 -5485.0 label -orientation 15.2 -text "4th Breakthrough" -scale s
+
+point 2525.0 -5516.0 label -orientation 0.4 -text "4th Breakthrough" -scale s
 
 line wall
   2131.0 -5872.0

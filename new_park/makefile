@@ -14,6 +14,10 @@ print:
 	cd src/print && pdflatex -output-directory=../../out/ print_with_outlines.tex
 	xdg-open out/print_with_outlines.pdf
 
+display:
+	therion display.thconfig
+	xdg-open out/display.pdf
+
 wprint:
 	cd src/print && pdflatex -output-directory=../../out/ print2.tex
 	xdg-open out/print2.pdf

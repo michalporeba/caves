@@ -7,7 +7,7 @@ encoding utf-8
 
 #endsurvey
 
-survey onp -title "Ogof New Park (2024)" -entrance 0@entrance
+survey onp -title "Ogof New Park (First Year)" -entrance 0@entrance
 
 	input "doline.th"
 	equate 1@doline 1@entrance
@@ -92,6 +92,9 @@ survey onp -title "Ogof New Park (2024)" -entrance 0@entrance
 
 	input Grade2Extension.3.th
 	equate 1@Grade2Extension3 24@Grade2Extension2
+
+	input FarStreamway.th
+	equate 1@FarStreamway 14@Grade2Extension3
 endsurvey
 
 
@@ -236,6 +239,7 @@ map unsurveyed-extension-map -title "Grade 2 Extension"
 	plan2-2@Grade2Extension2.onp
 	plan2-4@Grade2Extension2.onp
 	plan@Grade2Extension3.onp
+	plan@FarStreamway.onp
 endmap
 
 map far-streamway-map
@@ -246,6 +250,7 @@ map beyond-the-rainbow-bridge-map
 	plan2-3@Grade2Extension2.onp
 	break
 	plan2-4@Grade2Extension2.onp
+	
 endmap
 
 map inline-connection-and-extension-map -title "Grade 2 Extension"
@@ -286,6 +291,26 @@ map print-map
 	far-streamway-map [-6 -118 m] none
 endmap
 
+map display-map 
+	upper-stream-map
+	all-digs-and-sinks-map
+	entrance-map
+
+	upper-main-map
+	middle-main-map
+	backroom-map
+	lower-main-map
+
+	spider-dig-map
+	unexplored-avens-map
+	flakey-map
+	streamway-map
+	slot-machine-map
+	canal-map
+	#end-of-canal-map
+	inline-connection-and-extension-map
+	far-streamway-map
+endmap
 
 map outline-map 
 	lower-middle-stream-map
@@ -370,12 +395,12 @@ map wip-map-plan-of-backroom -title "Work in Progress"
 endmap
 
 map wip-map-plan -title "Work in Progress"
-	connection@Grade2Extension2.onp
-	plan2-1@Grade2Extension2.onp
-	plan2-2@Grade2Extension2.onp
-	plan2-3@Grade2Extension2.onp
-	plan2-4@Grade2Extension2.onp
-	plan@Grade2Extension3.onp
+	#connection@Grade2Extension2.onp
+	#plan2-1@Grade2Extension2.onp
+	#plan2-2@Grade2Extension2.onp
+	#plan2-3@Grade2Extension2.onp
+	#plan2-4@Grade2Extension2.onp
+	#plan@Grade2Extension3.onp
 	
 	break
 
@@ -384,14 +409,9 @@ map wip-map-plan -title "Work in Progress"
 	#connection@Grade2Extension.onp
 	#plan@Grade2Extension.onp
 	
-
-	#plan@pit.onp
-	#plan@pit2.onp
-	#plan@spider.onp
-	#break
-	#spider-dig@pit.onp
-	#plan@entrance.onp
-	#lower-stream@doline.onp
+	#canal-map
+	#end-of-canal-map
+	inline-connection-and-extension-map
 	
 endmap
 

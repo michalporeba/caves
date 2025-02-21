@@ -1,0 +1,24 @@
+# Created after watching a video, and discussing the passage with the original explorers
+
+encoding utf-8
+
+survey FarStreamway
+
+input "FarStreamway.th2"
+
+centreline
+    team "Thomas Beech"
+    
+    date 2025.01.22
+
+    data normal from to length compass clino
+
+    1   2   2.50    240  0
+    2   3   5.00    330 0
+    3   4   5.00    300  0
+    4   5   5.00    270   0
+    
+    extend start 1
+endcentreline
+
+endsurvey

@@ -70,5 +70,5 @@ select wip-map-plan
 export map -fmt xvi -layout xvi_export -o out/wip.xvi
 export map -proj plan -layout local -layout-debug station-names -o out/wip.pdf
 
-export model -o onp_model.kml
-export map -o onp_outline.kml
+#export model -o onp_model.kml
+#export map -o onp_outline.kml
