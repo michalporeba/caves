@@ -15,8 +15,8 @@ layout local-straight
     copy base-layout
     copy white
     map-header 4 5 sw
-    scale 1 180
-    base-scale 1 55
+    scale 1 200
+    base-scale 1 100
     #map-image 0 0 sw out/new_park_stage_02_yellow.pdf
 endlayout
 
@@ -26,8 +26,8 @@ layout local-rotated
     copy base-layout
     copy white
     map-header 63 30 sw
-    scale 1 180
-    base-scale 1 55
+    scale 1 200
+    base-scale 1 100
 endlayout
 
 layout altitude

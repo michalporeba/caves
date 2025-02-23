@@ -321,7 +321,7 @@ line rock-border
   smooth off
 endline
 
-point 13.25 754.75 label -orientation 24.5 -text "Slot Machine" -scale l
+point -36.75 571.75 label -orientation 24.0 -text "Slot Machine" -scale l
 
 line rock-border
   17.75 742.5
@@ -733,7 +733,7 @@ line wall
   smooth off
 endline
 
-point -843.25 1689.75 water-flow -orientation 10.3 -scale xl
+point -843.25 1689.75 water-flow -orientation 10.3 -scale l
 
 point -529.5 1613.75 water-flow -orientation 4.4 -scale l
 
@@ -741,9 +741,7 @@ point -847.0 3997.0 water-flow -orientation 0.0 -scale xl
 
 point -1184.0 4225.25 continuation -scale xl
 
-point -837.0 1970.0 water-flow -orientation 16.1 -scale xl
-
-point -693.25 2514.75 water-flow -orientation 18.8 -scale xl
+point -834.0 1999.0 water-flow -orientation 16.1 -scale l
 
 point -623.0 2603.25 water-flow -orientation 18.8 -scale xl
 
@@ -759,7 +757,7 @@ endarea
 
 point -672.0 2720.0 label -orientation 289.4 -text "The Canal" -scale xl
 
-point -944.0 1965.0 label -orientation 14.3 -text "The Narrows" -scale l
+point -983.0 1967.0 label -orientation 14.3 -text "The Narrows" -scale l
 
 point -503.0 2224.0 water-flow -orientation 304.5 -scale l
 
@@ -988,7 +986,7 @@ line wall -close on -subtype unsurveyed
   -826.0 1759.75 -833.25 1768.5 -836.0 1774.5
 endline
 
-point -981.25 1726.5 low-end
+point -981.25 1726.5 low-end -scale m
 
 line wall -subtype invisible
   -405.75 1510.25
@@ -1262,7 +1260,7 @@ line contour -id move6
   -1759.5 3972.0
 endline
 
-point -1385.0 4111.0 label -text "(grade 2 from here)"
+point -1404.0 4325.0 label -text "(grade 2 from here)"
 
 line wall -id move1
   -1649.0 4114.5

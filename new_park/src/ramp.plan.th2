@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1102.36 -1023.62 551.18 708.66
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-282.65999999999997 1 1.0} {15.259999999999991 4} ramp.plan.xvi 0 {}
 
 
@@ -23,7 +23,9 @@ point -353.7647 -199.93608 station -name 6
 
 point -398.5537 -179.0826 station -name 5
 
-point -291.0 -300.0 label -orientation 22.3 -text "narrow rift connection"
+point -299.0 -327.0 label -orientation 22.3 -text "connection" -scale s
+
+point -291.0 -300.0 label -orientation 22.3 -text "narrow rift" -scale s
 
 line map-connection
   -358.0 -255.0
@@ -43,17 +45,13 @@ line rock-border -outline out -visibility off
   smooth off
 endline
 
-point -531.0 -413.5 soda-straw
-
-point -532.5 -430.0 soda-straw
-
-point -527.5 -425.5 soda-straw
+point -518.0 -392.5 soda-straw
 
 point -541.5 -432.5 soda-straw
 
-point -544.5 -417.0 soda-straw
+point -534.5 -410.0 soda-straw
 
-point -331.5 -55.5 label -orientation 294.9 -text "Ramp" -scale xl
+point -331.5 -55.5 label -orientation 294.9 -text "Ramp" -scale m
 
 line wall -id left_wall
   -351.0 -201.5
@@ -144,9 +142,7 @@ line wall -id right_wall
   smooth off
 endline
 
-point -306.0 -129.0 water-flow -orientation 339.9
-
-point -315.0 -164.0 water-flow -orientation 311.0
+point -304.0 -141.0 water-flow -orientation 339.9
 
 endscrap
 

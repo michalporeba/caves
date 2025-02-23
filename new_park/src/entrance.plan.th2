@@ -74,11 +74,11 @@ line wall -subtype underlying
   138.0 520.0
   138.0 518.0
   150.5 497.0
-  150.5 497.0 153.0 464.0 152.0 452.0
-  151.0 440.0 167.0 427.25 167.0 427.25
+  150.5 497.0 160.5 471.75 159.5 459.75
+  158.5 447.75 173.0 431.5 173.0 431.5
   smooth off
-  167.0 427.25 163.54 419.44 164.25 410.25
-  164.5 407.0 164.25 320.75 167.0 317.5
+  173.0 431.5 174.04 422.69 174.75 413.5
+  175.0 410.25 173.75 323.75 176.5 320.5
   smooth off
 endline
 
@@ -174,11 +174,21 @@ line pit -id breakthrough -close on -outline in
   222.39316 476.04425
 endline
 
-point 96.0 -143.75 label -orientation 323 -text "Entrance" -scale l
+point 124.5 -177.75 label -orientation 319 -text "Entrance" -scale l
 
-point 156.25 525.75 label -orientation 35.4 -text "2nd Breakthrough" -scale s
+line arrow
+  -144.5 487.5
+  -143.25 513.25 118.0 548.25 147.75 534.0
+endline
 
-point 62.75 157.75 label -orientation 336.2 -text "1st Breakthrough" -scale s
+point -145.5 467.5 label -text "2nd Breakthrough" -scale xs
+
+line arrow -reverse on
+  71.5 162.0
+  144.25 63.5
+endline
+
+point 153.75 45.5 label -text "1st Breakthrough" -scale xs
 
 line wall
   270.75 368.0
@@ -244,9 +254,9 @@ line pit
   137.25 -137.5
 endline
 
-point 6.25 308.25 narrow-end
+point 6.25 308.25 narrow-end -scale s
 
-point -77.5 105.5 low-end
+point -93.5 110.0 low-end -scale s
 
 line wall
   138.5 -136.75
@@ -346,14 +356,14 @@ endline
 line wall -subtype "underlying"
   182.0 322.5
   184.0 329.75 184.75 344.25 187.0 352.5
-  189.25 360.75 202.0 362.75 202.0 362.75
+  189.25 360.75 195.5 362.0 195.5 362.0
   smooth off
-  202.0 362.75 208.0 365.0 212.0 368.5
-  216.0 372.0 214.75 392.75 214.75 392.75
+  195.5 362.0 200.0 363.25 204.0 366.75
+  208.0 370.25 210.0 389.25 210.0 389.25
   smooth off
-  214.75 392.75 215.25 415.5 214.5 420.5
-  213.75 425.5 217.57 423.99 208.25 455.5
-  199.75 484.25 203.75 475.25 204.25 478.25
+  210.0 389.25 211.0 410.0 210.25 415.0
+  209.5 420.0 214.32 420.99 205.0 452.5
+  196.5 481.25 203.75 475.25 204.25 478.25
   smooth off
 endline
 
@@ -391,7 +401,7 @@ line wall -subtype "presumed"
   smooth off
 endline
 
-point 266.25 412.75 low-end
+point 266.25 412.75 low-end -scale s
 
 line wall
   149.75 135.25

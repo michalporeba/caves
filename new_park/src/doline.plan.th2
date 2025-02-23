@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -994.1417 -2805.1653 3513.82694 4537.4491
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {995.49 1 1.0} {-82.28999999999996 12} surface2.plan.xvi 0 {}
 
 
@@ -79,7 +79,7 @@ line wall
   smooth off
 endline
 
-point 573.0 2617.25 label -orientation 297.5 -text "Corner Sink" -scale l
+point 443.0 2536.25 label -text "Corner Sink" -scale l
 
 point 570.74036 2649.6987 station -name 23 -subtype painted -clip off -visibility on
 
@@ -317,8 +317,6 @@ line wall
   smooth off
 endline
 
-point 1162.0 459.0 water-flow -orientation 264.7 -scale xl
-
 line wall
   1120.0 441.0
   1124.0 440.5 1141.0 440.0 1146.0 440.0
@@ -452,13 +450,13 @@ line rock-border -close on
   smooth off
 endline
 
-point 1163.0 404.0 label -orientation 3.2 -text "Hollie's Sink" -scale l
+point 1116.0 378.0 label -text "Hollie's Sink" -scale l
 
-point 1014.0 -375.0 label -orientation 313.3 -text "Rob's Sinks" -scale l
+point 1147.0 -436.0 label -orientation 307.9 -text "Rob's Sinks" -scale l
 
-point -11.0 -1109.0 label -orientation 46.4 -text "Flood Sink" -scale l
+point -115.0 -1090.0 label -text "Flood Sink" -scale l
 
-point -151.0 -620.0 label -orientation 343.9 -text "Sarah's Dig" -scale l
+point -144.0 -640.0 label -orientation 341.2 -text "Sarah's Dig" -scale l
 
 line wall -close on
   -201.0 -526.0
@@ -501,9 +499,9 @@ point 358.0 -800.0 water-flow -orientation 229.2 -scale xl
 
 point 746.0 -499.0 water-flow -orientation 218.4 -scale xl
 
-point 880.0 -402.0 water-flow -orientation 118.2 -scale xl
+point 880.0 -402.0 water-flow -orientation 118.2 -scale l
 
-point 1034.0 -262.0 water-flow -orientation 182.2 -scale xl
+point 1034.0 -262.0 water-flow -orientation 182.2 -scale l
 
 point 1195.0 -204.0 water-flow -orientation 193.8 -scale xl
 
@@ -832,23 +830,23 @@ line border -clip off
   smooth off
 endline
 
-line fault
+line joint
   980.0 -670.0
   1125.6 -1070.0
 endline
 
-point 1060.0 -826.0 label -orientation 70.0 -text "160 degrees" -scale xl
+point 1105.0 -927.0 label -orientation 70.0 -text "160 degrees" -scale m
 
-point 21.0 -1430.0 label -orientation 273.0 -text "183 degrees" -scale xl
+point -4.0 -1577.0 label -orientation 272.0 -text "183 degrees" -scale m
 
-point -451.0 -1117.0 label -orientation 330.0 -text "240 degrees" -scale xl
+point -537.0 -1152.0 label -orientation 330.0 -text "240 degrees" -scale m
 
-line fault
+line joint
   -240.0 -1020.0
   -640.0 -1250.0
 endline
 
-line fault
+line joint
   57.0 -1138.5
   27.0 -1710.0
 endline

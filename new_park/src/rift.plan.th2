@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1811.02 -1023.62 1259.84 2362.20
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {222.3900000000001 1 1.0} {476.04 9} Dig2take2.plan.xvi 0 {}
 
 
@@ -131,7 +131,7 @@ line ceiling-step
   smooth off
 endline
 
-point -105.0 1070.0 label -orientation 49 -text "Hall of the Mountain Mole" -scale xl
+point -117.0 1072.5 label -orientation 47 -text "Hall of the Mountain Mole" -scale m
 
 line wall -id left_wall
   -222.75 1125.5
@@ -250,8 +250,8 @@ line wall
   -426.25 1359.5
   -426.25 1359.5 -441.75 1379.5 -443.25 1382.75
   -444.75 1386.0 -451.5 1398.0 -454.5 1398.25
-  -457.5 1398.5 -461.5 1404.25 -461.75 1402.75
-  -462.0 1401.25 -466.5 1398.0 -466.25 1394.5
+  -457.5 1398.5 -461.43 1400.0 -462.75 1399.25
+  -464.5 1398.25 -466.5 1398.0 -466.25 1394.5
   -466.0 1391.0 -470.5 1372.75 -471.0 1369.25
   altitude -1
   -471.5 1365.75 -462.25 1343.0 -462.25 1343.0
@@ -267,7 +267,7 @@ line wall -id left_ramp_wall
   smooth off
 endline
 
-point -380.0 1113.0 label -orientation 270.0 -text "Skinny Rift" -scale xl
+point -380.0 1112.5 label -orientation 269.0 -text "Skinny Rift" -scale m
 
 line wall -id right_ramp_wall
   -462.25 1343.0

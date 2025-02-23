@@ -123,9 +123,9 @@ line rock-border
   smooth off
 endline
 
-point -318.0 329.5 water-flow -orientation 14.3 -scale xl
+point -318.0 329.5 water-flow -orientation 14.3 -scale l
 
-point -315.0 192.25 water-flow -orientation 310.3 -scale xl
+point -315.0 192.25 water-flow -orientation 310.3 -scale l
 
 area water
   l54--293-250
@@ -165,9 +165,9 @@ line contour -id l54--293-250 -close on
   -450.75 177.0 -350.75 126.0 -352.0 123.0
 endline
 
-point 25.0 90.75 water-flow -orientation 310.3 -scale xl
+point 25.0 90.75 water-flow -orientation 310.3 -scale m
 
-point -0.5 218.0 water-flow -orientation 258.7 -scale m
+point -0.5 218.0 water-flow -orientation 258.7 -scale s
 
 line contour
   -332.25 597.0
@@ -177,7 +177,7 @@ line contour
   smooth off
 endline
 
-point -208.5 548.0 water-flow -orientation 22.5 -scale xl
+point -208.5 548.0 water-flow -orientation 22.5 -scale l
 
 point -317.0 557.75 water-flow -orientation 12.0 -scale m
 
@@ -185,13 +185,13 @@ point -275.5 14.25 water-flow -orientation 348.7 -scale s
 
 point -306.75 112.5 water-flow -orientation 332.0 -scale m
 
-point -165.5 134.75 water-flow -orientation 224.4 -scale m
+point -165.5 134.75 water-flow -orientation 224.4 -scale s
 
-point -38.75 169.0 water-flow -orientation 298.0 -scale xl
+point -38.75 169.0 water-flow -orientation 298.0 -scale m
 
-point 134.0 116.75 water-flow -orientation 229.8 -scale xl
+point 134.0 116.75 water-flow -orientation 229.8 -scale l
 
-point -209.25 192.25 water-flow -orientation 267.9 -scale xl
+point -209.25 192.25 water-flow -orientation 267.9 -scale m
 
 line contour
   -234.5 189.5
@@ -406,9 +406,11 @@ line wall
   smooth off
 endline
 
-point 230.0 143.25 label -orientation 350.3 -text "Rob's Sinks flow"
+point 273.75 181.25 label -orientation 350.3 -text "Rob's Sinks flow" -scale s
 
-point -169.0 292.5 label -orientation 348.0 -text "Marble Junctions" -scale xl
+point -166.0 301.5 label -orientation 348.0 -text "Junctions" -scale l
+
+point -174.0 343.5 label -orientation 348.0 -text "Marble" -scale l
 
 point -283.0 691.0 narrow-end
 
@@ -428,8 +430,8 @@ area water
 endarea
 
 line water-flow -reverse on -subtype conjectural
-  340.0 164.0
-  440.0 176.0 577.18 205.67 780.0 156.0
+  190.25 139.5
+  290.25 161.75 577.18 205.67 780.0 156.0
   976.0 108.0 1310.57 -82.34 1484.0 -320.0
   1592.0 -468.0 1696.0 -664.0 1908.0 -1040.0
   1966.59 -1143.92 2228.0 -1600.0 2276.0 -2040.0
@@ -533,7 +535,7 @@ endline
 
 point -576.25 250.5 continuation
 
-point -381.5 96.75 narrow-end
+point -381.5 96.75 narrow-end -scale s
 
 line wall
   -232.0 33.25

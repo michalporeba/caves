@@ -103,7 +103,7 @@ line wall -close off
   -187.5 191.5
 endline
 
-point 46.25 -82.25 label -orientation 4.5 -text "Pit" -scale xl
+point 49.25 -78.25 label -orientation 5 -text "Pit" -scale l
 
 line wall
   386.75 -800.0
@@ -210,7 +210,7 @@ endscrap
 
 scrap spider-dig -projection plan -scale [-1811.02 -1023.62 1259.84 -1023.62 0.0 0.0 77.99984399999998 0.0 m]
 
-point 3.0 -368.0 label -orientation 53.0 -text "Spider Dig" -scale l
+point 42.0 -463.0 label -orientation 34.9 -text "Spider Dig" -scale m
 
 line wall -subtype unsurveyed
   -12.5 -165.0

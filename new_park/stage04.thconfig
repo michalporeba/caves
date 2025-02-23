@@ -5,7 +5,7 @@ source src/cave.th
 input layouts.thconfig
 
 layout local
-    map-header 5 5 sw
+    map-header 2 2 sw
     map-comment "Grade 6d (November 2024)"
 endlayout
 

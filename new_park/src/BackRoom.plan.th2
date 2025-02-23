@@ -173,7 +173,9 @@ point 65.7669 52.175484 station -name 2
 
 point 87.08319 85.24838 station -name 5
 
-point 234.25 -162.5 label -text "Back Room" -scale l
+point 468.5 -198.75 continuation
+
+point 289.5 -164.5 label -orientation 0.0 -text "Back Room" -scale m
 
 line wall
   -163.25 -45.0
@@ -226,7 +228,6 @@ line wall
 endline
 
 point 0.0 0.0 station -name 1
-
 
 line rock-border -close on
   221.75 15.0
@@ -315,5 +316,6 @@ line wall
   smooth off
 endline
 
-
 endscrap
+
+

@@ -1,6 +1,6 @@
 layout base-layout
     debug off
-    scale 1 50
+    scale 1 100
     grid bottom
     grid-size 10 10 10 m
     north true

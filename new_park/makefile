@@ -16,7 +16,7 @@ print:
 
 display:
 	therion display.thconfig
-	xdg-open out/display.pdf
+	xdg-open out/display_2x4.pdf
 
 wprint:
 	cd src/print && pdflatex -output-directory=../../out/ print2.tex

@@ -55,9 +55,9 @@ line wall
   smooth off
 endline
 
-point -670.75 509.5 water-flow -orientation 323.3 -scale l
+point -670.75 509.5 water-flow -orientation 323.3 -scale s
 
-point -907.25 668.5 water-flow -orientation 340.3 -scale xl
+point -907.25 668.5 water-flow -orientation 340.3 -scale l
 
 line contour
   -369.25 401.5
@@ -125,9 +125,9 @@ line wall
   smooth off
 endline
 
-point -545.25 516.25 label -orientation 20.1 -text "3rd Breakthrough"
+point -469.75 486.25 label -orientation 27.6 -text "3rd Breakthrough" -scale xs
 
-point -509.75 557.25 label -orientation 22.3 -text "Flakey Passage" -scale xl
+point -510.25 568.75 label -orientation 22.3 -text "Flakey Passage" -scale l
 
 line wall
   -356.5 434.25
@@ -173,9 +173,9 @@ line wall
 endline
 
 line water-flow -reverse on -subtype conjectural
-  -627.0 430.0
-  -585.0 362.0 -536.0 288.0 -538.0 206.0
-  -541.58 59.37 -482.0 132.0 -312.0 -64.0
+  -614.5 414.5
+  -572.5 346.5 -544.0 292.5 -546.0 210.5
+  -549.58 63.87 -482.0 132.0 -312.0 -64.0
   -137.93 -264.7 -484.44 -634.18 -386.0 -842.0
   -242.0 -1146.0 -679.45 -1087.08 -632.0 -1410.0
   -560.0 -1900.0 -408.0 -1928.0 -334.0 -1930.0

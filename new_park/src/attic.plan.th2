@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -472.44 -944.88 472.44 1574.80
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {148.12 1 1.0} {85.74000000000001 6} Nne.plan.xvi 0 {}
 
 
@@ -27,7 +27,7 @@ line wall -subtype underlying
   -265.5 553.5
 endline
 
-point -44.0 381.75 label -orientation 324.0 -text "Attic" -scale xl
+point 19.0 448.75 label -orientation 51.0 -text "Attic" -scale l
 
 line rock-border -close on
   -160.5 567.75
@@ -80,7 +80,7 @@ endline
 
 point -190.75 749.75 station -id station13
 
-point -159.25 766.75 narrow-end
+point -163.25 757.75 narrow-end -scale s
 
 line wall
   -85.25 283.25

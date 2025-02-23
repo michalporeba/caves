@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1023.62 -1574.80 629.92 1023.62
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-62.14999999999998 1 1.0} {-215.67000000000007 5} UnderTheRamp.plan.xvi 0 {}
 
 
@@ -26,23 +26,23 @@ point -328.5 -329.25 station -name 3e
 line map-connection
   41.75 -517.5
   41.75 -517.5 80.25 -525.0 102.0 -530.75
-  123.75 -536.5 182.0 -546.0 200.0 -546.5
-  211.47 -546.82 234.75 -546.0 252.0 -546.5
-  260.55 -546.75 297.5 -547.75 305.25 -543.5
+  123.75 -536.5 172.0 -547.5 190.0 -548.0
+  201.47 -548.32 240.08 -556.62 257.0 -560.0
+  267.0 -562.0 303.0 -570.0 313.0 -570.0
   smooth off
 endline
 
-point 247.75 -524.0 label -orientation 357.9 -text "light and voice"
+point 247.75 -525.0 label -orientation 6.1 -text "light & voice" -scale xs
 
-point 248.25 -535.75 label -orientation 357.9 -text "low bedding plane"
+point 245.25 -540.75 label -orientation 6.1 -text "low bedding" -scale xs
 
 line wall -outline none -subtype presumed -clip off
   44.0 -643.75
   57.0 -646.75 103.75 -657.5 110.25 -658.25
   116.75 -659.0 145.0 -663.5 158.0 -664.0
   171.0 -664.5 218.25 -666.25 224.25 -666.25
-  230.25 -666.25 254.5 -665.75 260.25 -665.0
-  266.0 -664.25 281.5 -662.25 301.5 -672.5
+  230.25 -666.25 262.25 -674.75 268.0 -674.0
+  273.75 -673.25 294.0 -682.0 312.0 -687.0
   smooth off
 endline
 
@@ -77,9 +77,9 @@ endline
 line flowstone
 endline
 
-point -193.75 -764.5 narrow-end
+point -193.75 -764.5 narrow-end -scale s
 
-point -327.5 -315.0 low-end
+point -327.5 -315.0 low-end -scale s
 
 line rock-border
   -84.0 -206.0
@@ -93,15 +93,15 @@ line rock-border
   smooth off
 endline
 
-point -206.5 -740.0 stalactites -scale l
+point -206.5 -740.0 stalactites -scale s
 
-point -206.5 -681.75 stalactites -scale l
+point -206.5 -681.75 stalactites -scale s
 
-point -198.25 -621.75 stalactites -scale l
+point -198.25 -621.75 stalactites -scale s
 
-point -179.75 -565.5 stalactites -scale l
+point -179.75 -565.5 stalactites -scale s
 
-point -200.75 -534.5 stalactites -scale l
+point -200.75 -534.5 stalactites -scale s
 
 line pit -reverse on
   -74.25 -152.0
@@ -159,7 +159,7 @@ line wall
   altitude .
 endline
 
-point 24.0 -514.25 low-end
+point 24.0 -514.25 low-end -scale s
 
 line wall
   -326.75 -336.0

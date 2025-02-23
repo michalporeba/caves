@@ -71,6 +71,7 @@ line contour
   505.0 -408.0
   476.0 -408.0 473.0 -400.0 459.0 -413.0
   445.0 -426.0 439.0 -429.0 416.0 -430.0
+  smooth off
 endline
 
 line contour
@@ -79,9 +80,10 @@ line contour
   248.0 -221.0 241.0 -224.0 229.0 -234.0
   217.0 -244.0 213.0 -260.0 213.0 -269.0
   213.0 -278.0 212.0 -303.0 212.0 -307.0
+  smooth off
 endline
 
-point 570.0 -829.0 label -orientation 88.2 -text "Tom's Triumph" -scale m
+point 490.5 -832.75 label -orientation 88.6 -text "Tom's Triumph" -scale m
 
 line contour -id l14-145--47 -close on
   119.0 -79.0

@@ -63,7 +63,7 @@ line contour
   smooth off
 endline
 
-point -345.0 257.25 narrow-end
+point -345.0 257.25 narrow-end -scale s
 
 area pebbles
   l59--420-446
@@ -173,6 +173,7 @@ line contour
   -418.75 470.5
   -405.0 465.5 -395.5 467.5 -393.25 467.25
   -391.0 467.0 -380.0 465.25 -375.0 463.75
+  smooth off
 endline
 
 line wall
@@ -454,6 +455,7 @@ line wall -subtype unsurveyed
   -569.75 645.75 -563.75 627.5 -562.75 621.25
   -561.75 615.0 -558.25 599.25 -552.75 593.25
   -531.83 570.42 -646.28 548.68 -650.0 547.75
+  smooth off
 endline
 
 line water-flow
@@ -461,6 +463,7 @@ line water-flow
   -215.5 202.0 -237.25 214.5 -245.25 216.75
   -253.25 219.0 -279.25 225.25 -284.5 229.75
   -289.75 234.25 -299.81 243.95 -295.5 255.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -472,6 +475,7 @@ line wall -subtype unsurveyed
   -448.25 505.0 -408.75 504.25 -363.5 492.0
   -354.34 489.52 -361.84 507.65 -359.5 528.75
   -358.75 535.5 -427.0 555.5 -426.5 560.75
+  smooth off
 endline
 
 line wall -close on -subtype unsurveyed

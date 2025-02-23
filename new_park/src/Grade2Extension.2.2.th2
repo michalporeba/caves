@@ -66,7 +66,7 @@ line wall -close on -subtype unsurveyed
   2666.0 -4564.0 2648.0 -4552.0 2648.0 -4584.0
 endline
 
-point 758.0 -3776.0 label -orientation 298.4 -text "Michal and Andy's Sorrow Series" -scale xl
+point 3230.0 -5212.0 label -orientation 298.4 -text "Michal and Andy's Sorrow Series" -scale xl
 
 line wall -subtype unsurveyed
   1430.0 -2892.0
@@ -256,23 +256,17 @@ point 2530.0 -720.0 water-flow -orientation 29.5 -scale xl
 
 point 2332.0 -1084.0 water-flow -orientation 29.5 -scale xl
 
-point 1480.0 -3286.0 water-flow -orientation 7.1 -scale xl
+point 1480.0 -3286.0 water-flow -orientation 7.1 -scale m
 
-point 1588.0 -6024.0 label -orientation 28.3 -text "high level connection"
+point 1034.0 -6150.0 label -orientation 39 -text "high level connection"
 
-point 1700.0 -2992.0 label -orientation 8.3 -text "Rainbow Bridge" -scale m
+point 938.0 -2782.0 label -text "Rainbow Bridge" -scale m
 
-point 1604.0 -3340.0 label -orientation 349.5 -text "Charybdis" -scale m
+point 1014.0 -3286.0 label -text "Charybdis" -scale m
 
-point 2422.0 -3598.0 label -orientation 34.1 -text "Red Chamber" -scale l
+point 2524.0 -3660.0 label -orientation 34.1 -text "Red Chamber" -scale l
 
 point 1166.0 -5718.0 label -orientation 39.0 -text "Bypass" -scale m
-
-line map-connection
-  1310.0 -5914.0
-  1338.0 -5930.0 1832.0 -6222.0 1832.0 -6222.0
-  smooth off
-endline
 
 point 2730.0 -3200.0 water-flow -orientation 89.2 -scale xl
 
@@ -352,9 +346,9 @@ line pit -close off
   2570.0 -1918.0
 endline
 
-point 2596.0 -3120.0 label -text "-2m"
+point 2604.0 -3136.0 label -text "-2m" -scale s
 
-point 2628.0 -1806.0 label -text "-4m"
+point 2656.0 -2004.0 label -text "-4m"
 
 area water
   l58-2854--1590
