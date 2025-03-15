@@ -1,0 +1,25 @@
+encoding utf-8
+
+source src/cave.th
+
+input src/layouts.thconfig
+
+layout local
+    map-header 0 0 off
+endlayout
+
+layout local-yellow 
+    copy base-layout
+    copy local 
+    copy yellow 
+endlayout
+
+layout local-white
+    copy base-layout
+    copy local 
+    copy white
+endlayout
+
+select wip-map
+
+export map -proj plan -layout local-yellow -o out/dps-wip.pdf

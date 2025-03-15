@@ -1,0 +1,11 @@
+encoding utf-8 
+
+survey dps -title "DPS"
+    input "surface/Surface1.th"
+endsurvey
+
+map wip-map
+    entrance1@surface1.dps
+    entrance2@surface1.dps
+    outcrop@surface1.dps
+endmap 

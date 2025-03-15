@@ -1,0 +1,24 @@
+layout base-layout
+    debug off
+    scale 1 100
+    grid bottom
+    grid-size 1 1 1 m
+    north true
+    doc-author "Michal Poreba"
+    symbol-set BCRC
+    symbol-hide group centreline
+    symbol-hide point section
+    symbol-hide line section
+endlayout
+
+layout yellow
+    color map-bg [100 99 90]
+    color map-fg map
+endlayout
+
+layout white
+    color map-bg [100 100 100]
+    color map-fg [100 98 80]
+    color map-fg map
+    map-header-bg on
+endlayout
