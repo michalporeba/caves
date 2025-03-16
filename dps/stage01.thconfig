@@ -5,7 +5,8 @@ source src/cave.th
 input src/layouts.thconfig
 
 layout local
-    map-header 0 0 off
+    map-header -5 0 se
+    #rotate 23
 endlayout
 
 layout local-yellow 
@@ -20,6 +21,12 @@ layout local-white
     copy white
 endlayout
 
-select wip-map
+lookup map
+    entrance-map [40 100 40]
+    alternatives-map [70 100 70]
+endlookup
+
+select entrance-map
+select alternatives-map
 
 export map -proj plan -layout local-yellow -o out/dps-wip.pdf

@@ -1,11 +1,15 @@
 encoding utf-8 
 
-survey dps -title "DPS"
+survey dps -title "DPS (First Year)" -entrance 12@surface1
     input "surface/Surface1.th"
 endsurvey
 
-map wip-map
+map entrance-map -title "Early Days"
     entrance1@surface1.dps
-    entrance2@surface1.dps
     outcrop@surface1.dps
 endmap 
+
+map alternatives-map -title "Alternatives"
+    entrance2@surface1.dps
+    dig1@surface1.dps
+endmap

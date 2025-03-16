@@ -7,8 +7,8 @@ layout base-layout
     doc-author "Michal Poreba"
     symbol-set BCRC
     symbol-hide group centreline
-    symbol-hide point section
-    symbol-hide line section
+    #symbol-hide point section
+    #symbol-hide line section
 endlayout
 
 layout yellow
