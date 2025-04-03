@@ -24,9 +24,11 @@ endlayout
 lookup map
     entrance-map [40 100 40]
     alternatives-map [70 100 70]
+    other-options-map [70 100 70]
 endlookup
 
 select entrance-map
 select alternatives-map
+select other-options-map
 
 export map -proj plan -layout local-yellow -o out/dps-wip.pdf

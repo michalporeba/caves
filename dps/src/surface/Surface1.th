@@ -236,9 +236,7 @@ input "Surface1.ee.th2"
 		22	-	0.718	250.53	-9.84	
 		22	-	1.019	243.25	-3.40	
 
-		flags duplicate
 		22	23	0.621	211.34	36.05		#  {from: 0.621 211.04 36.15, 0.621 211.41 35.88, 0.621 211.58 36.11}
-		flags not duplicate
 	
 		extend start 2
 		cs OSGB:SS

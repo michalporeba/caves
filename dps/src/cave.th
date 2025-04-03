@@ -2,14 +2,26 @@ encoding utf-8
 
 survey dps -title "DPS (First Year)" -entrance 12@surface1
     input "surface/Surface1.th"
+
+    input "surface/Surface2.th"
+    equate 1@surface1 1@surface2
+    equate 2@surface1 2@surface2
+
+    input "surface/Breakthrough0.th"
+    equate 23@surface1 1@breakthrough0
 endsurvey
 
 map entrance-map -title "Early Days"
     entrance1@surface1.dps
     outcrop@surface1.dps
+    plan@breakthrough0.dps
 endmap 
 
 map alternatives-map -title "Alternatives"
     entrance2@surface1.dps
     dig1@surface1.dps
+endmap
+
+map other-options-map -title "More Alternatives"
+    plan@surface2.dps
 endmap

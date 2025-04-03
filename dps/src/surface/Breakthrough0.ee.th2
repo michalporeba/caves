@@ -1,0 +1,21 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -236.22 -393.70 472.44 236.22
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Breakthrough0.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap breakthrough0-ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 40.222702 -11.699802 station -name 2
+
+point 118.62139 -97.08085 station -name 5
+
+point 134.58907 -62.9453 station -name 4
+
+point 87.02937 -59.79336 station -name 3
+
+point 156.98814 -75.03029 station -name 6
+
+endscrap
